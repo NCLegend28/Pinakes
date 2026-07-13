@@ -1,0 +1,25 @@
+# macOS / AppleDouble
+.DS_Store
+._*
+
+# Local environments / dependencies
+.venv/
+venv/
+node_modules/
+dist/
+build/
+
+# Local-only config and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
