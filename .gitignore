@@ -9,13 +9,16 @@ node_modules/
 dist/
 build/
 
-# Local-only config and secrets
+# Local-only config, secrets, and private review queues
 .env
 .env.*
 *.pem
 *.key
 *.p12
 *.mobileprovision
+REVIEW.private.md
+internal/
+private/
 
 # Python caches
 __pycache__/

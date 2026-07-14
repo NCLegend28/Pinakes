@@ -190,11 +190,12 @@ itself `low` for review. This is the single most important example in the set.
 3. **Validate the JSON.** If it fails to parse, or `visibility` is not one of the
    two allowed values, retry once. On second failure, mark the doc `internal` /
    `confidence: low` and move on. Never let a malformed model response halt the run.
-4. Route `confidence: low` into a `REVIEW.md` queue at the repo root rather than
-   committing them straight to `external/`.
+4. Route `confidence: low` into a gitignored `REVIEW.private.md` queue at the repo
+   root rather than committing them straight to `external/`. Do not publish private
+   review queues from a public Pinakes repo.
 5. Write `MANIFEST.json` and render `INDEX.md` from it. **These are generated
    artifacts — never hand-edit them.**
-6. Commit, push.
+6. Commit, push only after public-safety validation passes.
 
 Hermes never touches git, the filesystem, or the manifest. It returns JSON. That is
 the entire boundary, and keeping it that narrow is what makes the system trustworthy.

@@ -1,0 +1,260 @@
+{
+  "documents": [
+    {
+      "bytes": 2853,
+      "confidence": "high",
+      "imported_path": "external/black_hole/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "black_hole",
+      "source_relative_path": "black_hole/README.md",
+      "updated_utc": "2026-07-14T04:06:15+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 1588,
+      "confidence": "high",
+      "imported_path": "external/career-ops/CONTRIBUTING.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "career-ops",
+      "source_relative_path": "career-ops/CONTRIBUTING.md",
+      "updated_utc": "2026-07-14T04:06:16+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 14052,
+      "confidence": "high",
+      "imported_path": "external/career-ops/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "career-ops",
+      "source_relative_path": "career-ops/README.md",
+      "updated_utc": "2026-07-14T04:06:16+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 9168,
+      "confidence": "high",
+      "imported_path": "external/claw-code/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "claw-code",
+      "source_relative_path": "claw-code/README.md",
+      "updated_utc": "2026-07-14T04:06:16+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 1144,
+      "confidence": "high",
+      "imported_path": "external/Clew/docs/adr/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Clew",
+      "source_relative_path": "Clew/docs/adr/README.md",
+      "updated_utc": "2026-07-14T04:06:16+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 2089,
+      "confidence": "high",
+      "imported_path": "external/Clew/docs/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Clew",
+      "source_relative_path": "Clew/docs/README.md",
+      "updated_utc": "2026-07-14T04:06:16+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 791,
+      "confidence": "high",
+      "imported_path": "external/Clew/docs/site_faq/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Clew",
+      "source_relative_path": "Clew/docs/site_faq/README.md",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 2124,
+      "confidence": "high",
+      "imported_path": "external/Clew/docs/USAGE_GUIDE.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Clew",
+      "source_relative_path": "Clew/docs/USAGE_GUIDE.md",
+      "updated_utc": "2026-07-14T04:06:16+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 24,
+      "confidence": "high",
+      "imported_path": "external/Clew/frontend/public/robots.txt",
+      "reason": "public path segment",
+      "source_project": "Clew",
+      "source_relative_path": "Clew/frontend/public/robots.txt",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 721,
+      "confidence": "high",
+      "imported_path": "external/Delphi/vault-seed/knowledge/gre/awa/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Delphi",
+      "source_relative_path": "Delphi/vault-seed/knowledge/gre/awa/README.md",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 1578,
+      "confidence": "high",
+      "imported_path": "external/Delphi/vault-seed/knowledge/gre/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Delphi",
+      "source_relative_path": "Delphi/vault-seed/knowledge/gre/README.md",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 717,
+      "confidence": "high",
+      "imported_path": "external/Delphi/vault-seed/knowledge/gre/verbal/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Delphi",
+      "source_relative_path": "Delphi/vault-seed/knowledge/gre/verbal/README.md",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 1136,
+      "confidence": "high",
+      "imported_path": "external/Delphi/vault-seed/knowledge/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Delphi",
+      "source_relative_path": "Delphi/vault-seed/knowledge/README.md",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 526,
+      "confidence": "high",
+      "imported_path": "external/Delphi/vault-seed/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "Delphi",
+      "source_relative_path": "Delphi/vault-seed/README.md",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 160,
+      "confidence": "high",
+      "imported_path": "external/Financio-V2/dashboard/public/robots.txt",
+      "reason": "public path segment",
+      "source_project": "Financio-V2",
+      "source_relative_path": "Financio-V2/dashboard/public/robots.txt",
+      "updated_utc": "2026-07-14T04:06:17+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 160,
+      "confidence": "high",
+      "imported_path": "external/Financio-V2/public/robots.txt",
+      "reason": "public path segment",
+      "source_project": "Financio-V2",
+      "source_relative_path": "Financio-V2/public/robots.txt",
+      "updated_utc": "2026-07-14T04:06:18+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 160,
+      "confidence": "high",
+      "imported_path": "external/market-sight-hub/public/robots.txt",
+      "reason": "public path segment",
+      "source_project": "market-sight-hub",
+      "source_relative_path": "market-sight-hub/public/robots.txt",
+      "updated_utc": "2026-07-14T04:06:18+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 8279,
+      "confidence": "high",
+      "imported_path": "external/odysseus/ACKNOWLEDGMENTS.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "odysseus",
+      "source_relative_path": "odysseus/ACKNOWLEDGMENTS.md",
+      "updated_utc": "2026-07-14T04:06:21+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 5020,
+      "confidence": "high",
+      "imported_path": "external/odysseus/CONTRIBUTING.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "odysseus",
+      "source_relative_path": "odysseus/CONTRIBUTING.md",
+      "updated_utc": "2026-07-14T04:06:21+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 4378,
+      "confidence": "high",
+      "imported_path": "external/odysseus/tests/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "odysseus",
+      "source_relative_path": "odysseus/tests/README.md",
+      "updated_utc": "2026-07-14T04:06:21+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 7417,
+      "confidence": "high",
+      "imported_path": "external/polymarket-bot/langGuide.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "polymarket-bot",
+      "source_relative_path": "polymarket-bot/langGuide.md",
+      "updated_utc": "2026-07-14T04:06:21+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 1500,
+      "confidence": "high",
+      "imported_path": "external/terminal-space-program/NOTICE.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "terminal-space-program",
+      "source_relative_path": "terminal-space-program/NOTICE.md",
+      "updated_utc": "2026-07-14T04:06:22+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 4044,
+      "confidence": "high",
+      "imported_path": "external/terminal-space-program/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "terminal-space-program",
+      "source_relative_path": "terminal-space-program/README.md",
+      "updated_utc": "2026-07-14T04:06:22+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 2682,
+      "confidence": "high",
+      "imported_path": "external/terminal-space-program/SECURITY.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "terminal-space-program",
+      "source_relative_path": "terminal-space-program/SECURITY.md",
+      "updated_utc": "2026-07-14T04:06:22+00:00",
+      "visibility": "external"
+    },
+    {
+      "bytes": 5699,
+      "confidence": "high",
+      "imported_path": "external/website/tali-portfolio/README.md",
+      "reason": "public GitHub repo + public-facing document name",
+      "source_project": "website",
+      "source_relative_path": "website/tali-portfolio/README.md",
+      "updated_utc": "2026-07-14T04:06:22+00:00",
+      "visibility": "external"
+    }
+  ],
+  "generated_utc": "2026-07-14T04:06:22+00:00",
+  "imported_count": 25,
+  "policy": "fail-safe: copy only documents affirmatively classified external; private review queue is gitignored",
+  "projects_root": "/Volumes/samsungT7/projects",
+  "review_count": 2937,
+  "total_candidates": 2962
+}
