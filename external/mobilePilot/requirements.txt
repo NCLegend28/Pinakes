@@ -1,0 +1,34 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Optional dependencies for specific integrations
+# Uncomment as needed:
+
+# For PostgreSQL database
+# psycopg2-binary==2.9.9
+# sqlalchemy==2.0.23
+
+# For Redis caching
+# redis==5.0.1
+
+# For advanced logging
+# python-json-logger==2.0.7
+
+# For rate limiting
+# slowapi==0.1.9
+
+# For Telegram integration
+# python-telegram-bot==20.7
+
+# For Firebase integration
+# firebase-admin==6.4.0
+
+# For testing
+# pytest==7.4.3
+# httpx==0.25.2

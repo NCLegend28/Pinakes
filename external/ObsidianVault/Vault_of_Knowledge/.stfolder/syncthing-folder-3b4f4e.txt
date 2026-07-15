@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: delphi-vault
+created: 2026-06-01T19:50:26-05:00

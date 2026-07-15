@@ -1,0 +1,26 @@
+# Core ML and Data Processing
+numpy>=1.21.0
+tensorflow>=2.10.0
+scikit-learn>=1.0.0
+
+# Serial Communication (for Arduino)
+pyserial>=3.5
+
+# Camera-based Gesture Recognition
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+
+# MIDI Output
+python-rtmidi>=1.4.9
+mido>=1.2.10
+
+# Visualization
+matplotlib>=3.5.0
+
+# Audio (optional - for direct synthesis without MIDI)
+sounddevice>=0.4.5
+scipy>=1.7.0
+
+# Development and Testing
+jupyter>=1.0.0
+ipython>=8.0.0

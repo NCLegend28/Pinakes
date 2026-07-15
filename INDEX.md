@@ -1,69 +1,3018 @@
 # Pinakes Index
 
-Generated: `2026-07-14T04:06:22+00:00`
+Generated: `2026-07-15T00:47:25+00:00`
 
-- Candidate documents scanned: **2962**
-- Public documents imported: **25**
-- Internal/ambiguous documents held for private review: **2937**
+- Candidate documents scanned: **2953**
+- Owner-permitted documents imported: **2863**
+- Secret/personal documents held for private review: **90**
 
-Only affirmatively public-facing documents are copied into this public repo. Internal and ambiguous files are not included.
+Documents are copied unless they contain secret/credential or personal/private signals. Held files are not included in this public repo.
 
 ## Imported documents
 
+### agentRig
+
+- [`agentRig/agents/coding_harness/system_prompt.md`](external/agentRig/agents/coding_harness/system_prompt.md) — owner-permitted: no secret/personal signal
+- [`agentRig/agents/research_implementer/system_prompt.md`](external/agentRig/agents/research_implementer/system_prompt.md) — owner-permitted: no secret/personal signal
+- [`agentRig/agents/research_tracker/system_prompt.md`](external/agentRig/agents/research_tracker/system_prompt.md) — owner-permitted: no secret/personal signal
+- [`agentRig/CLAUDE.md`](external/agentRig/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`agentRig/docs/sessions/2026-04-18-0000.md`](external/agentRig/docs/sessions/2026-04-18-0000.md) — owner-permitted: no secret/personal signal
+- [`agentRig/docs/sessions/INDEX.md`](external/agentRig/docs/sessions/INDEX.md) — owner-permitted: no secret/personal signal
+- [`agentRig/PLAN.md`](external/agentRig/PLAN.md) — owner-permitted: no secret/personal signal
+- [`agentRig/README.md`](external/agentRig/README.md) — owner-permitted: no secret/personal signal
+
+### agents
+
+- [`agents/1_foundations/community_contributions/1_foundations_using_gemini/requirements.txt`](external/agents/1_foundations/community_contributions/1_foundations_using_gemini/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/docs/prompt-refactoring-plan.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/docs/prompt-refactoring-plan.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_base.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_base.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_init.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_init.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_rerun.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/chat_rerun.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/evaluator.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/evaluator.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/evaluator_with_github_context.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/evaluator_with_github_context.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/job_match_analysis.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/prompts/job_match_analysis.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/README.md`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/requirements.txt`](external/agents/1_foundations/community_contributions/amirna2_contributions/personal-ai/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/careerwise_gemini_ntfy/README.md`](external/agents/1_foundations/community_contributions/careerwise_gemini_ntfy/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/chatbot_rag_evaluation/knowledge_base/summary.txt`](external/agents/1_foundations/community_contributions/chatbot_rag_evaluation/knowledge_base/summary.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/chatbot_rag_evaluation/README.md`](external/agents/1_foundations/community_contributions/chatbot_rag_evaluation/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/chatbot_rag_evaluation/requirements.txt`](external/agents/1_foundations/community_contributions/chatbot_rag_evaluation/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/knowledge_base/summary.txt`](external/agents/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/knowledge_base/summary.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/README.md`](external/agents/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/requirements.txt`](external/agents/1_foundations/community_contributions/ChatBot_with_evaluator_and_notifier/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/claude_based_chatbot_tc/README.md`](external/agents/1_foundations/community_contributions/claude_based_chatbot_tc/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/claude_based_chatbot_tc/requirements.txt`](external/agents/1_foundations/community_contributions/claude_based_chatbot_tc/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/deep_research_user_clarifying_questions/email.txt`](external/agents/1_foundations/community_contributions/deep_research_user_clarifying_questions/email.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/digital_twin_joshua/README.md`](external/agents/1_foundations/community_contributions/digital_twin_joshua/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/digital_twin_joshua/requirements.txt`](external/agents/1_foundations/community_contributions/digital_twin_joshua/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/discord_over_pushover/README.md`](external/agents/1_foundations/community_contributions/discord_over_pushover/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/dkisselev-zz/README.md`](external/agents/1_foundations/community_contributions/dkisselev-zz/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/gemini_based_chatbot/README.md`](external/agents/1_foundations/community_contributions/gemini_based_chatbot/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/gemini_based_chatbot/requirements.txt`](external/agents/1_foundations/community_contributions/gemini_based_chatbot/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/gemini_based_chatbot/summary.txt`](external/agents/1_foundations/community_contributions/gemini_based_chatbot/summary.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/hidden_gems_world_travel_guide/README.md`](external/agents/1_foundations/community_contributions/hidden_gems_world_travel_guide/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/hidden_gems_world_travel_guide/requirements.txt`](external/agents/1_foundations/community_contributions/hidden_gems_world_travel_guide/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/iamumarjaved/README.md`](external/agents/1_foundations/community_contributions/iamumarjaved/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/jongkook/README.md`](external/agents/1_foundations/community_contributions/jongkook/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/jongkook/requirements.txt`](external/agents/1_foundations/community_contributions/jongkook/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/lab_2_orchestrator_workers_demo/README_orchestrator_workers.md`](external/agents/1_foundations/community_contributions/lab_2_orchestrator_workers_demo/README_orchestrator_workers.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/medical_note_classification_eval/note_text.txt`](external/agents/1_foundations/community_contributions/medical_note_classification_eval/note_text.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/Multi-Model-Resume–JD-Match-Analyzer/README.md`](external/agents/1_foundations/community_contributions/Multi-Model-Resume_JD-Match-Analyzer/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/novel-generator/README.md`](external/agents/1_foundations/community_contributions/novel-generator/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/openai_chatbot_k/README.md`](external/agents/1_foundations/community_contributions/openai_chatbot_k/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/openai_chatbot_k/requirements.txt`](external/agents/1_foundations/community_contributions/openai_chatbot_k/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/osebas15/day2_5_transcript_summary.md`](external/agents/1_foundations/community_contributions/osebas15/day2_5_transcript_summary.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/seung-gu/README.md`](external/agents/1_foundations/community_contributions/seung-gu/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/seung-gu/requirements.txt`](external/agents/1_foundations/community_contributions/seung-gu/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/sharad_extended_workflow/readme.md`](external/agents/1_foundations/community_contributions/sharad_extended_workflow/readme.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/simple-tools-usage/README.md`](external/agents/1_foundations/community_contributions/simple-tools-usage/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/stevek_2_lab2_python/README.md`](external/agents/1_foundations/community_contributions/stevek_2_lab2_python/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/vaibhavmanwatkar/README.md`](external/agents/1_foundations/community_contributions/vaibhavmanwatkar/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/vaibhavmanwatkar/requirements.txt`](external/agents/1_foundations/community_contributions/vaibhavmanwatkar/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/weather-tool/README.md`](external/agents/1_foundations/community_contributions/weather-tool/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/weather-tool/requirements.txt`](external/agents/1_foundations/community_contributions/weather-tool/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/community_contributions/week_1_sql_linkedin/week-1-self.md`](external/agents/1_foundations/community_contributions/week_1_sql_linkedin/week-1-self.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/README.md`](external/agents/1_foundations/README.md) — owner-permitted: no secret/personal signal
+- [`agents/1_foundations/requirements.txt`](external/agents/1_foundations/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/agent_manager_refactor/README.md`](external/agents/2_openai/community_contributions/agent_manager_refactor/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/agent_manager_refactor/requirements.txt`](external/agents/2_openai/community_contributions/agent_manager_refactor/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/AI_Clinic_hopeogbons/README.md`](external/agents/2_openai/community_contributions/AI_Clinic_hopeogbons/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/AI_Clinic_hopeogbons/requirements.txt`](external/agents/2_openai/community_contributions/AI_Clinic_hopeogbons/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Automated_Inventory_Management/README.md`](external/agents/2_openai/community_contributions/Automated_Inventory_Management/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Bedtime-Stories-Creator/README.md`](external/agents/2_openai/community_contributions/Bedtime-Stories-Creator/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Bedtime-Stories-Creator/requirements.txt`](external/agents/2_openai/community_contributions/Bedtime-Stories-Creator/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/book_review/README.md`](external/agents/2_openai/community_contributions/book_review/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/book_review/requirements.txt`](external/agents/2_openai/community_contributions/book_review/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Book Writer with Agents/README.md`](external/agents/2_openai/community_contributions/Book_Writer_with_Agents/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/code_learning_assistant/code-assistant/README.md`](external/agents/2_openai/community_contributions/code_learning_assistant/code-assistant/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/code_learning_assistant/code-assistant/requirements.txt`](external/agents/2_openai/community_contributions/code_learning_assistant/code-assistant/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/code_learning_assistant/README.md`](external/agents/2_openai/community_contributions/code_learning_assistant/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/customer_care_agents/README.md`](external/agents/2_openai/community_contributions/customer_care_agents/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/customer_care_telegram/README.md`](external/agents/2_openai/community_contributions/customer_care_telegram/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/customer_care_telegram/requirements.txt`](external/agents/2_openai/community_contributions/customer_care_telegram/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep-research-agents/README.md`](external/agents/2_openai/community_contributions/deep-research-agents/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_qa/DEPLOYMENT.md`](external/agents/2_openai/community_contributions/deep_research_qa/DEPLOYMENT.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_qa/env_example.txt`](external/agents/2_openai/community_contributions/deep_research_qa/env_example.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_qa/README.md`](external/agents/2_openai/community_contributions/deep_research_qa/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_qa/requirements.txt`](external/agents/2_openai/community_contributions/deep_research_qa/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_recipes/requirements.txt`](external/agents/2_openai/community_contributions/deep_research_recipes/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_using_google_search/README.md`](external/agents/2_openai/community_contributions/deep_research_using_google_search/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Deep_Research_with_clarifying_questions_and_rate_limiting/requirements.txt`](external/agents/2_openai/community_contributions/Deep_Research_with_clarifying_questions_and_rate_limiting/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_with_email_input_and_guardrail/README.md`](external/agents/2_openai/community_contributions/deep_research_with_email_input_and_guardrail/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_with_email_input_and_guardrail/requirements.txt`](external/agents/2_openai/community_contributions/deep_research_with_email_input_and_guardrail/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_with_emailjs/README.md`](external/agents/2_openai/community_contributions/deep_research_with_emailjs/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_with_emailjs/requirements.txt`](external/agents/2_openai/community_contributions/deep_research_with_emailjs/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_with_opentelemetry/README.md`](external/agents/2_openai/community_contributions/deep_research_with_opentelemetry/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_with_pushover_report/README_PUSHOVER.md`](external/agents/2_openai/community_contributions/deep_research_with_pushover_report/README_PUSHOVER.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/deep_research_withsessions/_overview.md`](external/agents/2_openai/community_contributions/deep_research_withsessions/_overview.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/dkisselev-zz/README.md`](external/agents/2_openai/community_contributions/dkisselev-zz/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/dr_chat_workfow_w_clarifications/README.md`](external/agents/2_openai/community_contributions/dr_chat_workfow_w_clarifications/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/dr_chat_workfow_w_clarifications/requirements.txt`](external/agents/2_openai/community_contributions/dr_chat_workfow_w_clarifications/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/drawing_agents/README.md`](external/agents/2_openai/community_contributions/drawing_agents/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/elchanio76/ComplAI_brochure.md`](external/agents/2_openai/community_contributions/elchanio76/ComplAI_brochure.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/elchanio76/README.md`](external/agents/2_openai/community_contributions/elchanio76/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/eliza_zadura/reply_webhook_plan.md`](external/agents/2_openai/community_contributions/eliza_zadura/reply_webhook_plan.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/eliza_zadura/SETUP.md`](external/agents/2_openai/community_contributions/eliza_zadura/SETUP.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/family_faith_agent/README.md`](external/agents/2_openai/community_contributions/family_faith_agent/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/iamumarjaved/requirements.txt`](external/agents/2_openai/community_contributions/iamumarjaved/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Job_Application_Email_Sender/requirements.txt`](external/agents/2_openai/community_contributions/Job_Application_Email_Sender/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/kachaje-andela-genai-bootcamp/requirements.txt`](external/agents/2_openai/community_contributions/kachaje-andela-genai-bootcamp/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/medical_deep_research/README.md`](external/agents/2_openai/community_contributions/medical_deep_research/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Olumide_upgraded_deep_research/README.md`](external/agents/2_openai/community_contributions/Olumide_upgraded_deep_research/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Safe_Customer_Support/README.md`](external/agents/2_openai/community_contributions/Safe_Customer_Support/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/sendgrid-reply-bot/README.MD`](external/agents/2_openai/community_contributions/sendgrid-reply-bot/README.MD) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/sendgrid-reply-bot/requirements.txt`](external/agents/2_openai/community_contributions/sendgrid-reply-bot/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/sngo_deep_research_all_agents/readme.md`](external/agents/2_openai/community_contributions/sngo_deep_research_all_agents/readme.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/sngo_deep_research_all_agents/requirements.txt`](external/agents/2_openai/community_contributions/sngo_deep_research_all_agents/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/solisoma/EMAIL_CONTINUATION_IMPLEMENTATION.md`](external/agents/2_openai/community_contributions/solisoma/EMAIL_CONTINUATION_IMPLEMENTATION.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/Tools_Usage_Experiments/README.md`](external/agents/2_openai/community_contributions/Tools_Usage_Experiments/README.md) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/url_security_advisor_gradio_sb/requirements.txt`](external/agents/2_openai/community_contributions/url_security_advisor_gradio_sb/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/2_openai/community_contributions/workflow_patterns/4-Orchestration_Workers/README.md`](external/agents/2_openai/community_contributions/workflow_patterns/4-Orchestration_Workers/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/coder/knowledge/user_preference.txt`](external/agents/3_crew/coder/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/coder/output/code_and_output.txt`](external/agents/3_crew/coder/output/code_and_output.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/coder/README.md`](external/agents/3_crew/coder/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/1_swap_trading_prism/README.md`](external/agents/3_crew/community_contributions/1_swap_trading_prism/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/Book_Researcher/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/Book_Researcher/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/Book_Researcher/output/genre_research.md`](external/agents/3_crew/community_contributions/Book_Researcher/output/genre_research.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/Book_Researcher/output/top_novelists.md`](external/agents/3_crew/community_contributions/Book_Researcher/output/top_novelists.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/Book_Researcher/output/trending_books.md`](external/agents/3_crew/community_contributions/Book_Researcher/output/trending_books.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/Book_Researcher/README.md`](external/agents/3_crew/community_contributions/Book_Researcher/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/conversational-debate/README.md`](external/agents/3_crew/community_contributions/conversational-debate/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/conversational-debate/requirements.txt`](external/agents/3_crew/community_contributions/conversational-debate/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/crypto-trading-strategy-generator/README.md`](external/agents/3_crew/community_contributions/crypto-trading-strategy-generator/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/crypto_market/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/crypto_market/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/crypto_market/output/investment_decision.md`](external/agents/3_crew/community_contributions/crypto_market/output/investment_decision.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/crypto_market/README.md`](external/agents/3_crew/community_contributions/crypto_market/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/data_science_help/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/data_science_help/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/data_science_help/outputs/system_design.md`](external/agents/3_crew/community_contributions/data_science_help/outputs/system_design.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/data_science_help/README.md`](external/agents/3_crew/community_contributions/data_science_help/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/data_science_help/search_results_2025-10-08_16-11-42.txt`](external/agents/3_crew/community_contributions/data_science_help/search_results_2025-10-08_16-11-42.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/data_science_help/search_results_2025-10-08_16-11-44.txt`](external/agents/3_crew/community_contributions/data_science_help/search_results_2025-10-08_16-11-44.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/data_science_help/search_results_2025-10-08_16-11-46.txt`](external/agents/3_crew/community_contributions/data_science_help/search_results_2025-10-08_16-11-46.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/engineering_team_with_feedback_loops/README.md`](external/agents/3_crew/community_contributions/engineering_team_with_feedback_loops/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_advisory/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/financial_advisory/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_advisory/output/emergency_fund_advice.md`](external/agents/3_crew/community_contributions/financial_advisory/output/emergency_fund_advice.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_advisory/output/financial_plan_report.md`](external/agents/3_crew/community_contributions/financial_advisory/output/financial_plan_report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_advisory/output/insurance_advice.md`](external/agents/3_crew/community_contributions/financial_advisory/output/insurance_advice.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_advisory/output/investment_advice.md`](external/agents/3_crew/community_contributions/financial_advisory/output/investment_advice.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_advisory/output/summarized_user_data.md`](external/agents/3_crew/community_contributions/financial_advisory/output/summarized_user_data.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_advisory/README.md`](external/agents/3_crew/community_contributions/financial_advisory/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_analyser/analyser/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/financial_analyser/analyser/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_analyser/analyser/output/chart_analysis.md`](external/agents/3_crew/community_contributions/financial_analyser/analyser/output/chart_analysis.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_analyser/analyser/README.md`](external/agents/3_crew/community_contributions/financial_analyser/analyser/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/financial_analyser/analyser/report.md`](external/agents/3_crew/community_contributions/financial_analyser/analyser/report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/ghost_writer/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/ghost_writer/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/ghost_writer/README.md`](external/agents/3_crew/community_contributions/ghost_writer/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/coder_agent/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/kisali/coder_agent/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/coder_agent/README.md`](external/agents/3_crew/community_contributions/kisali/coder_agent/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/debate/output/decide.md`](external/agents/3_crew/community_contributions/kisali/debate/output/decide.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/debate/output/oppose.md`](external/agents/3_crew/community_contributions/kisali/debate/output/oppose.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/debate/output/propose.md`](external/agents/3_crew/community_contributions/kisali/debate/output/propose.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/debate/README.md`](external/agents/3_crew/community_contributions/kisali/debate/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/financial_researcher/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/kisali/financial_researcher/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/financial_researcher/output/report.md`](external/agents/3_crew/community_contributions/kisali/financial_researcher/output/report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/financial_researcher/README.md`](external/agents/3_crew/community_contributions/kisali/financial_researcher/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/stock_picker/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/kisali/stock_picker/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/stock_picker/output/decision.md`](external/agents/3_crew/community_contributions/kisali/stock_picker/output/decision.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/stock_picker/README.md`](external/agents/3_crew/community_contributions/kisali/stock_picker/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/swe_team/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/kisali/swe_team/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/kisali/swe_team/README.md`](external/agents/3_crew/community_contributions/kisali/swe_team/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/modular_code_gen/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/modular_code_gen/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/modular_code_gen/README.md`](external/agents/3_crew/community_contributions/modular_code_gen/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/protien_food_finder/output/protein_recommendations.md`](external/agents/3_crew/community_contributions/protien_food_finder/output/protein_recommendations.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/resume_match_ai/README.md`](external/agents/3_crew/community_contributions/resume_match_ai/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/schema_builder/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/schema_builder/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/schema_builder/output/schema_doc.md`](external/agents/3_crew/community_contributions/schema_builder/output/schema_doc.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/schema_builder/README.md`](external/agents/3_crew/community_contributions/schema_builder/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/software-engineering-crew/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/software-engineering-crew/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/software-engineering-crew/README.md`](external/agents/3_crew/community_contributions/software-engineering-crew/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/software_team_flow_ui_no_code_docker_run/README.md`](external/agents/3_crew/community_contributions/software_team_flow_ui_no_code_docker_run/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/stock-picker-advance/README.md`](external/agents/3_crew/community_contributions/stock-picker-advance/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/stock-picker-advance/requirements.txt`](external/agents/3_crew/community_contributions/stock-picker-advance/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/stock_picker_emads22/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/stock_picker_emads22/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/stock_picker_emads22/output/decision.md`](external/agents/3_crew/community_contributions/stock_picker_emads22/output/decision.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/stock_picker_emads22/README.md`](external/agents/3_crew/community_contributions/stock_picker_emads22/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/stock_picker_emads22/update_docs/crewai_memory_fix_guide.md`](external/agents/3_crew/community_contributions/stock_picker_emads22/update_docs/crewai_memory_fix_guide.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/storytellingbattle/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/storytellingbattle/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/storytellingbattle/output/contestant1.md`](external/agents/3_crew/community_contributions/storytellingbattle/output/contestant1.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/storytellingbattle/output/contestant2.md`](external/agents/3_crew/community_contributions/storytellingbattle/output/contestant2.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/storytellingbattle/output/decide.md`](external/agents/3_crew/community_contributions/storytellingbattle/output/decide.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/storytellingbattle/README.md`](external/agents/3_crew/community_contributions/storytellingbattle/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/student_companion/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/student_companion/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/student_companion/outputs/0_intent_recognizing_task_report.md`](external/agents/3_crew/community_contributions/student_companion/outputs/0_intent_recognizing_task_report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/student_companion/outputs/1_topic_generation_task_report.md`](external/agents/3_crew/community_contributions/student_companion/outputs/1_topic_generation_task_report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/student_companion/outputs/2_study_content_generation_task_report.md`](external/agents/3_crew/community_contributions/student_companion/outputs/2_study_content_generation_task_report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/student_companion/outputs/3_question_generator_task_report.md`](external/agents/3_crew/community_contributions/student_companion/outputs/3_question_generator_task_report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/student_companion/outputs/4_formatted_report.md`](external/agents/3_crew/community_contributions/student_companion/outputs/4_formatted_report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/student_companion/README.md`](external/agents/3_crew/community_contributions/student_companion/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/sw_team/eng_team_flow/README.md`](external/agents/3_crew/community_contributions/sw_team/eng_team_flow/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/sw_team/eng_team_flow_se_agents_combined/README.md`](external/agents/3_crew/community_contributions/sw_team/eng_team_flow_se_agents_combined/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/sw_team/README.md`](external/agents/3_crew/community_contributions/sw_team/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/travelmate/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/travelmate/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/travelmate/output/complete_travel_package_Zermatt,Swistzerland.md`](external/agents/3_crew/community_contributions/travelmate/output/complete_travel_package_Zermatt_Swistzerland.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/travelmate/README.md`](external/agents/3_crew/community_contributions/travelmate/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/trip_daily_planner/knowledge/user_preference.txt`](external/agents/3_crew/community_contributions/trip_daily_planner/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/trip_daily_planner/README.md`](external/agents/3_crew/community_contributions/trip_daily_planner/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/trip_daily_planner/requirements.txt`](external/agents/3_crew/community_contributions/trip_daily_planner/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/week3_crewai_Multi-Agent-Financial-Researcher-with-current-date-enhancement/output/roku25b_report_with_current_date_update.md`](external/agents/3_crew/community_contributions/week3_crewai_Multi-Agent-Financial-Researcher-with-current-date-enhancement/output/roku25b_report_with_current_date_update.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/week3_crewai_Multi-Agent-Financial-Researcher-with-current-date-enhancement/output/roku_report.md`](external/agents/3_crew/community_contributions/week3_crewai_Multi-Agent-Financial-Researcher-with-current-date-enhancement/output/roku_report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/community_contributions/week3_crewai_Multi-Agent-Financial-Researcher-with-current-date-enhancement/readme.txt`](external/agents/3_crew/community_contributions/week3_crewai_Multi-Agent-Financial-Researcher-with-current-date-enhancement/readme.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/debate/knowledge/user_preference.txt`](external/agents/3_crew/debate/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/debate/output/decide.md`](external/agents/3_crew/debate/output/decide.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/debate/output/oppose.md`](external/agents/3_crew/debate/output/oppose.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/debate/output/propose.md`](external/agents/3_crew/debate/output/propose.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/debate/README.md`](external/agents/3_crew/debate/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/engineering_team/example_output_4o/accounts.py_design.md`](external/agents/3_crew/engineering_team/example_output_4o/accounts.py_design.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/engineering_team/example_output_new/accounts.py_design.md`](external/agents/3_crew/engineering_team/example_output_new/accounts.py_design.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/engineering_team/knowledge/user_preference.txt`](external/agents/3_crew/engineering_team/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/engineering_team/README.md`](external/agents/3_crew/engineering_team/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/financial_researcher/knowledge/user_preference.txt`](external/agents/3_crew/financial_researcher/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/financial_researcher/output/report.md`](external/agents/3_crew/financial_researcher/output/report.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/financial_researcher/README.md`](external/agents/3_crew/financial_researcher/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/stock_picker/knowledge/user_preference.txt`](external/agents/3_crew/stock_picker/knowledge/user_preference.txt) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/stock_picker/output/decision.md`](external/agents/3_crew/stock_picker/output/decision.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/stock_picker/README.md`](external/agents/3_crew/stock_picker/README.md) — owner-permitted: no secret/personal signal
+- [`agents/3_crew/stock_picker/report.md`](external/agents/3_crew/stock_picker/report.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/abdoul/sandbox/latest_bbc_news.md`](external/agents/4_langgraph/community_contributions/abdoul/sandbox/latest_bbc_news.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/basic_page_language_detector/README.md`](external/agents/4_langgraph/community_contributions/basic_page_language_detector/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/dkisselev-zz/README.md`](external/agents/4_langgraph/community_contributions/dkisselev-zz/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/emmy_sidekick/README.md`](external/agents/4_langgraph/community_contributions/emmy_sidekick/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/kachaje-andela-genai-bootcamp/README.md`](external/agents/4_langgraph/community_contributions/kachaje-andela-genai-bootcamp/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/kachaje-andela-genai-bootcamp/requirements.txt`](external/agents/4_langgraph/community_contributions/kachaje-andela-genai-bootcamp/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/langgraph_checkpoint_howto/README.md`](external/agents/4_langgraph/community_contributions/langgraph_checkpoint_howto/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/ranskills-toolbox/README.md`](external/agents/4_langgraph/community_contributions/ranskills-toolbox/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/ranskills-toolbox/requirements.txt`](external/agents/4_langgraph/community_contributions/ranskills-toolbox/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/sach91-docker-ollama-telegram/readme.md`](external/agents/4_langgraph/community_contributions/sach91-docker-ollama-telegram/readme.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/sidekick_hf_docker_chromium_deploy/README-docker.md`](external/agents/4_langgraph/community_contributions/sidekick_hf_docker_chromium_deploy/README-docker.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/sidekick_hf_docker_chromium_deploy/README.md`](external/agents/4_langgraph/community_contributions/sidekick_hf_docker_chromium_deploy/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/sidekick_hf_docker_chromium_deploy/requirements.txt`](external/agents/4_langgraph/community_contributions/sidekick_hf_docker_chromium_deploy/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/Sidekick_hopeogbons/README.md`](external/agents/4_langgraph/community_contributions/Sidekick_hopeogbons/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/sidekick_juan/README.md`](external/agents/4_langgraph/community_contributions/sidekick_juan/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/sidekick_proj/README.md`](external/agents/4_langgraph/community_contributions/sidekick_proj/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/SideKick(Ugraded)/readme.md`](external/agents/4_langgraph/community_contributions/SideKick_Ugraded_/readme.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/StocksMarketInvestmentRecommender/README.md`](external/agents/4_langgraph/community_contributions/StocksMarketInvestmentRecommender/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/transcript_summarizer/QUICKSTART.md`](external/agents/4_langgraph/community_contributions/transcript_summarizer/QUICKSTART.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/transcript_summarizer/README.md`](external/agents/4_langgraph/community_contributions/transcript_summarizer/README.md) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/community_contributions/transcript_summarizer/requirements.txt`](external/agents/4_langgraph/community_contributions/transcript_summarizer/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/4_langgraph/sandbox/dinner.md`](external/agents/4_langgraph/sandbox/dinner.md) — owner-permitted: no secret/personal signal
+- [`agents/5_autogen/community_contributions/2_lab2_mcp_work_around/readme.md`](external/agents/5_autogen/community_contributions/2_lab2_mcp_work_around/readme.md) — owner-permitted: no secret/personal signal
+- [`agents/5_autogen/community_contributions/kisali/output/flights.md`](external/agents/5_autogen/community_contributions/kisali/output/flights.md) — owner-permitted: no secret/personal signal
+- [`agents/5_autogen/community_contributions/sandbox/flights.md`](external/agents/5_autogen/community_contributions/sandbox/flights.md) — owner-permitted: no secret/personal signal
+- [`agents/5_autogen/sandbox/flights.md`](external/agents/5_autogen/sandbox/flights.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/AutoTrader_hopeogbons/sandbox/banoffee.md`](external/agents/6_mcp/community_contributions/AutoTrader_hopeogbons/sandbox/banoffee.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/BDD/readme.md`](external/agents/6_mcp/community_contributions/BDD/readme.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/date_mcp_server_client/README.md`](external/agents/6_mcp/community_contributions/date_mcp_server_client/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/dkisselev-zz/history-agent/memory/memory.txt`](external/agents/6_mcp/community_contributions/dkisselev-zz/history-agent/memory/memory.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/dkisselev-zz/history-agent/SIMULATION_QUICKSTART.md`](external/agents/6_mcp/community_contributions/dkisselev-zz/history-agent/SIMULATION_QUICKSTART.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/emmy_video_processor/requirements.txt`](external/agents/6_mcp/community_contributions/emmy_video_processor/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/emotion_and_mcp/README.md`](external/agents/6_mcp/community_contributions/emotion_and_mcp/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/emotion_and_mcp/src/python_server/requirements.txt`](external/agents/6_mcp/community_contributions/emotion_and_mcp/src/python_server/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/emotion_and_mcp/src/README.md`](external/agents/6_mcp/community_contributions/emotion_and_mcp/src/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/fix_polygon_not_authorized_error/README.md`](external/agents/6_mcp/community_contributions/fix_polygon_not_authorized_error/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/forex2/README.md`](external/agents/6_mcp/community_contributions/forex2/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/instantCV_khohara/README.md`](external/agents/6_mcp/community_contributions/instantCV_khohara/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/kachaje-andela-genai-bootcamp/memory/memory.txt`](external/agents/6_mcp/community_contributions/kachaje-andela-genai-bootcamp/memory/memory.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/kachaje-andela-genai-bootcamp/requirements.txt`](external/agents/6_mcp/community_contributions/kachaje-andela-genai-bootcamp/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/lifecyle_hooks/sandbox/recipe.md`](external/agents/6_mcp/community_contributions/lifecyle_hooks/sandbox/recipe.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/mcp_srv_insight/README.md`](external/agents/6_mcp/community_contributions/mcp_srv_insight/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/mcp_srv_insight/requirement.txt`](external/agents/6_mcp/community_contributions/mcp_srv_insight/requirement.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/ranskills_dynamic_db_queries/README.md`](external/agents/6_mcp/community_contributions/ranskills_dynamic_db_queries/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/ranskills_dynamic_db_queries/requirements.txt`](external/agents/6_mcp/community_contributions/ranskills_dynamic_db_queries/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/Revised_MCP/requirements.txt`](external/agents/6_mcp/community_contributions/Revised_MCP/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/rnik12_holiday_checker_mcp/README.md`](external/agents/6_mcp/community_contributions/rnik12_holiday_checker_mcp/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/rnik12_holiday_checker_mcp/requirements.txt`](external/agents/6_mcp/community_contributions/rnik12_holiday_checker_mcp/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/shopping_list_mcp/README.md`](external/agents/6_mcp/community_contributions/shopping_list_mcp/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/simple_mcp_date_server/README.md`](external/agents/6_mcp/community_contributions/simple_mcp_date_server/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/text_analysis_mcp_tool/files/The Proven Path to Doing Unique Work.txt`](external/agents/6_mcp/community_contributions/text_analysis_mcp_tool/files/The_Proven_Path_to_Doing_Unique_Work.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/text_analysis_mcp_tool/README.md`](external/agents/6_mcp/community_contributions/text_analysis_mcp_tool/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/text_analysis_mcp_tool/requirements.txt`](external/agents/6_mcp/community_contributions/text_analysis_mcp_tool/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/trading_with_short/memory/dummy.txt`](external/agents/6_mcp/community_contributions/trading_with_short/memory/dummy.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/trading_with_short/readMe.md`](external/agents/6_mcp/community_contributions/trading_with_short/readMe.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/community_contributions/weather_mcp_server/README.md`](external/agents/6_mcp/community_contributions/weather_mcp_server/README.md) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/memory/memory.txt`](external/agents/6_mcp/memory/memory.txt) — owner-permitted: no secret/personal signal
+- [`agents/6_mcp/sandbox/banoffee.md`](external/agents/6_mcp/sandbox/banoffee.md) — owner-permitted: no secret/personal signal
+- [`agents/README.md`](external/agents/README.md) — owner-permitted: no secret/personal signal
+- [`agents/requirements.txt`](external/agents/requirements.txt) — owner-permitted: no secret/personal signal
+- [`agents/setup/SETUP-linux.md`](external/agents/setup/SETUP-linux.md) — owner-permitted: no secret/personal signal
+- [`agents/setup/SETUP-mac.md`](external/agents/setup/SETUP-mac.md) — owner-permitted: no secret/personal signal
+- [`agents/setup/SETUP-node.md`](external/agents/setup/SETUP-node.md) — owner-permitted: no secret/personal signal
+- [`agents/setup/SETUP-PC.md`](external/agents/setup/SETUP-PC.md) — owner-permitted: no secret/personal signal
+- [`agents/setup/SETUP-WSL.md`](external/agents/setup/SETUP-WSL.md) — owner-permitted: no secret/personal signal
+
+### ai_model
+
+- [`ai_model/DEVELOPMENT_PLAN.md`](external/ai_model/DEVELOPMENT_PLAN.md) — owner-permitted: no secret/personal signal
+- [`ai_model/docs/STEP1_DELIVERABLE.md`](external/ai_model/docs/STEP1_DELIVERABLE.md) — owner-permitted: no secret/personal signal
+- [`ai_model/docs/STEP2_DELIVERABLE.md`](external/ai_model/docs/STEP2_DELIVERABLE.md) — owner-permitted: no secret/personal signal
+- [`ai_model/docs/STEP3_DELIVERABLE.md`](external/ai_model/docs/STEP3_DELIVERABLE.md) — owner-permitted: no secret/personal signal
+- [`ai_model/docs/SYSTEM_ARCHITECTURE.md`](external/ai_model/docs/SYSTEM_ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`ai_model/README.md`](external/ai_model/README.md) — owner-permitted: no secret/personal signal
+- [`ai_model/requirements.txt`](external/ai_model/requirements.txt) — owner-permitted: no secret/personal signal
+- [`ai_model/script.txt`](external/ai_model/script.txt) — owner-permitted: no secret/personal signal
+
+### Apollo
+
+- [`Apollo/gesture_music_system/CLAUDE.md`](external/Apollo/gesture_music_system/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`Apollo/gesture_music_system/GETTING_STARTED.md`](external/Apollo/gesture_music_system/GETTING_STARTED.md) — owner-permitted: no secret/personal signal
+- [`Apollo/gesture_music_system/README.md`](external/Apollo/gesture_music_system/README.md) — owner-permitted: no secret/personal signal
+- [`Apollo/gesture_music_system/requirements.txt`](external/Apollo/gesture_music_system/requirements.txt) — owner-permitted: no secret/personal signal
+- [`Apollo/GETTING_STARTED.md`](external/Apollo/GETTING_STARTED.md) — owner-permitted: no secret/personal signal
+- [`Apollo/README.md`](external/Apollo/README.md) — owner-permitted: no secret/personal signal
+
+### autoFix
+
+- [`autoFix/PRD.md`](external/autoFix/PRD.md) — owner-permitted: no secret/personal signal
+- [`autoFix/README.md`](external/autoFix/README.md) — owner-permitted: no secret/personal signal
+
+### basicSite
+
+- [`basicSite/backend/requirements.txt`](external/basicSite/backend/requirements.txt) — owner-permitted: no secret/personal signal
+- [`basicSite/frontend/README.md`](external/basicSite/frontend/README.md) — owner-permitted: no secret/personal signal
+
 ### black_hole
 
-- [`black_hole/README.md`](external/black_hole/README.md) — public GitHub repo + public-facing document name
+- [`black_hole/CMakeLists.txt`](external/black_hole/CMakeLists.txt) — owner-permitted: no secret/personal signal
+- [`black_hole/README.md`](external/black_hole/README.md) — owner-permitted: no secret/personal signal
+
+### blackHole
+
+- [`blackHole/CMakeLists.txt`](external/blackHole/CMakeLists.txt) — owner-permitted: no secret/personal signal
+- [`blackHole/README.md`](external/blackHole/README.md) — owner-permitted: no secret/personal signal
+- [`blackHole/README_CPP.md`](external/blackHole/README_CPP.md) — owner-permitted: no secret/personal signal
+- [`blackHole/requirements.txt`](external/blackHole/requirements.txt) — owner-permitted: no secret/personal signal
+
+### bookPack
+
+- [`bookPack/book-pack-builder/AGENTS.md`](external/bookPack/book-pack-builder/AGENTS.md) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/books/Stan Druckenmiller's Investment Insights and Strategies-transcript.txt`](external/bookPack/book-pack-builder/books/Stan_Druckenmiller_s_Investment_Insights_and_Strategies-transcript.txt) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/prompts/people_orgs_terms.txt`](external/bookPack/book-pack-builder/prompts/people_orgs_terms.txt) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/prompts/tier_a.txt`](external/bookPack/book-pack-builder/prompts/tier_a.txt) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/prompts/tier_b.txt`](external/bookPack/book-pack-builder/prompts/tier_b.txt) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/prompts/tier_c.txt`](external/bookPack/book-pack-builder/prompts/tier_c.txt) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/prompts/timeline.txt`](external/bookPack/book-pack-builder/prompts/timeline.txt) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/requirements.txt`](external/bookPack/book-pack-builder/requirements.txt) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/SETUP_LOCAL.md`](external/bookPack/book-pack-builder/SETUP_LOCAL.md) — owner-permitted: no secret/personal signal
+- [`bookPack/book-pack-builder/WEB_CLIENT.md`](external/bookPack/book-pack-builder/WEB_CLIENT.md) — owner-permitted: no secret/personal signal
+
+### bookTranslator
+
+- [`bookTranslator/README.md`](external/bookTranslator/README.md) — owner-permitted: no secret/personal signal
+- [`bookTranslator/requirements.txt`](external/bookTranslator/requirements.txt) — owner-permitted: no secret/personal signal
 
 ### career-ops
 
-- [`career-ops/CONTRIBUTING.md`](external/career-ops/CONTRIBUTING.md) — public GitHub repo + public-facing document name
-- [`career-ops/README.md`](external/career-ops/README.md) — public GitHub repo + public-facing document name
+- [`career-ops/.claude/skills/career-ops/SKILL.md`](external/career-ops/.claude/skills/career-ops/SKILL.md) — owner-permitted: no secret/personal signal
+- [`career-ops/batch/batch-prompt.md`](external/career-ops/batch/batch-prompt.md) — owner-permitted: no secret/personal signal
+- [`career-ops/CLAUDE.md`](external/career-ops/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`career-ops/CONTRIBUTING.md`](external/career-ops/CONTRIBUTING.md) — owner-permitted: no secret/personal signal
+- [`career-ops/docs/ARCHITECTURE.md`](external/career-ops/docs/ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`career-ops/docs/CUSTOMIZATION.md`](external/career-ops/docs/CUSTOMIZATION.md) — owner-permitted: no secret/personal signal
+- [`career-ops/docs/SETUP.md`](external/career-ops/docs/SETUP.md) — owner-permitted: no secret/personal signal
+- [`career-ops/examples/article-digest-example.md`](external/career-ops/examples/article-digest-example.md) — owner-permitted: no secret/personal signal
+- [`career-ops/examples/cv-example.md`](external/career-ops/examples/cv-example.md) — owner-permitted: no secret/personal signal
+- [`career-ops/examples/sample-report.md`](external/career-ops/examples/sample-report.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/_shared.md`](external/career-ops/modes/_shared.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/apply.md`](external/career-ops/modes/apply.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/auto-pipeline.md`](external/career-ops/modes/auto-pipeline.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/batch.md`](external/career-ops/modes/batch.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/contacto.md`](external/career-ops/modes/contacto.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/deep.md`](external/career-ops/modes/deep.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/oferta.md`](external/career-ops/modes/oferta.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/ofertas.md`](external/career-ops/modes/ofertas.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/pdf.md`](external/career-ops/modes/pdf.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/pipeline.md`](external/career-ops/modes/pipeline.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/project.md`](external/career-ops/modes/project.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/scan.md`](external/career-ops/modes/scan.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/tracker.md`](external/career-ops/modes/tracker.md) — owner-permitted: no secret/personal signal
+- [`career-ops/modes/training.md`](external/career-ops/modes/training.md) — owner-permitted: no secret/personal signal
+- [`career-ops/README.md`](external/career-ops/README.md) — owner-permitted: no secret/personal signal
+
+### chaosChess
+
+- [`chaosChess/CLAUDE.md`](external/chaosChess/CLAUDE.md) — owner-permitted: no secret/personal signal
 
 ### claw-code
 
-- [`claw-code/README.md`](external/claw-code/README.md) — public GitHub repo + public-facing document name
+- [`claw-code/README.md`](external/claw-code/README.md) — owner-permitted: no secret/personal signal
+
+### Clawbot
+
+- [`Clawbot/notes.md`](external/Clawbot/notes.md) — owner-permitted: no secret/personal signal
 
 ### Clew
 
-- [`Clew/docs/adr/README.md`](external/Clew/docs/adr/README.md) — public GitHub repo + public-facing document name
-- [`Clew/docs/README.md`](external/Clew/docs/README.md) — public GitHub repo + public-facing document name
-- [`Clew/docs/site_faq/README.md`](external/Clew/docs/site_faq/README.md) — public GitHub repo + public-facing document name
-- [`Clew/docs/USAGE_GUIDE.md`](external/Clew/docs/USAGE_GUIDE.md) — public GitHub repo + public-facing document name
-- [`Clew/frontend/public/robots.txt`](external/Clew/frontend/public/robots.txt) — public path segment
+- [`Clew/.agents/skills/obsidian-to-clew-import/SKILL.md`](external/Clew/.agents/skills/obsidian-to-clew-import/SKILL.md) — owner-permitted: no secret/personal signal
+- [`Clew/.claude/skills/obsidian-to-clew-import/SKILL.md`](external/Clew/.claude/skills/obsidian-to-clew-import/SKILL.md) — owner-permitted: no secret/personal signal
+- [`Clew/.github/pull_request_template.md`](external/Clew/.github/pull_request_template.md) — owner-permitted: no secret/personal signal
+- [`Clew/AGENTS.md`](external/Clew/AGENTS.md) — owner-permitted: no secret/personal signal
+- [`Clew/backend/clew_backend.egg-info/dependency_links.txt`](external/Clew/backend/clew_backend.egg-info/dependency_links.txt) — owner-permitted: no secret/personal signal
+- [`Clew/backend/clew_backend.egg-info/entry_points.txt`](external/Clew/backend/clew_backend.egg-info/entry_points.txt) — owner-permitted: no secret/personal signal
+- [`Clew/backend/clew_backend.egg-info/requires.txt`](external/Clew/backend/clew_backend.egg-info/requires.txt) — owner-permitted: no secret/personal signal
+- [`Clew/backend/clew_backend.egg-info/SOURCES.txt`](external/Clew/backend/clew_backend.egg-info/SOURCES.txt) — owner-permitted: no secret/personal signal
+- [`Clew/backend/clew_backend.egg-info/top_level.txt`](external/Clew/backend/clew_backend.egg-info/top_level.txt) — owner-permitted: no secret/personal signal
+- [`Clew/CLAUDE.md`](external/Clew/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`Clew/CONTRIBUTING.md`](external/Clew/CONTRIBUTING.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/adr/0001-graph-mutations-must-be-reviewable-and-reversible.md`](external/Clew/docs/adr/0001-graph-mutations-must-be-reviewable-and-reversible.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/adr/0002-frontend-stays-graph-first.md`](external/Clew/docs/adr/0002-frontend-stays-graph-first.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/adr/0003-local-edition-and-hosted-surface-are-separate.md`](external/Clew/docs/adr/0003-local-edition-and-hosted-surface-are-separate.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/adr/0004-external-learning-bridges-preserve-the-graph-boundary.md`](external/Clew/docs/adr/0004-external-learning-bridges-preserve-the-graph-boundary.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/adr/README.md`](external/Clew/docs/adr/README.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/AGENTIC_LOOP.md`](external/Clew/docs/AGENTIC_LOOP.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/agents/PROJECT_CONTEXT.md`](external/Clew/docs/agents/PROJECT_CONTEXT.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/agents/README.md`](external/Clew/docs/agents/README.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/agents/WORKFLOW.md`](external/Clew/docs/agents/WORKFLOW.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/ARCHITECTURE.md`](external/Clew/docs/ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/LOCAL_QUICKSTART.md`](external/Clew/docs/LOCAL_QUICKSTART.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/MCP_SETUP.md`](external/Clew/docs/MCP_SETUP.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/OBSIDIAN.md`](external/Clew/docs/OBSIDIAN.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/prompts/topic-ingest.md`](external/Clew/docs/prompts/topic-ingest.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/PROVIDER_GUIDE.md`](external/Clew/docs/PROVIDER_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/README.md`](external/Clew/docs/README.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/agent.md`](external/Clew/docs/site_faq/agent.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/features.md`](external/Clew/docs/site_faq/features.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/feedback.md`](external/Clew/docs/site_faq/feedback.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/how-to-use.md`](external/Clew/docs/site_faq/how-to-use.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/how-works.md`](external/Clew/docs/site_faq/how-works.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/integrations.md`](external/Clew/docs/site_faq/integrations.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/quick-start.md`](external/Clew/docs/site_faq/quick-start.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/README.md`](external/Clew/docs/site_faq/README.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/showcase.md`](external/Clew/docs/site_faq/showcase.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/site_faq/why-special.md`](external/Clew/docs/site_faq/why-special.md) — owner-permitted: no secret/personal signal
+- [`Clew/docs/USAGE_GUIDE.md`](external/Clew/docs/USAGE_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Clew/frontend/public/robots.txt`](external/Clew/frontend/public/robots.txt) — owner-permitted: no secret/personal signal
+- [`Clew/README.md`](external/Clew/README.md) — owner-permitted: no secret/personal signal
+
+### codecrafters-grep-python
+
+- [`codecrafters-grep-python/README.md`](external/codecrafters-grep-python/README.md) — owner-permitted: no secret/personal signal
+
+### codecrafters-shell-python
+
+- [`codecrafters-shell-python/README.md`](external/codecrafters-shell-python/README.md) — owner-permitted: no secret/personal signal
 
 ### Delphi
 
-- [`Delphi/vault-seed/knowledge/gre/awa/README.md`](external/Delphi/vault-seed/knowledge/gre/awa/README.md) — public GitHub repo + public-facing document name
-- [`Delphi/vault-seed/knowledge/gre/README.md`](external/Delphi/vault-seed/knowledge/gre/README.md) — public GitHub repo + public-facing document name
-- [`Delphi/vault-seed/knowledge/gre/verbal/README.md`](external/Delphi/vault-seed/knowledge/gre/verbal/README.md) — public GitHub repo + public-facing document name
-- [`Delphi/vault-seed/knowledge/README.md`](external/Delphi/vault-seed/knowledge/README.md) — public GitHub repo + public-facing document name
-- [`Delphi/vault-seed/README.md`](external/Delphi/vault-seed/README.md) — public GitHub repo + public-facing document name
+- [`Delphi/CLAUDE.md`](external/Delphi/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`Delphi/DELPHI_INTERFACE_PLAN.md`](external/Delphi/DELPHI_INTERFACE_PLAN.md) — owner-permitted: no secret/personal signal
+- [`Delphi/docs/plans/2026-05-26-voice-and-vision.md`](external/Delphi/docs/plans/2026-05-26-voice-and-vision.md) — owner-permitted: no secret/personal signal
+- [`Delphi/docs/plans/2026-06-03-gre-practice-test.md`](external/Delphi/docs/plans/2026-06-03-gre-practice-test.md) — owner-permitted: no secret/personal signal
+- [`Delphi/docs/plans/2026-06-07-delphi-becomes-the-architecture.md`](external/Delphi/docs/plans/2026-06-07-delphi-becomes-the-architecture.md) — owner-permitted: no secret/personal signal
+- [`Delphi/docs/sessions/2026-05-25_tailscale-connectivity.md`](external/Delphi/docs/sessions/2026-05-25_tailscale-connectivity.md) — owner-permitted: no secret/personal signal
+- [`Delphi/docs/sessions/voice-vision-smoke.md`](external/Delphi/docs/sessions/voice-vision-smoke.md) — owner-permitted: no secret/personal signal
+- [`Delphi/README.md`](external/Delphi/README.md) — owner-permitted: no secret/personal signal
+- [`Delphi/ui/CLAUDE.md`](external/Delphi/ui/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`Delphi/ui/README.md`](external/Delphi/ui/README.md) — owner-permitted: no secret/personal signal
+- [`Delphi/vault-seed/knowledge/gre/awa/README.md`](external/Delphi/vault-seed/knowledge/gre/awa/README.md) — owner-permitted: no secret/personal signal
+- [`Delphi/vault-seed/knowledge/gre/quant/_index.md`](external/Delphi/vault-seed/knowledge/gre/quant/_index.md) — owner-permitted: no secret/personal signal
+- [`Delphi/vault-seed/knowledge/gre/quant/exponent-rules.md`](external/Delphi/vault-seed/knowledge/gre/quant/exponent-rules.md) — owner-permitted: no secret/personal signal
+- [`Delphi/vault-seed/knowledge/gre/quant/permutations-vs-combinations.md`](external/Delphi/vault-seed/knowledge/gre/quant/permutations-vs-combinations.md) — owner-permitted: no secret/personal signal
+- [`Delphi/vault-seed/knowledge/gre/verbal/README.md`](external/Delphi/vault-seed/knowledge/gre/verbal/README.md) — owner-permitted: no secret/personal signal
+- [`Delphi/vault-seed/knowledge/README.md`](external/Delphi/vault-seed/knowledge/README.md) — owner-permitted: no secret/personal signal
+- [`Delphi/vault-seed/README.md`](external/Delphi/vault-seed/README.md) — owner-permitted: no secret/personal signal
+
+### expenseTracker
+
+- [`expenseTracker/alex-tech-doc.md`](external/expenseTracker/alex-tech-doc.md) — owner-permitted: no secret/personal signal
+- [`expenseTracker/CLAUDE.md`](external/expenseTracker/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`expenseTracker/ExpenseTracker/PRIVACY_PERMISSIONS.md`](external/expenseTracker/ExpenseTracker/PRIVACY_PERMISSIONS.md) — owner-permitted: no secret/personal signal
+- [`expenseTracker/ExpenseTrackerTests/README.md`](external/expenseTracker/ExpenseTrackerTests/README.md) — owner-permitted: no secret/personal signal
+
+### finAgent
+
+- [`finAgent/CLAUDE.md`](external/finAgent/CLAUDE.md) — owner-permitted: no secret/personal signal
 
 ### Financio-V2
 
-- [`Financio-V2/dashboard/public/robots.txt`](external/Financio-V2/dashboard/public/robots.txt) — public path segment
-- [`Financio-V2/public/robots.txt`](external/Financio-V2/public/robots.txt) — public path segment
+- [`Financio-V2/backend/requirements.txt`](external/Financio-V2/backend/requirements.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/BOOSTER_ATTRIBUTES_UPDATE.md`](external/Financio-V2/BOOSTER_ATTRIBUTES_UPDATE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/CLAUDE.md`](external/Financio-V2/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/codex.md`](external/Financio-V2/codex.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/current_tickers.txt`](external/Financio-V2/current_tickers.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/dashboard/CHANGELOG.md`](external/Financio-V2/dashboard/CHANGELOG.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/dashboard/public/robots.txt`](external/Financio-V2/dashboard/public/robots.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/dashboard/README.md`](external/Financio-V2/dashboard/README.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/dashboard/src/services/README.md`](external/Financio-V2/dashboard/src/services/README.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/dashboard/v0-equity-panel-prompt.md`](external/Financio-V2/dashboard/v0-equity-panel-prompt.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/data/rag/Stan Druckenmiller's Investment Insights and Strategies-transcript.txt`](external/Financio-V2/data/rag/Stan_Druckenmiller_s_Investment_Insights_and_Strategies-transcript.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/DEPENDENCIES_UPDATE.md`](external/Financio-V2/DEPENDENCIES_UPDATE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/DEPLOYMENT_TODO.md`](external/Financio-V2/DEPLOYMENT_TODO.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docker/DOCKER_ARCHITECTURE.md`](external/Financio-V2/docker/DOCKER_ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docker/financio-runtime-requirements.txt`](external/Financio-V2/docker/financio-runtime-requirements.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docker/multibot-requirements.txt`](external/Financio-V2/docker/multibot-requirements.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docker/README-multi-account.md`](external/Financio-V2/docker/README-multi-account.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docker/README-multibot.md`](external/Financio-V2/docker/README-multibot.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docker/README.md`](external/Financio-V2/docker/README.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/# Code Citations.md`](external/Financio-V2/docs/_Code_Citations.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ALPHA_DEPLOYMENT_COMPLETE.md`](external/Financio-V2/docs/ALPHA_DEPLOYMENT_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ALPHA_RELEASE_NOTES.md`](external/Financio-V2/docs/ALPHA_RELEASE_NOTES.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ANALYSIS_INDEX.md`](external/Financio-V2/docs/ANALYSIS_INDEX.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ARCHITECTURE_ANALYSIS.md`](external/Financio-V2/docs/ARCHITECTURE_ANALYSIS.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ARCHITECTURE_ANALYSIS_SUMMARY.txt`](external/Financio-V2/docs/ARCHITECTURE_ANALYSIS_SUMMARY.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/AUTOMATED_RETRAINING_GUIDE.md`](external/Financio-V2/docs/AUTOMATED_RETRAINING_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/AUTOMATED_RETRAINING_SUMMARY.md`](external/Financio-V2/docs/AUTOMATED_RETRAINING_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/COMPONENT_GUIDE.md`](external/Financio-V2/docs/COMPONENT_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/COMPREHENSIVE_FEATURES_LIST.md`](external/Financio-V2/docs/COMPREHENSIVE_FEATURES_LIST.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/DASHBOARD_INTEGRATION_SUCCESS.md`](external/Financio-V2/docs/DASHBOARD_INTEGRATION_SUCCESS.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/DEPLOYMENT_CHECKLIST.md`](external/Financio-V2/docs/DEPLOYMENT_CHECKLIST.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/DEPLOYMENT_GUIDE.md`](external/Financio-V2/docs/DEPLOYMENT_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/DOCKER_ALPINE_MIGRATION_SUMMARY.md`](external/Financio-V2/docs/DOCKER_ALPINE_MIGRATION_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/DOCKER_DEPLOYMENT.md`](external/Financio-V2/docs/DOCKER_DEPLOYMENT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/DOCKER_DEPLOYMENT_GUIDE.md`](external/Financio-V2/docs/DOCKER_DEPLOYMENT_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/DOCKER_DEPLOYMENT_PLAN.md`](external/Financio-V2/docs/DOCKER_DEPLOYMENT_PLAN.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ENHANCED_FEATURES_GUIDE.md`](external/Financio-V2/docs/ENHANCED_FEATURES_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ENHANCED_RISK_MANAGEMENT_COMPLETE.md`](external/Financio-V2/docs/ENHANCED_RISK_MANAGEMENT_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/ENHANCED_RISK_MANAGEMENT_VALIDATION_REPORT.md`](external/Financio-V2/docs/ENHANCED_RISK_MANAGEMENT_VALIDATION_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/FINAL_DEPLOYMENT_STATUS.md`](external/Financio-V2/docs/FINAL_DEPLOYMENT_STATUS.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/FINAL_PORT_ALLOCATION.md`](external/Financio-V2/docs/FINAL_PORT_ALLOCATION.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/GCP_FINETUNE_GUIDE.md`](external/Financio-V2/docs/GCP_FINETUNE_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/INTEGRATION_ARCHITECTURE.md`](external/Financio-V2/docs/INTEGRATION_ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/INTEGRATION_COMPLETE.md`](external/Financio-V2/docs/INTEGRATION_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/INTEGRATION_PROGRESS.md`](external/Financio-V2/docs/INTEGRATION_PROGRESS.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/INTEGRATION_QUICKSTART.md`](external/Financio-V2/docs/INTEGRATION_QUICKSTART.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/KEY_FILE_LOCATIONS.md`](external/Financio-V2/docs/KEY_FILE_LOCATIONS.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/LOCAL_DATABASE_SETUP.md`](external/Financio-V2/docs/LOCAL_DATABASE_SETUP.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/MARKET_DATA_COLLECTION.md`](external/Financio-V2/docs/MARKET_DATA_COLLECTION.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/MULTI_BOT_COMPLETION_REPORT.md`](external/Financio-V2/docs/MULTI_BOT_COMPLETION_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/MULTI_BOT_QUICK_START.md`](external/Financio-V2/docs/MULTI_BOT_QUICK_START.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/NUMPY_ARRAY_FIX_SUMMARY.md`](external/Financio-V2/docs/NUMPY_ARRAY_FIX_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/PLAN_LLM_BATCH_AND_CACHING.md`](external/Financio-V2/docs/PLAN_LLM_BATCH_AND_CACHING.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/PORT_CONFLICT_RESOLUTION.md`](external/Financio-V2/docs/PORT_CONFLICT_RESOLUTION.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/PORT_RESOLUTION_COMPLETE.md`](external/Financio-V2/docs/PORT_RESOLUTION_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/PORTFOLIO_ACCURACY_FIX_REPORT.md`](external/Financio-V2/docs/PORTFOLIO_ACCURACY_FIX_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/ACTIVE_BOTS_ENHANCEMENT_SUMMARY.md`](external/Financio-V2/docs/reports/ACTIVE_BOTS_ENHANCEMENT_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/ALPHA_DEPLOYMENT_COMPLETE.md`](external/Financio-V2/docs/reports/ALPHA_DEPLOYMENT_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/ALPHA_RELEASE_NOTES.md`](external/Financio-V2/docs/reports/ALPHA_RELEASE_NOTES.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/CHANGELOG.md`](external/Financio-V2/docs/reports/CHANGELOG.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/ClaudeREADME.md`](external/Financio-V2/docs/reports/ClaudeREADME.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/COMPLETION_REPORT.md`](external/Financio-V2/docs/reports/COMPLETION_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/COMPREHENSIVE_FEATURES_LIST.md`](external/Financio-V2/docs/reports/COMPREHENSIVE_FEATURES_LIST.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/DASHBOARD_INTEGRATION_SUCCESS.md`](external/Financio-V2/docs/reports/DASHBOARD_INTEGRATION_SUCCESS.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/DOCKER_DEPLOYMENT.md`](external/Financio-V2/docs/reports/DOCKER_DEPLOYMENT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/DOCKER_INFRASTRUCTURE_COMPLETE.md`](external/Financio-V2/docs/reports/DOCKER_INFRASTRUCTURE_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/DOCKER_POSTGRESQL_CLEANUP_REPORT.md`](external/Financio-V2/docs/reports/DOCKER_POSTGRESQL_CLEANUP_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/FINAL_DEPLOYMENT_STATUS.md`](external/Financio-V2/docs/reports/FINAL_DEPLOYMENT_STATUS.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/MULTI_BOT_COMPLETION_REPORT.md`](external/Financio-V2/docs/reports/MULTI_BOT_COMPLETION_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/MULTI_BOT_QUICK_START.md`](external/Financio-V2/docs/reports/MULTI_BOT_QUICK_START.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/PORTFOLIO_ACCURACY_FIX_REPORT.md`](external/Financio-V2/docs/reports/PORTFOLIO_ACCURACY_FIX_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/README.md`](external/Financio-V2/docs/reports/README.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/RELEASE_v2.0.0_SUMMARY.md`](external/Financio-V2/docs/reports/RELEASE_v2.0.0_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/reports/TIMEFRAME_FIX_REPORT.md`](external/Financio-V2/docs/reports/TIMEFRAME_FIX_REPORT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/SHORT_SELLING_FIX_SUMMARY.md`](external/Financio-V2/docs/SHORT_SELLING_FIX_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/STOP_LOSS_TAKE_PROFIT_FIX_SUMMARY.md`](external/Financio-V2/docs/STOP_LOSS_TAKE_PROFIT_FIX_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/SUPABASE_CONNECTION_GUIDE.md`](external/Financio-V2/docs/SUPABASE_CONNECTION_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/SYSTEM_ARCHITECTURE.md`](external/Financio-V2/docs/SYSTEM_ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/SYSTEM_IMPROVEMENTS_SUMMARY.md`](external/Financio-V2/docs/SYSTEM_IMPROVEMENTS_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/docs/UNTRAINED_TICKER_DETECTION.md`](external/Financio-V2/docs/UNTRAINED_TICKER_DETECTION.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/ENHANCEMENTS_TODO.md`](external/Financio-V2/ENHANCEMENTS_TODO.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/ENV_CONFIGURATION_GUIDE.md`](external/Financio-V2/ENV_CONFIGURATION_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/ENV_UNIFIED_COMPLETE.md`](external/Financio-V2/ENV_UNIFIED_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/ENV_UPDATE_SUMMARY.md`](external/Financio-V2/ENV_UPDATE_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/ENV_VARS_AUDIT.md`](external/Financio-V2/ENV_VARS_AUDIT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/experiments/agents/technology/backtest/report_NVDA_2025-10-29_2026-04-29.md`](external/Financio-V2/experiments/agents/technology/backtest/report_NVDA_2025-10-29_2026-04-29.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/experiments/agents/technology/backtest/report_NVDA_2026-03-01_2026-05-01.md`](external/Financio-V2/experiments/agents/technology/backtest/report_NVDA_2026-03-01_2026-05-01.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/experiments/agents/technology/backtest/report_NVDA_2026-04-22_2026-04-28.md`](external/Financio-V2/experiments/agents/technology/backtest/report_NVDA_2026-04-22_2026-04-28.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/financio_src/requirements.txt`](external/Financio-V2/financio_src/requirements.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/hello_tali.txt`](external/Financio-V2/hello_tali.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/ideas.md`](external/Financio-V2/ideas.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/instructions.md`](external/Financio-V2/instructions.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/MODEL_CLASS_INVESTIGATION.md`](external/Financio-V2/MODEL_CLASS_INVESTIGATION.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/OVERVIEW.md`](external/Financio-V2/OVERVIEW.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/public/robots.txt`](external/Financio-V2/public/robots.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/QUICK_START_LOCAL_DB.md`](external/Financio-V2/QUICK_START_LOCAL_DB.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/RATE_LIMIT_AUDIT.md`](external/Financio-V2/RATE_LIMIT_AUDIT.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/README.md`](external/Financio-V2/README.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/REPO_CLEANUP_SCAN.md`](external/Financio-V2/REPO_CLEANUP_SCAN.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/requirements.txt`](external/Financio-V2/requirements.txt) — owner-permitted: no secret/personal signal
+- [`Financio-V2/rl_train/README.md`](external/Financio-V2/rl_train/README.md) — owner-permitted: no secret/personal signal
+- [`Financio-V2/rl_train/requirements.txt`](external/Financio-V2/rl_train/requirements.txt) — owner-permitted: no secret/personal signal
+
+### finderBot
+
+- [`finderBot/backend/requirements.txt`](external/finderBot/backend/requirements.txt) — owner-permitted: no secret/personal signal
+- [`finderBot/frontend/README.md`](external/finderBot/frontend/README.md) — owner-permitted: no secret/personal signal
+- [`finderBot/readme.md`](external/finderBot/readme.md) — owner-permitted: no secret/personal signal
+
+### FutureSight
+
+- [`FutureSight/architecture.md`](external/FutureSight/architecture.md) — owner-permitted: no secret/personal signal
+- [`FutureSight/futures_trading_bot/requirements.txt`](external/FutureSight/futures_trading_bot/requirements.txt) — owner-permitted: no secret/personal signal
+- [`FutureSight/projectPhases.md`](external/FutureSight/projectPhases.md) — owner-permitted: no secret/personal signal
+
+### guapo_evals
+
+- [`guapo_evals/CLAUDE.md`](external/guapo_evals/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`guapo_evals/docs/API.md`](external/guapo_evals/docs/API.md) — owner-permitted: no secret/personal signal
+- [`guapo_evals/docs/FINDING_CUSTOMERS.md`](external/guapo_evals/docs/FINDING_CUSTOMERS.md) — owner-permitted: no secret/personal signal
+- [`guapo_evals/docs/ROADMAP.md`](external/guapo_evals/docs/ROADMAP.md) — owner-permitted: no secret/personal signal
+- [`guapo_evals/README.md`](external/guapo_evals/README.md) — owner-permitted: no secret/personal signal
+- [`guapo_evals/sdk/README.md`](external/guapo_evals/sdk/README.md) — owner-permitted: no secret/personal signal
+
+### HealthGlimpse
+
+- [`HealthGlimpse/.github/instructions/instruccion.instructions.md`](external/HealthGlimpse/.github/instructions/instruccion.instructions.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/AGENT_ONBOARDING.md`](external/HealthGlimpse/AGENT_ONBOARDING.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/API-docs.md`](external/HealthGlimpse/API-docs.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/docs/README.md`](external/HealthGlimpse/docs/README.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/GPU_DEPLOYMENT_GUIDE.md`](external/HealthGlimpse/GPU_DEPLOYMENT_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/Guide.md`](external/HealthGlimpse/Guide.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/MODEL_UPDATE_COMPLETE.md`](external/HealthGlimpse/MODEL_UPDATE_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/PI_COMPLETE_DEPLOYMENT_GUIDE.md`](external/HealthGlimpse/PI_COMPLETE_DEPLOYMENT_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/PROJECT_PROGRESS_REPORT.md`](external/HealthGlimpse/PROJECT_PROGRESS_REPORT.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/QUICK_STATUS.md`](external/HealthGlimpse/QUICK_STATUS.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/RASPBERRY_PI_DEPLOYMENT.md`](external/HealthGlimpse/RASPBERRY_PI_DEPLOYMENT.md) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/requirements.txt`](external/HealthGlimpse/requirements.txt) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/requirements_gpu.txt`](external/HealthGlimpse/requirements_gpu.txt) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/requirements_minimal.txt`](external/HealthGlimpse/requirements_minimal.txt) — owner-permitted: no secret/personal signal
+- [`HealthGlimpse/requirements_rpi.txt`](external/HealthGlimpse/requirements_rpi.txt) — owner-permitted: no secret/personal signal
+
+### IRIS
+
+- [`IRIS/IRIS_GUI_CONCEPTS.md`](external/IRIS/IRIS_GUI_CONCEPTS.md) — owner-permitted: no secret/personal signal
+- [`IRIS/IRIS_SKILLS_GUIDE.md`](external/IRIS/IRIS_SKILLS_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`IRIS/Project_IRIS.md`](external/IRIS/Project_IRIS.md) — owner-permitted: no secret/personal signal
+
+### leadQual
+
+- [`leadQual/.vercel/README.txt`](external/leadQual/.vercel/README.txt) — owner-permitted: no secret/personal signal
+- [`leadQual/action_plan/ACTION_PLAN.md`](external/leadQual/action_plan/ACTION_PLAN.md) — owner-permitted: no secret/personal signal
+- [`leadQual/action_plan/APPOINTMENT_BOOKING.md`](external/leadQual/action_plan/APPOINTMENT_BOOKING.md) — owner-permitted: no secret/personal signal
+- [`leadQual/action_plan/COMPETITIVE_FEATURES.md`](external/leadQual/action_plan/COMPETITIVE_FEATURES.md) — owner-permitted: no secret/personal signal
+- [`leadQual/action_plan/VOICE_IMPLEMENTATION.md`](external/leadQual/action_plan/VOICE_IMPLEMENTATION.md) — owner-permitted: no secret/personal signal
+- [`leadQual/AGENTS.md`](external/leadQual/AGENTS.md) — owner-permitted: no secret/personal signal
+- [`leadQual/ai_receptionist_gtm_tech_doc_checklist.md`](external/leadQual/ai_receptionist_gtm_tech_doc_checklist.md) — owner-permitted: no secret/personal signal
+- [`leadQual/ARCHITECTURE.md`](external/leadQual/ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/CLAUDE.md`](external/leadQual/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/COLLABORATION_PROTOCOL.md`](external/leadQual/COLLABORATION_PROTOCOL.md) — owner-permitted: no secret/personal signal
+- [`leadQual/database/migrations/README.md`](external/leadQual/database/migrations/README.md) — owner-permitted: no secret/personal signal
+- [`leadQual/database/SEED_INSTRUCTIONS.md`](external/leadQual/database/SEED_INSTRUCTIONS.md) — owner-permitted: no secret/personal signal
+- [`leadQual/database/SUPABASE_SETUP.md`](external/leadQual/database/SUPABASE_SETUP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/DEEPSEEK_SUCCESS.md`](external/leadQual/DEEPSEEK_SUCCESS.md) — owner-permitted: no secret/personal signal
+- [`leadQual/EXECUTIVE_SUMMARY.md`](external/leadQual/EXECUTIVE_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`leadQual/HANDOFF_TO_CODEX.md`](external/leadQual/HANDOFF_TO_CODEX.md) — owner-permitted: no secret/personal signal
+- [`leadQual/MULTI_TENANT_EXPLAINED.md`](external/leadQual/MULTI_TENANT_EXPLAINED.md) — owner-permitted: no secret/personal signal
+- [`leadQual/MVP_ROADMAP.md`](external/leadQual/MVP_ROADMAP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/PRODUCT_STRATEGY.md`](external/leadQual/PRODUCT_STRATEGY.md) — owner-permitted: no secret/personal signal
+- [`leadQual/PROGRESS_SUMMARY.md`](external/leadQual/PROGRESS_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`leadQual/QUICK_START.md`](external/leadQual/QUICK_START.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/.claude/commands/fix-voice.md`](external/leadQual/saas-platform/.claude/commands/fix-voice.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/AUTHENTICATION_COMPLETE.md`](external/leadQual/saas-platform/AUTHENTICATION_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/CONVERSATION_TIMEOUT.md`](external/leadQual/saas-platform/CONVERSATION_TIMEOUT.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/crisis-response.txt`](external/leadQual/saas-platform/crisis-response.txt) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/DATABASE_STATUS_SUMMARY.md`](external/leadQual/saas-platform/DATABASE_STATUS_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/DEEPGRAM_VOICES.md`](external/leadQual/saas-platform/DEEPGRAM_VOICES.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/FIX_GOOGLE_OAUTH_ERROR.md`](external/leadQual/saas-platform/FIX_GOOGLE_OAUTH_ERROR.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/GOOGLE_CALENDAR_SETUP.md`](external/leadQual/saas-platform/GOOGLE_CALENDAR_SETUP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/KIMI_K2_SETUP.md`](external/leadQual/saas-platform/KIMI_K2_SETUP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/MULTI_INTENT_SYSTEM.md`](external/leadQual/saas-platform/MULTI_INTENT_SYSTEM.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/ONBOARDING_FLOW.md`](external/leadQual/saas-platform/ONBOARDING_FLOW.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/PROMPT_OPTIMIZATION_GUIDE.md`](external/leadQual/saas-platform/PROMPT_OPTIMIZATION_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/QA_TESTING_CHECKLIST.md`](external/leadQual/saas-platform/QA_TESTING_CHECKLIST.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/README.md`](external/leadQual/saas-platform/README.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/REMINDERS_SETUP.md`](external/leadQual/saas-platform/REMINDERS_SETUP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/SCORE_VERIFICATION.md`](external/leadQual/saas-platform/SCORE_VERIFICATION.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/SEQUENTIAL_VOICE_MODE.md`](external/leadQual/saas-platform/SEQUENTIAL_VOICE_MODE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/STRIPE_SETUP.md`](external/leadQual/saas-platform/STRIPE_SETUP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/SUPABASE_STORAGE_SETUP.md`](external/leadQual/saas-platform/SUPABASE_STORAGE_SETUP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/TIMEZONE_FIX.md`](external/leadQual/saas-platform/TIMEZONE_FIX.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/VOICE_ARCHITECTURE.md`](external/leadQual/saas-platform/VOICE_ARCHITECTURE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/VOICE_INTEGRATION_COMPLETE.md`](external/leadQual/saas-platform/VOICE_INTEGRATION_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/VOICE_SETUP.md`](external/leadQual/saas-platform/VOICE_SETUP.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/VOICE_STATUS.md`](external/leadQual/saas-platform/VOICE_STATUS.md) — owner-permitted: no secret/personal signal
+- [`leadQual/saas-platform/VOICE_WIDGET_TROUBLESHOOTING.md`](external/leadQual/saas-platform/VOICE_WIDGET_TROUBLESHOOTING.md) — owner-permitted: no secret/personal signal
+- [`leadQual/START_HERE.md`](external/leadQual/START_HERE.md) — owner-permitted: no secret/personal signal
+- [`leadQual/WEEK1_COMPLETE.md`](external/leadQual/WEEK1_COMPLETE.md) — owner-permitted: no secret/personal signal
+
+### Librium
+
+- [`Librium/calamity_system_technical_doc.md`](external/Librium/calamity_system_technical_doc.md) — owner-permitted: no secret/personal signal
+- [`Librium/CLAUDE.md`](external/Librium/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`Librium/claude_code_implementation_brief.md`](external/Librium/claude_code_implementation_brief.md) — owner-permitted: no secret/personal signal
+- [`Librium/LIBRIUM_CARDPORIUM.md`](external/Librium/LIBRIUM_CARDPORIUM.md) — owner-permitted: no secret/personal signal
+- [`Librium/Librium_design_doc.md`](external/Librium/Librium_design_doc.md) — owner-permitted: no secret/personal signal
+- [`Librium/librium_quota_system.md`](external/Librium/librium_quota_system.md) — owner-permitted: no secret/personal signal
+- [`Librium/librium_shop_system.md`](external/Librium/librium_shop_system.md) — owner-permitted: no secret/personal signal
+- [`Librium/TECHNICAL_REPORT_Terrain_First_Progression.md`](external/Librium/TECHNICAL_REPORT_Terrain_First_Progression.md) — owner-permitted: no secret/personal signal
 
 ### market-sight-hub
 
-- [`market-sight-hub/public/robots.txt`](external/market-sight-hub/public/robots.txt) — public path segment
+- [`market-sight-hub/public/robots.txt`](external/market-sight-hub/public/robots.txt) — owner-permitted: no secret/personal signal
+- [`market-sight-hub/README.md`](external/market-sight-hub/README.md) — owner-permitted: no secret/personal signal
+
+### mcp-calendar
+
+- [`mcp-calendar/CLAUDE.md`](external/mcp-calendar/CLAUDE.md) — owner-permitted: no secret/personal signal
+
+### mobilePilot
+
+- [`mobilePilot/API_REFERENCE.md`](external/mobilePilot/API_REFERENCE.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/AUTH_BYPASS.md`](external/mobilePilot/AUTH_BYPASS.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/BUG_FIXES_COMPLETED.md`](external/mobilePilot/BUG_FIXES_COMPLETED.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/COMPLETE_SUCCESS_REPORT.md`](external/mobilePilot/COMPLETE_SUCCESS_REPORT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/DISCOVERY_IMPLEMENTATION_SUCCESS.md`](external/mobilePilot/DISCOVERY_IMPLEMENTATION_SUCCESS.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/ENHANCED_SYSTEM_COMPLETE.md`](external/mobilePilot/ENHANCED_SYSTEM_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/FINAL_COMPLETION_REPORT.md`](external/mobilePilot/FINAL_COMPLETION_REPORT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/FINAL_SUCCESS_REPORT.md`](external/mobilePilot/FINAL_SUCCESS_REPORT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/FINAL_SYSTEM_SUCCESS_REPORT.md`](external/mobilePilot/FINAL_SYSTEM_SUCCESS_REPORT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/FRONTEND.md`](external/mobilePilot/FRONTEND.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/instructions.md`](external/mobilePilot/instructions.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/MOBILE_ACCESS_FIXED.md`](external/mobilePilot/MOBILE_ACCESS_FIXED.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/MOBILE_ACCESS_GUIDE.md`](external/mobilePilot/MOBILE_ACCESS_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/MOBILE_REMOTE_ACCESS_READY.md`](external/mobilePilot/MOBILE_REMOTE_ACCESS_READY.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/NGROK_EXPLAINED.md`](external/mobilePilot/NGROK_EXPLAINED.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE2_COMPLETE.md`](external/mobilePilot/PHASE2_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE3A_COMPLETE.md`](external/mobilePilot/PHASE3A_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE3A_FINAL_COMPLETE.md`](external/mobilePilot/PHASE3A_FINAL_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE3A_FINAL_SUCCESS_REPORT.md`](external/mobilePilot/PHASE3A_FINAL_SUCCESS_REPORT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE3A_SUCCESS_SUMMARY.md`](external/mobilePilot/PHASE3A_SUCCESS_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE_4_COMPLETE_SUCCESS.md`](external/mobilePilot/PHASE_4_COMPLETE_SUCCESS.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE_4_IMPLEMENTATION_GUIDE.md`](external/mobilePilot/PHASE_4_IMPLEMENTATION_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PHASE_4_REMOTE_ACCESS_PLAN.md`](external/mobilePilot/PHASE_4_REMOTE_ACCESS_PLAN.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/PROJECT_SUMMARY.md`](external/mobilePilot/PROJECT_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/requirements.txt`](external/mobilePilot/requirements.txt) — owner-permitted: no secret/personal signal
+- [`mobilePilot/SECURITY_NETWORK_REPORT.md`](external/mobilePilot/SECURITY_NETWORK_REPORT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/SECURITY_SETUP.md`](external/mobilePilot/SECURITY_SETUP.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/STATUS.md`](external/mobilePilot/STATUS.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/SYSTEM_STATUS_REPORT.md`](external/mobilePilot/SYSTEM_STATUS_REPORT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/vscode-extension/CHANGELOG.md`](external/mobilePilot/vscode-extension/CHANGELOG.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/vscode-extension/DEPLOYMENT.md`](external/mobilePilot/vscode-extension/DEPLOYMENT.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/vscode-extension/out/extension.js.LICENSE.txt`](external/mobilePilot/vscode-extension/out/extension.js.LICENSE.txt) — owner-permitted: no secret/personal signal
+- [`mobilePilot/vscode-extension/README.md`](external/mobilePilot/vscode-extension/README.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/VSCODE_EXTENSION_SETUP.md`](external/mobilePilot/VSCODE_EXTENSION_SETUP.md) — owner-permitted: no secret/personal signal
+- [`mobilePilot/WARP.md`](external/mobilePilot/WARP.md) — owner-permitted: no secret/personal signal
+
+### Morgans
+
+- [`Morgans/CLAUDE.md`](external/Morgans/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`Morgans/INTEGRATION_GUIDE.md`](external/Morgans/INTEGRATION_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`Morgans/README.md`](external/Morgans/README.md) — owner-permitted: no secret/personal signal
+- [`Morgans/README_QUICKSTART.md`](external/Morgans/README_QUICKSTART.md) — owner-permitted: no secret/personal signal
+- [`Morgans/README_SENTIMENT_BACKFILL.md`](external/Morgans/README_SENTIMENT_BACKFILL.md) — owner-permitted: no secret/personal signal
+- [`Morgans/requirements.full.txt`](external/Morgans/requirements.full.txt) — owner-permitted: no secret/personal signal
+- [`Morgans/requirements.txt`](external/Morgans/requirements.txt) — owner-permitted: no secret/personal signal
+- [`Morgans/TECH_DOC_SENTIMENT_PIPELINE.md`](external/Morgans/TECH_DOC_SENTIMENT_PIPELINE.md) — owner-permitted: no secret/personal signal
+- [`Morgans/tests/README.md`](external/Morgans/tests/README.md) — owner-permitted: no secret/personal signal
+
+### ObsidianVault
+
+- [`ObsidianVault/Vault of Knowledge/.claude/skills/ingest.md`](external/ObsidianVault/Vault_of_Knowledge/.claude/skills/ingest.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/.stfolder/syncthing-folder-3b4f4e.txt`](external/ObsidianVault/Vault_of_Knowledge/.stfolder/syncthing-folder-3b4f4e.txt) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/2026-05-09.md`](external/ObsidianVault/Vault_of_Knowledge/2026-05-09.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/2026-05-25.md`](external/ObsidianVault/Vault_of_Knowledge/2026-05-25.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/2026-06-30.md`](external/ObsidianVault/Vault_of_Knowledge/2026-06-30.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/CLAUDE.md`](external/ObsidianVault/Vault_of_Knowledge/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/CLAUDE.md global standards.md`](external/ObsidianVault/Vault_of_Knowledge/CLAUDE.md_global_standards.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Add.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Add.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Answer.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Answer.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Answer Key.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Answer_Key.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Assuming.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Assuming.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Describing.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Describing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/GRE.md`](external/ObsidianVault/Vault_of_Knowledge/entities/GRE.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Hello.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Hello.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/IDLE.md`](external/ObsidianVault/Vault_of_Knowledge/entities/IDLE.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/JSON.md`](external/ObsidianVault/Vault_of_Knowledge/entities/JSON.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Obsidian.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Obsidian.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Open.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Open.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Pydantic.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Pydantic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Python.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Python.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Remember.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Remember.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Replace.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Replace.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Root.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Root.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/SEARCHING.md`](external/ObsidianVault/Vault_of_Knowledge/entities/SEARCHING.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Sentence Equivalence.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Sentence_Equivalence.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Source.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Source.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Synonyms.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Synonyms.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Tali.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Tali.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/Text Completion.md`](external/ObsidianVault/Vault_of_Knowledge/entities/Text_Completion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/entities/URL.md`](external/ObsidianVault/Vault_of_Knowledge/entities/URL.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/awa/README.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/awa/README.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/quant/_index.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/quant/_index.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/quant/exponent-rules.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/quant/exponent-rules.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/quant/permutations-vs-combinations.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/quant/permutations-vs-combinations.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/verbal/README.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/verbal/README.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abase.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abase.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abdicate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abdicate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aberrant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aberrant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aberration.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aberration.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abet.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abet.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abeyance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abeyance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abhor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abhor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abide.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abide.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abject.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abject.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abjure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abjure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aboveboard.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aboveboard.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abrasive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abrasive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abreast.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abreast.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abridge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abridge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abrogate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abrogate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abscission.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abscission.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abscond.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abscond.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abstain.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abstain.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abstract.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abstract.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abstruse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abstruse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abysmal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abysmal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/abyss.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/abyss.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/accede.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/accede.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/accentuate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/accentuate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/accessible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/accessible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acclaim.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acclaim.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/accretion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/accretion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acerbic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acerbic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acidulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acidulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acme.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acme.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acolyte.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acolyte.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acquiesce.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acquiesce.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acquisitive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acquisitive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acrimonious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acrimonious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/activism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/activism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/acumen.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/acumen.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adamant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adamant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adept.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adept.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adhere.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adhere.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adjudicate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adjudicate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/admonish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/admonish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/admonitory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/admonitory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adroit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adroit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adulterate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adulterate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adumbrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adumbrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/adverse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/adverse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/advocate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/advocate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aerie.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aerie.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aesthete.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aesthete.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aesthetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aesthetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/affable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/affable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/affectation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/affectation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/affinity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/affinity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/affluent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/affluent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/afford.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/afford.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/affront.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/affront.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aggrandize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aggrandize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aggregate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aggregate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aghast.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aghast.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/agitate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/agitate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/alacrity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/alacrity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/albeit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/albeit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/alienate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/alienate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/alleviate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/alleviate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/allusive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/allusive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aloof.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aloof.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/altruism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/altruism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/altruistic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/altruistic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amalgam.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amalgam.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amalgamate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amalgamate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ambiguous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ambiguous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ambivalent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ambivalent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ameliorate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ameliorate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amenable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amenable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amend.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amend.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amiable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amiable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amicable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amicable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amorphous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amorphous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amortize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amortize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amply.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amply.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/amuck.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/amuck.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anachronism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anachronism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anachronistic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anachronistic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/analgesia.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/analgesia.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/analogous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/analogous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anarchy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anarchy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anathema.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anathema.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anemic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anemic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/animosity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/animosity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/animus.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/animus.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/annul.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/annul.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anodyne.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anodyne.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anoint.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anoint.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anomalous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anomalous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/anomaly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/anomaly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antagonize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antagonize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antedate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antedate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antedated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antedated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antipathy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antipathy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antiquated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antiquated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antithesis.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antithesis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/antithetical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/antithetical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apathetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apathetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apathy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apathy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apex.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apex.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aphorism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aphorism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aphoristic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aphoristic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aplomb.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aplomb.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apocryphal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apocryphal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apogee.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apogee.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apologist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apologist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apostate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apostate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apostle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apostle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apothegm.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apothegm.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apotheosis.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apotheosis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/appease.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/appease.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apposite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apposite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/appreciable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/appreciable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apprehension.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apprehension.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apprise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apprise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/approbation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/approbation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/approbatory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/approbatory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/appropriate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/appropriate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/appurtenant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/appurtenant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apropos.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apropos.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/apt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/apt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arbiter.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arbiter.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arbitrary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arbitrary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arcane.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arcane.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/archaic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/archaic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/archetype.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/archetype.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ardent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ardent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arduous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arduous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arrant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arrant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arresting.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arresting.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arriviste.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arriviste.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/arrogate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/arrogate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/artful.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/artful.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/articulate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/articulate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/artifact.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/artifact.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/artifice.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/artifice.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/artless.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/artless.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/artlessness.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/artlessness.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ascendancy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ascendancy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ascertain.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ascertain.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ascetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ascetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ascribe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ascribe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aseptic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aseptic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/askance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/askance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/asperity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/asperity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aspersion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aspersion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aspersions.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aspersions.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/assail.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/assail.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/assertive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/assertive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/assiduous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/assiduous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/assiduously.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/assiduously.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/assuage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/assuage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/astringent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/astringent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/astute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/astute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/atavism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/atavism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/attenuate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/attenuate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/attuned.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/attuned.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/audacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/audacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/audacity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/audacity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/augment.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/augment.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/augury.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/augury.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/august.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/august.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/auspicious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/auspicious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/austere.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/austere.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/autocratic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/autocratic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/autonomous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/autonomous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/autonomously.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/autonomously.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/auxiliary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/auxiliary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/avarice.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/avarice.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/avaricious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/avaricious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aver.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aver.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/aversion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/aversion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/avert.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/avert.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/avid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/avid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/axiom.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/axiom.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/axiomatic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/axiomatic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/badger.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/badger.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/baleful.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/baleful.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/balk.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/balk.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/balloon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/balloon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/banal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/banal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/banality.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/banality.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bane.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bane.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/banish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/banish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/baroque.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/baroque.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/barrage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/barrage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/barren.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/barren.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/base.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/base.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bastardization.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bastardization.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bawdy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bawdy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/baying.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/baying.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/beatific.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/beatific.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/becoming.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/becoming.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/befuddled.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/befuddled.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/beg.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/beg.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/begrudge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/begrudge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/beguile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/beguile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/behooves.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/behooves.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/belie.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/belie.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/belittle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/belittle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bellicose.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bellicose.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/belligerent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/belligerent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bemoan.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bemoan.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/beneficent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/beneficent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/benevolent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/benevolent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/benighted.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/benighted.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/benign.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/benign.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/berate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/berate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bereft.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bereft.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/besiege.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/besiege.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/besmirch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/besmirch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/besotted.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/besotted.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/betray.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/betray.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bevy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bevy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bifurcate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bifurcate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bilious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bilious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bilk.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bilk.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/blatant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/blatant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bleak.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bleak.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/blight.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/blight.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/blinkered.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/blinkered.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/blithe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/blithe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bogus.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bogus.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/boisterous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/boisterous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bolster.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bolster.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bombastic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bombastic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bonhomie.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bonhomie.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/boon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/boon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/boor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/boor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/boorish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/boorish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bowdlerize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bowdlerize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/brandish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/brandish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bravado.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bravado.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/brazen.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/brazen.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bridle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bridle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bristle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bristle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/broadside.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/broadside.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bromide.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bromide.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/brook.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/brook.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/browbeat.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/browbeat.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/brusquely.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/brusquely.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/buck.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/buck.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bucolic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bucolic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/buffer.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/buffer.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bumbling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bumbling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/buoyant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/buoyant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bureaucracy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bureaucracy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/burgeon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/burgeon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/burnish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/burnish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/buttress.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/buttress.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/bygone.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/bygone.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/byzantine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/byzantine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cacophonous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cacophonous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cacophony.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cacophony.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cadaverous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cadaverous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cajole.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cajole.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/callous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/callous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/callow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/callow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/calumny.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/calumny.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/canard.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/canard.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/candid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/candid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/candidness.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/candidness.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/canny.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/canny.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/canonical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/canonical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/canonize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/canonize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/capitulate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/capitulate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/capricious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/capricious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/captious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/captious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cardinal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cardinal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/caricature.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/caricature.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/carping.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/carping.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cartography.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cartography.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/castigate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/castigate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cataclysm.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cataclysm.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cataclysmic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cataclysmic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/catalyst.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/catalyst.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cathartic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cathartic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/catholic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/catholic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/caustic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/caustic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cavalier.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cavalier.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cease.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cease.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cede.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cede.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/celerity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/celerity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/censor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/censor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/censure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/censure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cerebral.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cerebral.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chagrin.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chagrin.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/champion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/champion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/charlatan.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/charlatan.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chastise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chastise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chauvinism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chauvinism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chauvinist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chauvinist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chauvinistic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chauvinistic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/check.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/check.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/checkered.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/checkered.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cherish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cherish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chicanery.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chicanery.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chimera.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chimera.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chivalrous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chivalrous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/choleric.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/choleric.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chortle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chortle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/chronological.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/chronological.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/churlish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/churlish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/circumscribe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/circumscribe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/circumspect.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/circumspect.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/circumvent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/circumvent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/clamber.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/clamber.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/clamor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/clamor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/clamorous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/clamorous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/clandestine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/clandestine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/clangor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/clangor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/clemency.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/clemency.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/clinch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/clinch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cloak.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cloak.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cloying.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cloying.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coagulate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coagulate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coalesce.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coalesce.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coda.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coda.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coddle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coddle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coercion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coercion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coffer.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coffer.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cogent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cogent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cogitate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cogitate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cohesive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cohesive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coin.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coin.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/collaborate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/collaborate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/collude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/collude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/collusion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/collusion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/colossal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/colossal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/comity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/comity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/commence.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/commence.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/commendable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/commendable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/commensurate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/commensurate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/commiserate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/commiserate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/compelling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/compelling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/compendium.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/compendium.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/competent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/competent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/complacent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/complacent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/complaisant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/complaisant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/complementary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/complementary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/compliant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/compliant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/complicit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/complicit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/comply.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/comply.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/compound.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/compound.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/compromise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/compromise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/concede.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/concede.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conciliate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conciliate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conciliatory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conciliatory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conclusive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conclusive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/concomitant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/concomitant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/concur.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/concur.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/condone.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/condone.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conducive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conducive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/confer.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/confer.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conflagration.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conflagration.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conflate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conflate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/confound.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/confound.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conjectural.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conjectural.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conniving.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conniving.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/connoisseur.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/connoisseur.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/connote.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/connote.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/consecrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/consecrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/consensus.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/consensus.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/console.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/console.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/consolidate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/consolidate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conspicuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conspicuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conspire.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conspire.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/constituent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/constituent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/constraint.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/constraint.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/constrict.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/constrict.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/construe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/construe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/consummate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/consummate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contempt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contempt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contemptuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contemptuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contend.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contend.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contentious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contentious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contextualize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contextualize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contingent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contingent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contraries.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contraries.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contravene.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contravene.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contretemps.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contretemps.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contrite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contrite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contrition.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contrition.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contrive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contrive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/contumacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/contumacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conundrum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conundrum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/convalescent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/convalescent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conventional.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conventional.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/converge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/converge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conversant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conversant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conversely.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conversely.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/conviction.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/conviction.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/convivial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/convivial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/convoke.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/convoke.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/convoluted.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/convoluted.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/copious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/copious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cordial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cordial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cornucopia.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cornucopia.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/corollary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/corollary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/corporeal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/corporeal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/correlate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/correlate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/corroborate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/corroborate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cosmopolitan.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cosmopolitan.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cosset.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cosset.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cosseted.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cosseted.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coterie.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coterie.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coterminous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coterminous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/countenance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/countenance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/counterintuitive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/counterintuitive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/countermand.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/countermand.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/counterpoint.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/counterpoint.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/counterproductive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/counterproductive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/covert.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/covert.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/covet.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/covet.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/coy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/coy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/crafty.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/crafty.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/craven.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/craven.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/credence.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/credence.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/credibility.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/credibility.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/credible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/credible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/creditable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/creditable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/credulity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/credulity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/credulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/credulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/crescendo.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/crescendo.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/crestfallen.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/crestfallen.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/croon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/croon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cryptic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cryptic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/crystallize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/crystallize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/culminate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/culminate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/culpability.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/culpability.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cumbersome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cumbersome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cunning.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cunning.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cupidity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cupidity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/curb.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/curb.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/curmudgeon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/curmudgeon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/curtail.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/curtail.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/cynical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/cynical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/daunt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/daunt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dawdle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dawdle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dearth.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dearth.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/debase.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/debase.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/debilitating.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/debilitating.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/debonair.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/debonair.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/debunk.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/debunk.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/decadent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/decadent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/decimation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/decimation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/decipher.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/decipher.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/declaim.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/declaim.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/declivity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/declivity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/decorous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/decorous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/decorum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/decorum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/decry.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/decry.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deem.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deem.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deface.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deface.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/default.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/default.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deference.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deference.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deferential.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deferential.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deflect.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deflect.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/defray.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/defray.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deft.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deft.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/degrade.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/degrade.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deign.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deign.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/delegate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/delegate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deleterious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deleterious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deliberate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deliberate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/delimit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/delimit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/delineate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/delineate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/delusion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/delusion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/demagogue.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/demagogue.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/demean.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/demean.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/demonstrative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/demonstrative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/demur.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/demur.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/demure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/demure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/denigrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/denigrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/denote.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/denote.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/denouement.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/denouement.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/denounce.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/denounce.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deportment.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deportment.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/depose.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/depose.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/depravity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/depravity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deprecate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deprecate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/derelict.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/derelict.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deride.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deride.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/derisive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/derisive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/derivative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/derivative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/derive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/derive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/derogative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/derogative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/desecrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/desecrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/desiccate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/desiccate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/desiccated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/desiccated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/desideratum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/desideratum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/despot.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/despot.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/despotic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/despotic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/destitute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/destitute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/desultory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/desultory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/detached.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/detached.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/detente.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/detente.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deter.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deter.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deterrent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deterrent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/detrimental.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/detrimental.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/deviate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/deviate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/devolve.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/devolve.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diabolical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diabolical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diaphanous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diaphanous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diatribe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diatribe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dichotomy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dichotomy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dictate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dictate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dictatorial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dictatorial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dictum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dictum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/didactic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/didactic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/differentiate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/differentiate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diffident.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diffident.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diffuse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diffuse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/digress.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/digress.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/digression.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/digression.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dilapidated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dilapidated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dilate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dilate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dilatory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dilatory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dilettante.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dilettante.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diligent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diligent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diminutive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diminutive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/din.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/din.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dirge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dirge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disabuse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disabuse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disaffected.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disaffected.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discernible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discernible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discerning.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discerning.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discomfit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discomfit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discomfiting.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discomfiting.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discord.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discord.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discordant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discordant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discount.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discount.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discredit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discredit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discreet.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discreet.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discrepancy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discrepancy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discrete.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discrete.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discriminate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discriminate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discriminating.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discriminating.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/discursive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/discursive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disdain.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disdain.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disenfranchise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disenfranchise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disentangle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disentangle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disheartened.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disheartened.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disingenuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disingenuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disinterested.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disinterested.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disjointed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disjointed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dismiss.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dismiss.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disparage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disparage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disparate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disparate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dispassionate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dispassionate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dispatch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dispatch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dispensation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dispensation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dispense.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dispense.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disperse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disperse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disposition.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disposition.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disquieting.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disquieting.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dissemble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dissemble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/disseminate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/disseminate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dissent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dissent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dissident.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dissident.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dissipate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dissipate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dissolution.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dissolution.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dissonance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dissonance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/distaff.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/distaff.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/distend.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/distend.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/distill.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/distill.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/distort.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/distort.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/distressed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/distressed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dither.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dither.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diurnal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diurnal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/diverge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/diverge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/divergent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/divergent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/divest.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/divest.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/divine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/divine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/divorced.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/divorced.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/divulge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/divulge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/docile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/docile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/doctrinaire.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/doctrinaire.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/document.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/document.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/documentary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/documentary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/doff.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/doff.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dog.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dog.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dogged.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dogged.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dogma.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dogma.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dogmatic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dogmatic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/doleful.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/doleful.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dolorous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dolorous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dormant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dormant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/doughty.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/doughty.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dovetail.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dovetail.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dowdy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dowdy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/droll.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/droll.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dubious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dubious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dupe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dupe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/duplicitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/duplicitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/duplicity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/duplicity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/duress.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/duress.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dwindling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dwindling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/dyspeptic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/dyspeptic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/e-g.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/e-g.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ebullient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ebullient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eccentric.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eccentric.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/echelon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/echelon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eclectic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eclectic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eclipse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eclipse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/economical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/economical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/economy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/economy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/edify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/edify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/edifying.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/edifying.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/effacing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/effacing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/effervescent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/effervescent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/efficacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/efficacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/efficacy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/efficacy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/effigy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/effigy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/effrontery.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/effrontery.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/egalitarian.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/egalitarian.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/egotist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/egotist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/egregious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/egregious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/egress.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/egress.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eke.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eke.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elaborate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elaborate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elegiac.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elegiac.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elegy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elegy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elementary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elementary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elevate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elevate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elicit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elicit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elitist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elitist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eloquent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eloquent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elucidate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elucidate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/elusive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/elusive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/emaciate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/emaciate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/embellish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/embellish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/embroiled.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/embroiled.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/embryonic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/embryonic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eminent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eminent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/empathetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/empathetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/empirical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/empirical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/empiricism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/empiricism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/emulate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/emulate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enamor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enamor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enchant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enchant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/encomium.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/encomium.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/encroach.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/encroach.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/encumber.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/encumber.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/encyclopedic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/encyclopedic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/endemic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/endemic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/endow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/endow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enervate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enervate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/engender.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/engender.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enhance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enhance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enigma.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enigma.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enigmatic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enigmatic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enjoin.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enjoin.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enmity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enmity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ennui.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ennui.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enormity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enormity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enthrall.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enthrall.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/entice.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/entice.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/entitled.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/entitled.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/entitlement.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/entitlement.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/entreat.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/entreat.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/entrenched.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/entrenched.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/enumerate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/enumerate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ephemeral.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ephemeral.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/epicure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/epicure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/epigram.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/epigram.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/epiphany.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/epiphany.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eponym.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eponym.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/equanimity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/equanimity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/equitable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/equitable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/equivocal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/equivocal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/equivocate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/equivocate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eradicate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eradicate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/err.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/err.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/errant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/errant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/erratic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/erratic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/erroneous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/erroneous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ersatz.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ersatz.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/erstwhile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/erstwhile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/erudite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/erudite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/escalate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/escalate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eschew.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eschew.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/esoteric.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/esoteric.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/espouse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/espouse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/estimable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/estimable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/estranged.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/estranged.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ethereal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ethereal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ethos.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ethos.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/eulogy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/eulogy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/euphemism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/euphemism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/euphony.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/euphony.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/euphoria.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/euphoria.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/euphoric.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/euphoric.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/evade.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/evade.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/evanescent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/evanescent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/evasive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/evasive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/evenhanded.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/evenhanded.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/evoke.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/evoke.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exacerbate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exacerbate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exacting.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exacting.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exalt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exalt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exasperate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exasperate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exasperated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exasperated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/excoriate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/excoriate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/excruciating.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/excruciating.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exculpate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exculpate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/execrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/execrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exegesis.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exegesis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exemplar.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exemplar.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exemplify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exemplify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exhaustive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exhaustive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exhilarating.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exhilarating.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exhort.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exhort.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exigent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exigent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exiguity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exiguity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exonerate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exonerate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exorbitant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exorbitant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exorcize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exorcize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exotic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exotic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/expansive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/expansive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/expatiate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/expatiate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/expedient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/expedient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/expedite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/expedite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/explicable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/explicable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/explicit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/explicit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exploitative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exploitative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/exponent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/exponent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/expound.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/expound.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/expunge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/expunge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/expurgate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/expurgate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/extant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/extant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/extemporaneous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/extemporaneous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/extemporize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/extemporize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/extenuating.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/extenuating.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/extraneous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/extraneous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/extrapolate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/extrapolate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/extravagant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/extravagant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fabricate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fabricate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/facetious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/facetious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/facile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/facile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/facilitate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/facilitate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/faction.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/faction.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/factious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/factious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/factitious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/factitious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fallacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fallacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fallible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fallible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fallow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fallow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/falter.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/falter.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fanatical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fanatical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fanciful.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fanciful.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fastidious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fastidious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fathom.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fathom.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fatuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fatuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fawn.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fawn.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/feasible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/feasible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/feckless.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/feckless.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fecund.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fecund.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/feeble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/feeble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/feign.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/feign.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/feint.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/feint.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/felicitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/felicitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fell.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fell.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ferret.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ferret.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fervent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fervent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fervid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fervid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fervor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fervor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fester.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fester.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fete.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fete.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fetid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fetid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fickle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fickle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fidelity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fidelity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/figurative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/figurative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/finagle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/finagle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/finesse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/finesse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/finicky.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/finicky.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/firebrand.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/firebrand.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flag.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flag.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flagrant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flagrant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flamboyant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flamboyant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fledgling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fledgling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fleece.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fleece.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fleeting.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fleeting.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flippant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flippant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/florid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/florid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flounder.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flounder.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flout.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flout.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fluke.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fluke.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flummox.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flummox.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flummoxed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flummoxed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flush.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flush.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flustered.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flustered.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/flux.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/flux.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/foible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/foible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/foil.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/foil.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/foment.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/foment.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/foolhardy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/foolhardy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forbear.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forbear.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ford.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ford.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/foreseeable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/foreseeable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/foreshadow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/foreshadow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forestall.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forestall.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forfeit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forfeit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forlorn.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forlorn.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forsake.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forsake.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forthcoming.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forthcoming.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/forthright.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/forthright.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fortify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fortify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fortitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fortitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fortuitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fortuitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fracas.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fracas.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fractious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fractious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/frailty.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/frailty.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fraught.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fraught.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/frenetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/frenetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fret.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fret.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fringe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fringe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/frivolous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/frivolous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/frugal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/frugal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fruitful.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fruitful.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/frustrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/frustrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fulcrum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fulcrum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fulminate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fulminate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/fungible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/fungible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/furtive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/furtive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/futile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/futile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gaffe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gaffe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gainsay.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gainsay.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gall.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gall.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/galvanize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/galvanize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gambit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gambit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gambol.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gambol.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/garner.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/garner.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/garrulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/garrulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gauche.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gauche.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gawky.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gawky.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/genial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/genial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/genteel.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/genteel.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/germane.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/germane.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gerrymander.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gerrymander.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gestation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gestation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/glacial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/glacial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/glean.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/glean.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/glib.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/glib.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/glower.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/glower.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/glum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/glum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/glut.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/glut.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/goad.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/goad.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/goosebumps.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/goosebumps.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gossamer.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gossamer.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gouge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gouge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gradation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gradation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/graft.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/graft.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/grandiloquent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/grandiloquent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/grandstand.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/grandstand.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gratify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gratify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/grating.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/grating.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gratuitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gratuitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gregarious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gregarious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/grievance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/grievance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/grievous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/grievous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/grouse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/grouse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/grovel.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/grovel.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/guffaw.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/guffaw.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/guile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/guile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/guileless.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/guileless.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gullible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gullible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/gumption.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/gumption.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hackneyed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hackneyed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hagiographic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hagiographic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hail.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hail.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/halcyon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/halcyon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hallmark.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hallmark.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hamper.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hamper.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hamstrung.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hamstrung.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hand-wringing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hand-wringing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/haphazard.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/haphazard.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hapless.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hapless.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/harangue.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/harangue.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/harbinger.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/harbinger.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hardy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hardy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/harried.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/harried.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/harrow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/harrow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/haughty.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/haughty.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hauteur.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hauteur.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/haven.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/haven.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/headstrong.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/headstrong.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/heady.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/heady.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hearken.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hearken.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hector.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hector.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hedge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hedge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hedonist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hedonist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/heed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/heed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hegemony.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hegemony.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/heretic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/heretic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hermetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hermetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/heterodox.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/heterodox.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/heterogeneous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/heterogeneous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hew.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hew.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/heyday.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/heyday.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hierarchy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hierarchy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hinder.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hinder.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/histrionic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/histrionic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hoary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hoary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hobble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hobble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hodgepodge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hodgepodge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/homage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/homage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/homogeneous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/homogeneous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hoodwink.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hoodwink.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hotly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hotly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hound.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hound.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hubris.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hubris.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/humdrum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/humdrum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/husband.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/husband.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hyperbole.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hyperbole.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/hysterical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/hysterical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/iconoclast.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/iconoclast.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/iconoclastic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/iconoclastic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/idiosyncrasy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/idiosyncrasy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/idiosyncratic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/idiosyncratic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/idolatry.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/idolatry.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/idyllic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/idyllic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ignoble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ignoble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ignominious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ignominious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/illiberality.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/illiberality.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/illicit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/illicit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/illusory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/illusory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/illustrious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/illustrious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imbibe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imbibe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imbroglio.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imbroglio.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imbue.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imbue.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/immaculate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/immaculate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/immaterial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/immaterial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imminent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imminent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/immure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/immure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/immutable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/immutable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impair.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impair.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impartial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impartial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impasse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impasse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impassive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impassive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impeccable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impeccable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impecunious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impecunious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impede.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impede.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impending.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impending.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imperious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imperious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impermeable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impermeable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impertinent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impertinent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imperturbable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imperturbable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impervious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impervious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impetuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impetuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/implacable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/implacable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/implausible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/implausible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/implicate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/implicate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/implication.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/implication.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/implicit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/implicit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/implode.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/implode.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imponderable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imponderable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/importuned.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/importuned.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imprecation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imprecation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impregnable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impregnable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/improvident.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/improvident.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/improvise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/improvise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/imprudent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/imprudent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impudent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impudent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impugn.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impugn.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/impute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/impute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inadvertent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inadvertent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inanity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inanity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inarticulate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inarticulate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inasmuch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inasmuch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inborn.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inborn.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incarnadine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incarnadine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incendiary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incendiary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incense.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incense.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incentive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incentive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incessant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incessant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inchoate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inchoate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incidental.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incidental.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incipient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incipient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incisive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incisive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inclement.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inclement.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inclined.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inclined.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incongruous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incongruous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inconsequential.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inconsequential.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inconstancy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inconstancy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incontrovertible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incontrovertible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incorporate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incorporate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incorrigible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incorrigible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incredulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incredulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inculcate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inculcate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/incumbent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/incumbent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indecorous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indecorous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indefatigable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indefatigable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indeterminate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indeterminate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indict.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indict.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indictment.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indictment.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indifference.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indifference.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indifferent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indifferent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indigence.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indigence.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indigenous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indigenous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indigent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indigent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indignant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indignant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indiscriminate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indiscriminate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indispensable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indispensable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/indolent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/indolent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/industrious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/industrious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ineffable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ineffable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ineluctable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ineluctable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inequity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inequity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inert.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inert.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inexorable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inexorable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/infallible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/infallible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/infelicitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/infelicitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inflammable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inflammable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inform.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inform.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ingenuity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ingenuity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ingenuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ingenuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ingrained.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ingrained.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ingrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ingrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ingratiate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ingratiate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inherent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inherent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inhibit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inhibit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inimical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inimical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inimitable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inimitable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/iniquity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/iniquity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inkling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inkling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/innocuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/innocuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inordinate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inordinate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inquest.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inquest.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inquisitive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inquisitive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inscrutable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inscrutable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insensible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insensible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insidious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insidious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insinuate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insinuate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insipid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insipid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insolent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insolent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insolvent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insolvent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insouciance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insouciance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insufferable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insufferable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insular.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insular.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/insurrection.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/insurrection.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intelligible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intelligible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inter.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inter.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/interchangeable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/interchangeable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intermittent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intermittent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/internecine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/internecine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/interplay.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/interplay.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/interregnum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/interregnum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intertwined.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intertwined.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intimate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intimate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intimation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intimation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intractable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intractable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intransigent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intransigent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intrepid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intrepid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intrigue.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intrigue.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/intrinsic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/intrinsic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inundate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inundate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/invasive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/invasive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/invective.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/invective.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inveigle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inveigle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/investiture.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/investiture.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inveterate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inveterate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/invidious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/invidious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/invigorate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/invigorate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inviolable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inviolable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/inviolate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/inviolate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/involved.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/involved.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/irascible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/irascible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ire.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ire.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/irk.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/irk.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/irksome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/irksome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ironclad.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ironclad.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/irrefutable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/irrefutable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/irresolute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/irresolute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/irreverent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/irreverent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/irrevocable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/irrevocable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/itinerant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/itinerant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/itinerary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/itinerary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jargon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jargon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jaundice.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jaundice.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jejune.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jejune.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jeopardize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jeopardize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jettison.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jettison.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jingoism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jingoism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jingoist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jingoist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jocular.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jocular.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jocund.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jocund.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jovial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jovial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/jubilant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/jubilant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/judicious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/judicious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/juggernaut.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/juggernaut.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/juncture.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/juncture.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/junta.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/junta.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/juxtapose.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/juxtapose.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/keen.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/keen.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/kindle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/kindle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/kinetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/kinetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/knell.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/knell.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/kowtow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/kowtow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/kudos.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/kudos.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/laborious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/laborious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lacerate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lacerate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lachrymose.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lachrymose.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lackluster.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lackluster.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lambast.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lambast.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lambaste.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lambaste.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lament.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lament.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lampoon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lampoon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/landmark.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/landmark.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/languid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/languid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/languish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/languish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/larceny.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/larceny.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/largess-or-largesse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/largess-or-largesse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/largess.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/largess.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/largesse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/largesse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lascivious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lascivious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lassitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lassitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/latent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/latent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/latitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/latitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/laudable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/laudable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lavish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lavish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lax.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lax.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/layperson.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/layperson.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/leery.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/leery.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/legerdemain.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/legerdemain.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lethargic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lethargic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/levity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/levity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/levy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/levy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/liability.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/liability.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/liberal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/liberal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/libertine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/libertine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/licentious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/licentious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/likewise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/likewise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/limpid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/limpid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lionize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lionize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lissome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lissome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/listless.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/listless.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/litany.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/litany.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/livid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/livid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/loath.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/loath.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/loathe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/loathe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/log.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/log.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/loquacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/loquacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lucid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lucid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lucrative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lucrative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lugubrious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lugubrious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lull.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lull.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lumber.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lumber.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/luminous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/luminous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/lurid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/lurid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/macabre.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/macabre.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/machinate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/machinate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/machination-or-machinations.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/machination-or-machinations.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/maelstrom.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/maelstrom.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/magisterial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/magisterial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/magnanimous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/magnanimous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/magnate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/magnate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/maintain.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/maintain.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/makeshift.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/makeshift.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/maladroit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/maladroit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malady.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malady.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malapropism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malapropism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malediction.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malediction.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malevolent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malevolent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malfeasance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malfeasance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malign.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malign.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malinger.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malinger.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malingerer.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malingerer.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malleable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malleable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/malodorous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/malodorous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/manacle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/manacle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/manifest.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/manifest.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mannered.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mannered.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mar.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mar.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/marginalize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/marginalize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/martial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/martial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/martinet.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/martinet.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/maudlin.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/maudlin.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/maunder.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/maunder.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/maverick.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/maverick.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mawkish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mawkish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/maxim.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/maxim.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/meander.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/meander.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mediate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mediate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/melancholy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/melancholy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/melee.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/melee.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mellifluous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mellifluous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mendacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mendacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mendacity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mendacity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mendicant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mendicant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mercenary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mercenary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mercurial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mercurial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/meretricious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/meretricious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/meritorious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/meritorious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mesmerize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mesmerize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/metamorphosis.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/metamorphosis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/metaphorical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/metaphorical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/metaphysical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/metaphysical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/meteoric.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/meteoric.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/meticulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/meticulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mettlesome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mettlesome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/milieu.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/milieu.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/militate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/militate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mimic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mimic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/minute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/minute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mired.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mired.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mirth.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mirth.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/misanthrope-or-misanthropist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/misanthrope-or-misanthropist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/misanthrope.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/misanthrope.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/misattribute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/misattribute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/misconstrue.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/misconstrue.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/miscreant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/miscreant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/miser.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/miser.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/miserly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/miserly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/misogynist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/misogynist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/missive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/missive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mitigate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mitigate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/modest.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/modest.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/modicum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/modicum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/modish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/modish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mollify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mollify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/molt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/molt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/moment.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/moment.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/momentary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/momentary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/monastic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/monastic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/monotonous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/monotonous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/monotony.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/monotony.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/moot.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/moot.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mordant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mordant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/moreover.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/moreover.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mores.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mores.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/moribund.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/moribund.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/morose.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/morose.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/morph.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/morph.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mulct.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mulct.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/multifarious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/multifarious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mundane.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mundane.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/munificent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/munificent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/muted.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/muted.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/mutiny.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/mutiny.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/myopic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/myopic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/myriad.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/myriad.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/na-ve.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/na-ve.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nadir.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nadir.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/naive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/naive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nascent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nascent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/negate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/negate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/negligible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/negligible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/neologism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/neologism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/neophyte.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/neophyte.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/net.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/net.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nettle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nettle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nettlesome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nettlesome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/neutralize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/neutralize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nevertheless-or-nonetheless.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nevertheless-or-nonetheless.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nimble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nimble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/noble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/noble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/noisome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/noisome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nominal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nominal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nonchalant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nonchalant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nonplussed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nonplussed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nontrivial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nontrivial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/normative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/normative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/notoriety.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/notoriety.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/novel.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/novel.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/noxious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/noxious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nuance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nuance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/nullify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/nullify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/numinous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/numinous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obdurate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obdurate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obeisance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obeisance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obfuscate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obfuscate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/objective.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/objective.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/objurgate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/objurgate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obliging.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obliging.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/oblique.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/oblique.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/oblivious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/oblivious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obscure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obscure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obsequious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obsequious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obsolete.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obsolete.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obstinate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obstinate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obstreperous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obstreperous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obtain.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obtain.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obtuse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obtuse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/obviate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/obviate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/occlude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/occlude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/occult.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/occult.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/odious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/odious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/offhand.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/offhand.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/officious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/officious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/offset.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/offset.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ominous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ominous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/omnipresent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/omnipresent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/onerous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/onerous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/opaque.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/opaque.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/opine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/opine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/opprobrium.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/opprobrium.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/optimal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/optimal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/optimum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/optimum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/opulence.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/opulence.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ornate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ornate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/orotund.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/orotund.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/orthodox.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/orthodox.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/oscillate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/oscillate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ossify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ossify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ostensible-or-ostensive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ostensible-or-ostensive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ostentatious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ostentatious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ostracize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ostracize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/oust.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/oust.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/outlandish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/outlandish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/outstrip.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/outstrip.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/overshadow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/overshadow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/overt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/overt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/overweening.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/overweening.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/overwrought.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/overwrought.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pacify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pacify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/painstaking.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/painstaking.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/palatable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/palatable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/palatial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/palatial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/palaver.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/palaver.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/palimpsest.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/palimpsest.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/palliate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/palliate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pallid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pallid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/palpable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/palpable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/panacea.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/panacea.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/panache.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/panache.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/panegyric.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/panegyric.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/panoply.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/panoply.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/paradigm.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/paradigm.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/paradigmatic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/paradigmatic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/paradox.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/paradox.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/paradoxical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/paradoxical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/paragon.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/paragon.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pare.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pare.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pariah.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pariah.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/parley.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/parley.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/parochial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/parochial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/parry.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/parry.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/parsimonious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/parsimonious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/partial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/partial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/partisan.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/partisan.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/parvenu.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/parvenu.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pastiche.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pastiche.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pastoral.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pastoral.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/patent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/patent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pathogenic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pathogenic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pathological.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pathological.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/patronize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/patronize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/patronizing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/patronizing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/paucity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/paucity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peccadillo.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peccadillo.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peculiar.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peculiar.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pecuniary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pecuniary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pedant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pedant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pedantic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pedantic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peddle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peddle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pedestrian.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pedestrian.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peevish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peevish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pejorative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pejorative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pellucid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pellucid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/penchant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/penchant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/penitent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/penitent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pensive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pensive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/penumbra.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/penumbra.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/penurious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/penurious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/penury.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/penury.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/per-se.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/per-se.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/percipient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/percipient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peregrinate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peregrinate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peremptory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peremptory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perennial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perennial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perfidious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perfidious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perfidy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perfidy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perfunctory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perfunctory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perilous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perilous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peripatetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peripatetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peripheral.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peripheral.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/permeate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/permeate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pernicious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pernicious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perpetrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perpetrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perpetuate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perpetuate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perquisite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perquisite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perseverance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perseverance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pertinacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pertinacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pertinent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pertinent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/perturb.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/perturb.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/peruse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/peruse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pervasive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pervasive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/petulant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/petulant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/phalanx.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/phalanx.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/phantasmagorical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/phantasmagorical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/philanthropy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/philanthropy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/philistine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/philistine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/phlegmatic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/phlegmatic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/phony.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/phony.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/picayune.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/picayune.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pillory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pillory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pinnacle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pinnacle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/piquant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/piquant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pith.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pith.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pithy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pithy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pittance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pittance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/placate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/placate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/placid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/placid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plaintive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plaintive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plastic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plastic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/platitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/platitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plausible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plausible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plebian.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plebian.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plethora.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plethora.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pliant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pliant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plodding.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plodding.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ploy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ploy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plucky.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plucky.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plummet.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plummet.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/plutocracy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/plutocracy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/poignant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/poignant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/poise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/poise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/polarize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/polarize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/polarized.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/polarized.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/polemic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/polemic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/polemical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/polemical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/politic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/politic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pollyannaish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pollyannaish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/polyglot.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/polyglot.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/polymath.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/polymath.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pomposity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pomposity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ponderous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ponderous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pontificate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pontificate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/portend.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/portend.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/portentous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/portentous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/posit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/posit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/posthumous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/posthumous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/potentate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/potentate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/powwow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/powwow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pr-cis.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pr-cis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pragmatic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pragmatic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prattle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prattle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pre-empt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pre-empt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/preamble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/preamble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/precarious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/precarious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/precedent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/precedent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/precipitate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/precipitate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/precipitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/precipitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/preclude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/preclude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/precocious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/precocious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/precursor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/precursor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/predicament.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/predicament.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/predilection.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/predilection.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/predisposed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/predisposed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/preempt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/preempt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/preemptive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/preemptive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/premeditate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/premeditate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prescience.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prescience.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prescient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prescient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/presentiment.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/presentiment.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/presumption.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/presumption.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/presumptive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/presumptive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/presumptuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/presumptuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pretentious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pretentious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/preternatural.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/preternatural.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prevail.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prevail.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prevaricate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prevaricate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/primacy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/primacy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prime.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prime.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/principled.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/principled.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pristine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pristine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/probity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/probity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/proclivity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/proclivity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prodigal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prodigal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prodigious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prodigious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/proficient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/proficient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/profligate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/profligate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/profound.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/profound.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/profundity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/profundity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/profuse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/profuse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/profusion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/profusion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prognostication.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prognostication.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prohibitive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prohibitive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/proliferate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/proliferate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prolific.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prolific.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prolix.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prolix.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prolixity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prolixity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prologue.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prologue.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/promulgate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/promulgate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pronounced.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pronounced.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/propagate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/propagate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/propensity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/propensity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prophetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prophetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/propitiate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/propitiate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/propitious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/propitious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/proponent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/proponent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/propriety.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/propriety.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prosaic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prosaic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/proscribe.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/proscribe.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/proselytize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/proselytize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prospective.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prospective.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/protean.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/protean.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/provident.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/provident.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/providential.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/providential.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/provincial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/provincial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/provisional.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/provisional.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/provocative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/provocative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prowess.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prowess.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/proxy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/proxy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prudent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prudent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/prurient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/prurient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/puerile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/puerile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pugilism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pugilism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pugnacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pugnacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/puissance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/puissance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/puissant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/puissant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pulchritude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pulchritude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/punctilious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/punctilious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pundit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pundit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pungent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pungent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pusillanimous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pusillanimous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/pyrrhic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/pyrrhic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quail.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quail.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/qualified.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/qualified.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/qualify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/qualify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/qualm.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/qualm.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quandary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quandary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quarantine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quarantine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quash.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quash.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/querulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/querulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quibble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quibble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quiescent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quiescent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quip.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quip.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quirky.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quirky.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quisling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quisling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quixotic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quixotic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/quotidian.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/quotidian.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/raconteur.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/raconteur.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/radical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/radical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/raffish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/raffish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/raft.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/raft.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/raillery.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/raillery.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rakish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rakish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ramification.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ramification.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rampant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rampant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rankle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rankle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ranks.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ranks.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rapacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rapacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rapprochement.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rapprochement.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rarefied.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rarefied.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rash.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rash.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rational.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rational.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ravage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ravage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ravenous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ravenous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reactant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reactant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reap.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reap.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rebuke.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rebuke.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recalcitrant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recalcitrant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recapitulate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recapitulate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recapitulation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recapitulation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recluse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recluse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reconcile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reconcile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recondite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recondite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recourse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recourse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recrimination.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recrimination.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recrudesce.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recrudesce.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/recrudescent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/recrudescent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/redoubtable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/redoubtable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/redound.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/redound.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/redress.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/redress.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/refine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/refine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/refractory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/refractory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/refulgent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/refulgent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/refute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/refute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/regress.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/regress.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reiterate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reiterate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rejoinder.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rejoinder.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/relegate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/relegate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/relent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/relent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/relinquish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/relinquish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/relish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/relish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/remedial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/remedial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/remiss.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/remiss.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/remonstrate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/remonstrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/remote.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/remote.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/remuneration.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/remuneration.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rend.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rend.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/render.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/render.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/renege.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/renege.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/renounce.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/renounce.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/repast.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/repast.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/repercussion.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/repercussion.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/repertoire.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/repertoire.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/repertorial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/repertorial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/replenish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/replenish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/replete.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/replete.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/repose.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/repose.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reprisal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reprisal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reproach.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reproach.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reprobate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reprobate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/repudiate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/repudiate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/repugnant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/repugnant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/requite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/requite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rescind.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rescind.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reservation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reservation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/resignation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/resignation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/resilient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/resilient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/resolute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/resolute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/resolution.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/resolution.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/resolve.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/resolve.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/respectively.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/respectively.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/respite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/respite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/restive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/restive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/resurgent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/resurgent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/retaliate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/retaliate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reticent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reticent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/retiring.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/retiring.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/retract.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/retract.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/retrospective.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/retrospective.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/revamp.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/revamp.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/reverent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/reverent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rhapsody.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rhapsody.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rhetoric.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rhetoric.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ribald.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ribald.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ridden.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ridden.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rife.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rife.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rift.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rift.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rigor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rigor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/robust.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/robust.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rococo.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rococo.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/row.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/row.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rudimentary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rudimentary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rue.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rue.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ruminate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ruminate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/rustic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/rustic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sacrosanct.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sacrosanct.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sadistic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sadistic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sagacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sagacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/salient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/salient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/salubrious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/salubrious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/salutary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/salutary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sanctimonious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sanctimonious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sanction.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sanction.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sangfroid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sangfroid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sanguine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sanguine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sap.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sap.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sardonic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sardonic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sartorial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sartorial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/satiate-or-sate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/satiate-or-sate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/satirical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/satirical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/saturate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/saturate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/saturnine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/saturnine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/savant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/savant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/savor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/savor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/savvy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/savvy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/scant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/scant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/scathing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/scathing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/schadenfreude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/schadenfreude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/schism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/schism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/scintilla.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/scintilla.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/scintillating.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/scintillating.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/scorn.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/scorn.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/screed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/screed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/scrupulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/scrupulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/scurvy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/scurvy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/searchingly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/searchingly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/secrete.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/secrete.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/secular.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/secular.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sedition.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sedition.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sedulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sedulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/semantic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/semantic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/semblance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/semblance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sensational.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sensational.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sententious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sententious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sentient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sentient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sentimental.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sentimental.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/seraphic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/seraphic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/serendipitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/serendipitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/serendipity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/serendipity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/serene.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/serene.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sever.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sever.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sham.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sham.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/shard.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/shard.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/shirk.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/shirk.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/shrill.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/shrill.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/simulacrum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/simulacrum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/simultaneous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/simultaneous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sinecure.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sinecure.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sinuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sinuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/skeptic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/skeptic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/skirt.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/skirt.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/skittish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/skittish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/skullduggery.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/skullduggery.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/slack.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/slack.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/slake.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/slake.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/slander.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/slander.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/slapdash.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/slapdash.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/slew.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/slew.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/slight.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/slight.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/slovenly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/slovenly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sluggish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sluggish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/smattering.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/smattering.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/smug.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/smug.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/snide.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/snide.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/snub.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/snub.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sobriquet.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sobriquet.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/solecism.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/solecism.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/solicitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/solicitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/solicitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/solicitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/solidarity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/solidarity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/soliloquy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/soliloquy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/somatic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/somatic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/somnolent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/somnolent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sophisticated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sophisticated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sophistry.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sophistry.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/soporific.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/soporific.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sordid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sordid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sound.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sound.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sparse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sparse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/spartan.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/spartan.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/spate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/spate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/spearhead.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/spearhead.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/specious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/specious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/spectrum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/spectrum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/speculate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/speculate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/spendthrift.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/spendthrift.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/splenetic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/splenetic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sporadic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sporadic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sportive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sportive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/spurious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/spurious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/spurn.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/spurn.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/squalid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/squalid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/squander.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/squander.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/squelch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/squelch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/staid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/staid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stalwart.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stalwart.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stanch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stanch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/standing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/standing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stark.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stark.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/start.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/start.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stasis.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stasis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/static.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/static.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/status-quo.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/status-quo.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/staunch.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/staunch.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/steadfast.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/steadfast.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/steeped.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/steeped.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stem.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stem.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stentorian.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stentorian.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stern.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stern.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stigma.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stigma.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stigmatize.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stigmatize.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stingy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stingy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stint.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stint.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stipend.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stipend.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stipulate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stipulate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stoic-or-stoical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stoic-or-stoical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stoic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stoic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stolid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stolid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stratagem.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stratagem.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stratum.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stratum.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/strife.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/strife.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stringent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stringent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/strut.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/strut.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stultify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stultify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stymie-or-stymy.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stymie-or-stymy.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/stymie.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/stymie.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subjective.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subjective.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sublime.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sublime.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subordinate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subordinate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subpoena.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subpoena.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subservient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subservient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subside.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subside.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/substantiate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/substantiate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subsume.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subsume.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subterfuge.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subterfuge.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subtle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subtle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subversive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subversive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/subvert.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/subvert.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/succeeding.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/succeeding.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sullen.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sullen.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sully.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sully.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/summit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/summit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/supercilious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/supercilious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/superficial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/superficial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/superfluous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/superfluous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/supersede.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/supersede.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/supplant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/supplant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/supple.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/supple.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/supplicate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/supplicate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/supposition.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/supposition.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/surfeit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/surfeit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/surly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/surly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/surmise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/surmise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/surmount.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/surmount.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/surreptitious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/surreptitious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/surrogate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/surrogate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/suspect.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/suspect.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/swindle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/swindle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/sybarite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/sybarite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/symbiosis.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/symbiosis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/synchronous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/synchronous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/synoptic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/synoptic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/syntax.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/syntax.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/table.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/table.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tacit.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tacit.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/taciturn.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/taciturn.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tact.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tact.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tangential.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tangential.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tangible.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tangible.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tantalizing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tantalizing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tantamount.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tantamount.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tarnish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tarnish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tawdry.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tawdry.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/taxing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/taxing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tedious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tedious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/telling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/telling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/telltale.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/telltale.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/temerity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/temerity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/temper.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/temper.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/temperance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/temperance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tempered.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tempered.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tempestuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tempestuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/temporal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/temporal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tenable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tenable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tenacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tenacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tendentious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tendentious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tender.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tender.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tentative.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tentative.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tenuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tenuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tepid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tepid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/terrestrial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/terrestrial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/terse.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/terse.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/thorough.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/thorough.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/thoroughgoing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/thoroughgoing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/thrifty.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/thrifty.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/thwart.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/thwart.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/timely.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/timely.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/timorous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/timorous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tirade.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tirade.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/toady.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/toady.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/token.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/token.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/torpor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/torpor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/torrid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/torrid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tortuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tortuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tout.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tout.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tractable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tractable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tranquil.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tranquil.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/transcend.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/transcend.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/transgression.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/transgression.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/transient.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/transient.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/transitory.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/transitory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/transmute.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/transmute.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/travail.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/travail.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/travesty.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/travesty.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/treacherous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/treacherous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/treatise.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/treatise.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/trenchant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/trenchant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tribulation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tribulation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/trifling.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/trifling.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/trite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/trite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/trivial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/trivial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/truculence.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/truculence.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/truculent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/truculent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/truncate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/truncate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tumult.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tumult.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tumultuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tumultuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/turbid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/turbid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/turbulent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/turbulent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/turgid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/turgid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/turpitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/turpitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/tyro.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/tyro.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ubiquitous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ubiquitous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/ulterior.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/ulterior.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/umbrage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/umbrage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unalloyed.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unalloyed.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unassailable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unassailable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/uncanny.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/uncanny.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/uncompromising.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/uncompromising.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unconscionable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unconscionable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/undercut.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/undercut.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/undermine.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/undermine.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/underscore.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/underscore.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/understated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/understated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/underwrite.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/underwrite.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unearth.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unearth.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unequivocal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unequivocal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unflappable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unflappable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unforthcoming.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unforthcoming.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unimpeachable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unimpeachable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/universal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/universal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unnerve.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unnerve.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unprecedented.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unprecedented.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unprepossessing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unprepossessing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unpropitious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unpropitious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unruly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unruly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unscrupulous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unscrupulous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unseemly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unseemly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unsparing.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unsparing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unstinting.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unstinting.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/untempered.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/untempered.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/untenable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/untenable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/untoward.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/untoward.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/untrammeled.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/untrammeled.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/unviable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/unviable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/upbraid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/upbraid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/urbane.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/urbane.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/usury.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/usury.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/utilitarian.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/utilitarian.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/utterly.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/utterly.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vacillate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vacillate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vacuous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vacuous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/valor.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/valor.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vanguard.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vanguard.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vanquish.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vanquish.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vapid.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vapid.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/variance.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/variance.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/variegated.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/variegated.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vaunted.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vaunted.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vehement.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vehement.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/venal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/venal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/venality.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/venality.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/veneer.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/veneer.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/venerate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/venerate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/venial.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/venial.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/veracious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/veracious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/veracity.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/veracity.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/verbose.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/verbose.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/verdant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/verdant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/verisimilar.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/verisimilar.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/verisimilitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/verisimilitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/veritable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/veritable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vernal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vernal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/versatile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/versatile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/verve.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/verve.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vestige.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vestige.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vex.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vex.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vexation.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vexation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/via.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/via.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/viable.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/viable.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vicarious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vicarious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vicissitude.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vicissitude.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vie.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vie.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vigilant.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vigilant.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vilify.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vilify.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vim.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vim.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vindicate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vindicate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vindictive.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vindictive.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vintage.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vintage.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/virago.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/virago.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/virtual.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/virtual.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/virulent.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/virulent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/viscid-or-viscous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/viscid-or-viscous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/visionary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/visionary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vitality.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vitality.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vitiate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vitiate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vitriol.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vitriol.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vitriolic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vitriolic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vituperate.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vituperate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vivacious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vivacious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/vociferous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/vociferous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/volatile.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/volatile.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/volubility.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/volubility.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/voluble.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/voluble.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/voracious.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/voracious.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wan.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wan.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wane.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wane.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wanting.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wanting.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wanton.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wanton.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/warranted.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/warranted.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wax.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wax.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wayward.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wayward.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/weary.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/weary.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/welter.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/welter.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wheedle.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wheedle.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/whereas.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/whereas.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/whet.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/whet.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/whimsical.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/whimsical.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/whitewash.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/whitewash.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wily.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wily.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/winnow.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/winnow.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/winsome.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/winsome.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/wizened.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/wizened.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/woeful.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/woeful.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/xenophobia.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/xenophobia.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/xenophobic.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/xenophobic.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/yield.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/yield.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/yoke.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/yoke.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/zeal.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/zeal.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/zealous.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/zealous.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/zeitgeist.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/zeitgeist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/gre/vocab/zenith.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/gre/vocab/zenith.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/knowledge/README.md`](external/ObsidianVault/Vault_of_Knowledge/knowledge/README.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/meta/hermes-operational-memory.md`](external/ObsidianVault/Vault_of_Knowledge/meta/hermes-operational-memory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/outputs/2026-06-11-finetune-model-analysis.md`](external/ObsidianVault/Vault_of_Knowledge/outputs/2026-06-11-finetune-model-analysis.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/raw/bookmarks/bookmarks_x150_20260509.md`](external/ObsidianVault/Vault_of_Knowledge/raw/bookmarks/bookmarks_x150_20260509.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/raw/papers/A Multimodal Foundation Agent for Financial Trading Tool-Augmented, Diversified, and Generalist.md`](external/ObsidianVault/Vault_of_Knowledge/raw/papers/A_Multimodal_Foundation_Agent_for_Financial_Trading_Tool-Augmented_Diversified_and_Generalist.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/raw/papers/Alpha-GPT Human-AI Interactive Alpha Mining for Quantitative Investment.md`](external/ObsidianVault/Vault_of_Knowledge/raw/papers/Alpha-GPT_Human-AI_Interactive_Alpha_Mining_for_Quantitative_Investment.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/raw/papers/Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers.md`](external/ObsidianVault/Vault_of_Knowledge/raw/papers/Can_LLMs_Generate_Novel_Research_Ideas_A_Large-Scale_Human_Study_with_100_NLP_Researchers.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/raw/papers/Large Language Models as Financial Data Annotators A Study on Effectiveness and Efficiency.md`](external/ObsidianVault/Vault_of_Knowledge/raw/papers/Large_Language_Models_as_Financial_Data_Annotators_A_Study_on_Effectiveness_and_Efficiency.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/areas/biomedical/_overview.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/areas/biomedical/_overview.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/areas/entrepreneurship/_overview.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/areas/entrepreneurship/_overview.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/areas/ml-research/_overview.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/areas/ml-research/_overview.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/agentic-coding.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/agentic-coding.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/alpha-mining.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/alpha-mining.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/compute-optimal-training.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/compute-optimal-training.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/diffusion-models.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/diffusion-models.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/domain-specific-llms.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/domain-specific-llms.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/eml-operator.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/eml-operator.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/kolmogorov-arnold-networks.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/kolmogorov-arnold-networks.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/llm-as-annotator.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/llm-as-annotator.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/long-context-memory.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/long-context-memory.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/multi-agent-systems.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/multi-agent-systems.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/multimodal-trading-agents.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/multimodal-trading-agents.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/prediction-markets.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/prediction-markets.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/quantum-computing.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/quantum-computing.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/quantum-machine-learning.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/quantum-machine-learning.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/real-time-avatars.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/real-time-avatars.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/scaling-laws.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/scaling-laws.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/sparse-attention.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/sparse-attention.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/concepts/symbolic-regression.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/concepts/symbolic-regression.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/insights/eml-as-ml-substrate.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/insights/eml-as-ml-substrate.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/insights/out-tool-bugs-dont-out-know-them.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/insights/out-tool-bugs-dont-out-know-them.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/insights/sector-conditioned-screening-beats-static-universes.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/insights/sector-conditioned-screening-beats-static-universes.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/projects/eml-neural-ode-polymarket.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/projects/eml-neural-ode-polymarket.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/projects/financio-v2.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/projects/financio-v2.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/projects/job-apply-agent.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/projects/job-apply-agent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/projects/origin-quantum-stack.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/projects/origin-quantum-stack.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/projects/project-dependency-map.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/projects/project-dependency-map.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-04-scaling-laws-for-neural-language-models.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-04-scaling-laws-for-neural-language-models.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-06-msa-memory-sparse-attention.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-06-msa-memory-sparse-attention.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-06-quantum-computing-introduction.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-06-quantum-computing-introduction.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-09-eml-elementary-functions.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-09-eml-elementary-functions.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-09-x-bookmarks-150-dump.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-09-x-bookmarks-150-dump.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-24-bloomberggpt-finance-llm.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-24-bloomberggpt-finance-llm.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-24-opengame-agentic-game-coding.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-24-opengame-agentic-game-coding.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-24-personalive-portrait-animation.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-24-personalive-portrait-animation.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-05-24-tradingagents-multi-agent-trading.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-05-24-tradingagents-multi-agent-trading.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-06-11-alpha-gpt-alpha-mining.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-06-11-alpha-gpt-alpha-mining.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-06-11-finagent-multimodal-trading-agent.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-06-11-finagent-multimodal-trading-agent.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-06-11-llms-as-financial-annotators.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-06-11-llms-as-financial-annotators.md) — owner-permitted: no secret/personal signal
+- [`ObsidianVault/Vault of Knowledge/wiki/sources/2026-06-11-llms-novel-research-ideas.md`](external/ObsidianVault/Vault_of_Knowledge/wiki/sources/2026-06-11-llms-novel-research-ideas.md) — owner-permitted: no secret/personal signal
 
 ### odysseus
 
-- [`odysseus/ACKNOWLEDGMENTS.md`](external/odysseus/ACKNOWLEDGMENTS.md) — public GitHub repo + public-facing document name
-- [`odysseus/CONTRIBUTING.md`](external/odysseus/CONTRIBUTING.md) — public GitHub repo + public-facing document name
-- [`odysseus/tests/README.md`](external/odysseus/tests/README.md) — public GitHub repo + public-facing document name
+- [`odysseus/.github/pull_request_template.md`](external/odysseus/.github/pull_request_template.md) — owner-permitted: no secret/personal signal
+- [`odysseus/ACKNOWLEDGMENTS.md`](external/odysseus/ACKNOWLEDGMENTS.md) — owner-permitted: no secret/personal signal
+- [`odysseus/CLAUDE.md`](external/odysseus/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`odysseus/companion/README.md`](external/odysseus/companion/README.md) — owner-permitted: no secret/personal signal
+- [`odysseus/CONTRIBUTING.md`](external/odysseus/CONTRIBUTING.md) — owner-permitted: no secret/personal signal
+- [`odysseus/docs/pr-blocker-audit.md`](external/odysseus/docs/pr-blocker-audit.md) — owner-permitted: no secret/personal signal
+- [`odysseus/docs/setup/gmail.md`](external/odysseus/docs/setup/gmail.md) — owner-permitted: no secret/personal signal
+- [`odysseus/integrations/claude/skills/odysseus/SKILL.md`](external/odysseus/integrations/claude/skills/odysseus/SKILL.md) — owner-permitted: no secret/personal signal
+- [`odysseus/integrations/codex/skills/odysseus/SKILL.md`](external/odysseus/integrations/codex/skills/odysseus/SKILL.md) — owner-permitted: no secret/personal signal
+- [`odysseus/licenses/DeepResearch-Apache-2.0.txt`](external/odysseus/licenses/DeepResearch-Apache-2.0.txt) — owner-permitted: no secret/personal signal
+- [`odysseus/licenses/llmfit-MIT-LICENSE.txt`](external/odysseus/licenses/llmfit-MIT-LICENSE.txt) — owner-permitted: no secret/personal signal
+- [`odysseus/licenses/opencode-MIT-LICENSE.txt`](external/odysseus/licenses/opencode-MIT-LICENSE.txt) — owner-permitted: no secret/personal signal
+- [`odysseus/README.md`](external/odysseus/README.md) — owner-permitted: no secret/personal signal
+- [`odysseus/requirements-optional.txt`](external/odysseus/requirements-optional.txt) — owner-permitted: no secret/personal signal
+- [`odysseus/requirements.txt`](external/odysseus/requirements.txt) — owner-permitted: no secret/personal signal
+- [`odysseus/ROADMAP.md`](external/odysseus/ROADMAP.md) — owner-permitted: no secret/personal signal
+- [`odysseus/SECURITY.md`](external/odysseus/SECURITY.md) — owner-permitted: no secret/personal signal
+- [`odysseus/static/js/MODULE_SUMMARY.md`](external/odysseus/static/js/MODULE_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`odysseus/tests/README.md`](external/odysseus/tests/README.md) — owner-permitted: no secret/personal signal
+- [`odysseus/THREAT_MODEL.md`](external/odysseus/THREAT_MODEL.md) — owner-permitted: no secret/personal signal
+
+### options
+
+- [`options/CLAUDE.md`](external/options/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`options/EVENT_BASED_WEIGHTING.md`](external/options/EVENT_BASED_WEIGHTING.md) — owner-permitted: no secret/personal signal
+- [`options/QUICKSTART.md`](external/options/QUICKSTART.md) — owner-permitted: no secret/personal signal
+- [`options/README.md`](external/options/README.md) — owner-permitted: no secret/personal signal
+- [`options/requirements.txt`](external/options/requirements.txt) — owner-permitted: no secret/personal signal
+- [`options/TICKER_MANAGEMENT.md`](external/options/TICKER_MANAGEMENT.md) — owner-permitted: no secret/personal signal
 
 ### polymarket-bot
 
-- [`polymarket-bot/langGuide.md`](external/polymarket-bot/langGuide.md) — public GitHub repo + public-facing document name
+- [`polymarket-bot/.claude/worktrees/happy-swanson-9ce739/IMPLEMENTATION_PLAN.md`](external/polymarket-bot/.claude/worktrees/happy-swanson-9ce739/IMPLEMENTATION_PLAN.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/.claude/worktrees/happy-swanson-9ce739/langGuide.md`](external/polymarket-bot/.claude/worktrees/happy-swanson-9ce739/langGuide.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/.claude/worktrees/happy-swanson-9ce739/README.md`](external/polymarket-bot/.claude/worktrees/happy-swanson-9ce739/README.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/COHOST_PLAN.md`](external/polymarket-bot/COHOST_PLAN.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/firewall-hetzner.md`](external/polymarket-bot/docs/firewall-hetzner.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/progress.md`](external/polymarket-bot/docs/progress.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/2026-04-04-1640.md`](external/polymarket-bot/docs/sessions/2026-04-04-1640.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/2026-04-04-1740.md`](external/polymarket-bot/docs/sessions/2026-04-04-1740.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/2026-04-11-0630.md`](external/polymarket-bot/docs/sessions/2026-04-11-0630.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/2026-04-13-2230.md`](external/polymarket-bot/docs/sessions/2026-04-13-2230.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/2026-04-15-0000.md`](external/polymarket-bot/docs/sessions/2026-04-15-0000.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/2026-04-15-2230.md`](external/polymarket-bot/docs/sessions/2026-04-15-2230.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/2026-05-18-2230.md`](external/polymarket-bot/docs/sessions/2026-05-18-2230.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/sessions/INDEX.md`](external/polymarket-bot/docs/sessions/INDEX.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/docs/weather-model-calibration.md`](external/polymarket-bot/docs/weather-model-calibration.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/IMPLEMENTATION_PLAN.md`](external/polymarket-bot/IMPLEMENTATION_PLAN.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/langGuide.md`](external/polymarket-bot/langGuide.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/LIVE_TRADING_PLAN.md`](external/polymarket-bot/LIVE_TRADING_PLAN.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/README.md`](external/polymarket-bot/README.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/RUNBOOK.md`](external/polymarket-bot/RUNBOOK.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/SPORTS_BOT_PLAN.md`](external/polymarket-bot/SPORTS_BOT_PLAN.md) — owner-permitted: no secret/personal signal
+- [`polymarket-bot/src/polybot_research/eml_node/README.md`](external/polymarket-bot/src/polybot_research/eml_node/README.md) — owner-permitted: no secret/personal signal
+
+### portfolio-chatbot
+
+- [`portfolio-chatbot/requirements.txt`](external/portfolio-chatbot/requirements.txt) — owner-permitted: no secret/personal signal
+
+### Redpill
+
+- [`Redpill/.claude/agents/frontend-developer.md`](external/Redpill/.claude/agents/frontend-developer.md) — owner-permitted: no secret/personal signal
+- [`Redpill/architecture_guide.md`](external/Redpill/architecture_guide.md) — owner-permitted: no secret/personal signal
+- [`Redpill/backtest_results/crypto_efficiency_analysis_20250818_190429.txt`](external/Redpill/backtest_results/crypto_efficiency_analysis_20250818_190429.txt) — owner-permitted: no secret/personal signal
+- [`Redpill/DEPLOYMENT.md`](external/Redpill/DEPLOYMENT.md) — owner-permitted: no secret/personal signal
+- [`Redpill/deployment_checklist.md`](external/Redpill/deployment_checklist.md) — owner-permitted: no secret/personal signal
+- [`Redpill/HIGH_FREQ_STRATEGY.md`](external/Redpill/HIGH_FREQ_STRATEGY.md) — owner-permitted: no secret/personal signal
+- [`Redpill/hosting_options.md`](external/Redpill/hosting_options.md) — owner-permitted: no secret/personal signal
+- [`Redpill/KRAKEN_TEST_SUITE.md`](external/Redpill/KRAKEN_TEST_SUITE.md) — owner-permitted: no secret/personal signal
+- [`Redpill/README.md`](external/Redpill/README.md) — owner-permitted: no secret/personal signal
+- [`Redpill/README_VPN_Key_Rotation.md`](external/Redpill/README_VPN_Key_Rotation.md) — owner-permitted: no secret/personal signal
+- [`Redpill/requirements-core.txt`](external/Redpill/requirements-core.txt) — owner-permitted: no secret/personal signal
+- [`Redpill/requirements-no-talib.txt`](external/Redpill/requirements-no-talib.txt) — owner-permitted: no secret/personal signal
+- [`Redpill/requirements-py313.txt`](external/Redpill/requirements-py313.txt) — owner-permitted: no secret/personal signal
+- [`Redpill/requirements.txt`](external/Redpill/requirements.txt) — owner-permitted: no secret/personal signal
+- [`Redpill/testing_plan.md`](external/Redpill/testing_plan.md) — owner-permitted: no secret/personal signal
+- [`Redpill/tests/README.md`](external/Redpill/tests/README.md) — owner-permitted: no secret/personal signal
+
+### shared_data
+
+- [`shared_data/ATTENTION_MECHANISMS_EXPLAINED.md`](external/shared_data/ATTENTION_MECHANISMS_EXPLAINED.md) — owner-permitted: no secret/personal signal
+- [`shared_data/BOT_INTEGRATION_GUIDE.md`](external/shared_data/BOT_INTEGRATION_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`shared_data/features/README.md`](external/shared_data/features/README.md) — owner-permitted: no secret/personal signal
+- [`shared_data/README.md`](external/shared_data/README.md) — owner-permitted: no secret/personal signal
+- [`shared_data/stocks/TICKER_AUTOMATION.md`](external/shared_data/stocks/TICKER_AUTOMATION.md) — owner-permitted: no secret/personal signal
+- [`shared_data/stocks/WIKIPEDIA_SEC_GUIDE.md`](external/shared_data/stocks/WIKIPEDIA_SEC_GUIDE.md) — owner-permitted: no secret/personal signal
+
+### skyra
+
+- [`skyra/KNOWN_ISSUES.md`](external/skyra/KNOWN_ISSUES.md) — owner-permitted: no secret/personal signal
+- [`skyra/mcp-servers/computer_control/SECURITY.md`](external/skyra/mcp-servers/computer_control/SECURITY.md) — owner-permitted: no secret/personal signal
+- [`skyra/mcp-servers/README.md`](external/skyra/mcp-servers/README.md) — owner-permitted: no secret/personal signal
+- [`skyra/PHASE1_COMPLETE.md`](external/skyra/PHASE1_COMPLETE.md) — owner-permitted: no secret/personal signal
+- [`skyra/QUICKSTART.md`](external/skyra/QUICKSTART.md) — owner-permitted: no secret/personal signal
+- [`skyra/README.md`](external/skyra/README.md) — owner-permitted: no secret/personal signal
+- [`skyra/SETUP_COMPLETE.md`](external/skyra/SETUP_COMPLETE.md) — owner-permitted: no secret/personal signal
+
+### Spider
+
+- [`Spider/project_steps.md`](external/Spider/project_steps.md) — owner-permitted: no secret/personal signal
+
+### squeezeScraper
+
+- [`squeezeScraper/files/AGENTS.md`](external/squeezeScraper/files/AGENTS.md) — owner-permitted: no secret/personal signal
+- [`squeezeScraper/files/QUICK_START.md`](external/squeezeScraper/files/QUICK_START.md) — owner-permitted: no secret/personal signal
+- [`squeezeScraper/files/README.md`](external/squeezeScraper/files/README.md) — owner-permitted: no secret/personal signal
+- [`squeezeScraper/files/requirements.txt`](external/squeezeScraper/files/requirements.txt) — owner-permitted: no secret/personal signal
+- [`squeezeScraper/files/TECH_SPEC.md`](external/squeezeScraper/files/TECH_SPEC.md) — owner-permitted: no secret/personal signal
 
 ### terminal-space-program
 
-- [`terminal-space-program/NOTICE.md`](external/terminal-space-program/NOTICE.md) — public GitHub repo + public-facing document name
-- [`terminal-space-program/README.md`](external/terminal-space-program/README.md) — public GitHub repo + public-facing document name
-- [`terminal-space-program/SECURITY.md`](external/terminal-space-program/SECURITY.md) — public GitHub repo + public-facing document name
+- [`terminal-space-program/CONTEXT.md`](external/terminal-space-program/CONTEXT.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/docs/agents/domain.md`](external/terminal-space-program/docs/agents/domain.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/docs/agents/issue-tracker.md`](external/terminal-space-program/docs/agents/issue-tracker.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/docs/agents/triage-labels.md`](external/terminal-space-program/docs/agents/triage-labels.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/docs/controls.md`](external/terminal-space-program/docs/controls.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/docs/version-history.md`](external/terminal-space-program/docs/version-history.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/NOTICE.md`](external/terminal-space-program/NOTICE.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/README.md`](external/terminal-space-program/README.md) — owner-permitted: no secret/personal signal
+- [`terminal-space-program/SECURITY.md`](external/terminal-space-program/SECURITY.md) — owner-permitted: no secret/personal signal
+
+### toolsHub
+
+- [`toolsHub/backend/ENV_SETUP.md`](external/toolsHub/backend/ENV_SETUP.md) — owner-permitted: no secret/personal signal
+- [`toolsHub/backend/PREDICTION_HISTORY_FEATURE.md`](external/toolsHub/backend/PREDICTION_HISTORY_FEATURE.md) — owner-permitted: no secret/personal signal
+- [`toolsHub/backend/requirements.txt`](external/toolsHub/backend/requirements.txt) — owner-permitted: no secret/personal signal
+- [`toolsHub/frontend/README.md`](external/toolsHub/frontend/README.md) — owner-permitted: no secret/personal signal
+- [`toolsHub/INTEGRATION_SUMMARY.md`](external/toolsHub/INTEGRATION_SUMMARY.md) — owner-permitted: no secret/personal signal
+- [`toolsHub/LSTM_INTEGRATION.md`](external/toolsHub/LSTM_INTEGRATION.md) — owner-permitted: no secret/personal signal
+- [`toolsHub/README.md`](external/toolsHub/README.md) — owner-permitted: no secret/personal signal
+
+### trading-agent-system
+
+- [`trading-agent-system/CLAUDE.md`](external/trading-agent-system/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/knowledge/context/agent_specific_notes.md`](external/trading-agent-system/knowledge/context/agent_specific_notes.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/knowledge/shared/best-practices.md`](external/trading-agent-system/knowledge/shared/best-practices.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/knowledge/shared/company-policies.md`](external/trading-agent-system/knowledge/shared/company-policies.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/knowledge/shared/multi-country-bot-trading.md`](external/trading-agent-system/knowledge/shared/multi-country-bot-trading.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/knowledge/summaries/advances_financial_ml_lopez.md`](external/trading-agent-system/knowledge/summaries/advances_financial_ml_lopez.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/knowledge/summaries/algorithmic_trading_chan.md`](external/trading-agent-system/knowledge/summaries/algorithmic_trading_chan.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/README.md`](external/trading-agent-system/README.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/requirements.txt`](external/trading-agent-system/requirements.txt) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/TECH_DOC.md`](external/trading-agent-system/TECH_DOC.md) — owner-permitted: no secret/personal signal
+- [`trading-agent-system/TICKER_DISCOVER.md`](external/trading-agent-system/TICKER_DISCOVER.md) — owner-permitted: no secret/personal signal
+
+### vpn
+
+- [`vpn/README.md`](external/vpn/README.md) — owner-permitted: no secret/personal signal
 
 ### website
 
-- [`website/tali-portfolio/README.md`](external/website/tali-portfolio/README.md) — public GitHub repo + public-facing document name
+- [`website/tali-portfolio/CHATBOT_KNOWLEDGE_BASE.md`](external/website/tali-portfolio/CHATBOT_KNOWLEDGE_BASE.md) — owner-permitted: no secret/personal signal
+- [`website/tali-portfolio/chatbot_memory_implementation_plan.md`](external/website/tali-portfolio/chatbot_memory_implementation_plan.md) — owner-permitted: no secret/personal signal
+- [`website/tali-portfolio/DEPLOYMENT.md`](external/website/tali-portfolio/DEPLOYMENT.md) — owner-permitted: no secret/personal signal
+- [`website/tali-portfolio/docs/chatbot-status.md`](external/website/tali-portfolio/docs/chatbot-status.md) — owner-permitted: no secret/personal signal
+- [`website/tali-portfolio/docs/cicd-setup.md`](external/website/tali-portfolio/docs/cicd-setup.md) — owner-permitted: no secret/personal signal
+- [`website/tali-portfolio/docs/portfolio_redesign.plan.md`](external/website/tali-portfolio/docs/portfolio_redesign.plan.md) — owner-permitted: no secret/personal signal
+- [`website/tali-portfolio/README.md`](external/website/tali-portfolio/README.md) — owner-permitted: no secret/personal signal
+
+### wordBot
+
+- [`wordBot/CLAUDE.md`](external/wordBot/CLAUDE.md) — owner-permitted: no secret/personal signal
+- [`wordBot/PYAUDIO_INSTALLATION_GUIDE.md`](external/wordBot/PYAUDIO_INSTALLATION_GUIDE.md) — owner-permitted: no secret/personal signal
+- [`wordBot/README_voice_cloner.md`](external/wordBot/README_voice_cloner.md) — owner-permitted: no secret/personal signal
+- [`wordBot/requirements.txt`](external/wordBot/requirements.txt) — owner-permitted: no secret/personal signal

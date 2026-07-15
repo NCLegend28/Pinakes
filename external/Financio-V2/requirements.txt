@@ -1,0 +1,97 @@
+# Bot dependencies
+gym==0.26.2
+alpaca-py
+webull-openapi-python-sdk  # Webull broker support (ACTIVE_BROKER=webull)
+plotly>=5.18.0             # Interactive backtest charts
+numpy==2.2.6
+pandas==2.2.3
+pandas_market_calendars==5.0.0
+# pandas_ta — install separately (PyPI version requires Python 3.12+, use git source on 3.10):
+# pip install git+https://github.com/twopirllc/pandas-ta.git@main
+requests==2.32.3
+schedule==1.2.2
+scikit-learn==1.6.1
+scipy==1.15.3
+matplotlib==3.10.3
+seaborn==0.13.2
+torch>=2.3.0
+xgboost==3.0.2
+joblib==1.4.2
+ipython==8.27.0
+python-dotenv==1.1.0   
+stable-baselines3==2.6.0
+shimmy>=2.0
+optuna
+optuna-integration[xgboost]>=3.0
+
+# Sentiment analysis dependencies
+aiohttp>=3.8.0
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+nltk>=3.8.1
+beautifulsoup4>=4.12.0
+tweepy>=4.14.0
+praw>=7.7.0
+
+# LSTM Predictor dependencies
+yfinance>=0.2.28
+tensorflow>=2.13.0
+keras>=2.13.0
+
+# Backend dependencies
+annotated-types==0.7.0
+anyio==4.9.0
+certifi==2025.4.26
+click==8.1.8
+dnspython==2.7.0
+email_validator==2.2.0
+exceptiongroup==1.3.0
+fastapi==0.115.12
+fastapi-cli==0.0.7
+h11==0.16.0
+httpcore==1.0.9
+httptools==0.6.4
+httpx==0.28.1
+idna==3.10
+Jinja2==3.1.6
+markdown-it-py==3.0.0
+MarkupSafe==3.0.2
+mdurl==0.1.2
+pydantic==2.11.5
+pydantic_core==2.33.2
+Pygments==2.19.1
+python-dateutil==2.9.0.post0
+python-dotenv==1.1.0
+python-multipart==0.0.20
+pytz==2025.2
+PyYAML==6.0.2
+rich==14.0.0
+rich-toolkit==0.14.6
+shellingham==1.5.4
+six==1.17.0
+sniffio==1.3.1
+starlette==0.46.2
+supabase>=2.0.0
+psycopg2-binary>=2.9.0
+typer==0.15.4
+typing-inspection==0.4.1
+typing_extensions==4.13.2
+tzdata==2025.2
+uvicorn==0.34.2
+uvloop==0.21.0
+watchfiles==1.0.5
+websockets==15.0.1
+redis>=5.0.0
+
+# Development/Testing dependencies
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+
+langgraph
+langchain-anthropic
+confluent-kafka
+openai
+pdfplumber
+
+pyarrow
+fastparquet

@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+openai
+anthropic
+chromadb
+sentence-transformers
+pypdf
+python-dotenv
+requests
+pydantic

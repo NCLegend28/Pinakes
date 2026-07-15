@@ -1,0 +1,48 @@
+# Financio-V2 VPS runtime requirements (unified bot + backend image)
+#
+# Scope: ONLY what the production multi-bot entrypoint
+# (run_multi_bot_production.py) and the FastAPI backend actually import.
+# torch / tensorflow / stable-baselines3 are NOT needed by this path and are
+# intentionally excluded to keep the VPS image small. If you switch the bot
+# CMD to the single-bot path (financio_src.trade), add them back.
+
+# Core data
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+pandas_market_calendars==5.0.0
+
+# ML (XGBoost classifiers per ticker)
+xgboost==3.0.2
+scikit-learn==1.6.1
+joblib==1.4.2
+
+# Broker / market data
+alpaca-py==0.42.0
+
+# Coordination
+redis==5.2.1
+
+# Scheduling & utilities
+schedule==1.2.2
+requests==2.32.3
+python-dotenv==1.1.0
+PyYAML==6.0.2
+
+# Sentiment (bridge reads Morgans files; native collector modules import these)
+aiohttp>=3.8.0
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+nltk>=3.8.1
+beautifulsoup4>=4.12.0
+tweepy>=4.14.0
+praw>=7.7.0
+
+# Backend API
+fastapi==0.115.12
+uvicorn==0.34.2
+websockets==15.0.1
+pydantic==2.11.5
+python-multipart==0.0.20
+email_validator==2.2.0
+httpx==0.28.1

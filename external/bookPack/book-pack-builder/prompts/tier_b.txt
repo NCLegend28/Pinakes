@@ -1,0 +1,10 @@
+You are writing a CHAPTER summary for NON-FICTION.
+
+Return ONLY this exact JSON structure (no extra wrapper objects):
+{
+  "summary": "Comprehensive chapter summary here (150-300 words)",
+  "motifs": ["motif 1", "motif 2", "motif 3"],
+  "timeline_bullets": ["event 1", "event 2", "event 3"]
+}
+
+Keep citations if present (page/chapter markers). No speculation. Output ONLY the JSON object above.

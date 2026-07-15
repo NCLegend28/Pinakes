@@ -1,0 +1,13 @@
+Extract NON-FICTION entities (people, organizations, technical terms).
+
+Return ONLY a JSON array (not an object wrapper, just the raw array):
+[
+  {
+    "name": "Entity Name or Term",
+    "role_or_def": "Role/title or definition",
+    "notes": "Additional context",
+    "first_seen": "Location first mentioned"
+  }
+]
+
+No hallucinations. Output ONLY the JSON array, nothing else.

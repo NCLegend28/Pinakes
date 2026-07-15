@@ -1,0 +1,63 @@
+# Unified requirements for Financio-V2 Multi-Bot Trading System
+# Resolves dependency conflicts between requirements.txt, financio_src/requirements.txt, and rl_train/requirements.txt
+
+# Core ML/AI Dependencies - Updated to compatible versions
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
+numpy==2.2.6
+scipy==1.15.3
+
+# Reinforcement Learning
+gym==0.26.2
+stable-baselines3==2.6.0
+shimmy>=2.0
+
+# Financial/Trading APIs
+alpaca-py==0.42.0
+
+# Data Analysis and Processing  
+pandas==2.2.3
+pandas_market_calendars==5.0.0
+pandas_ta==0.3.14b0
+
+# Machine Learning
+scikit-learn==1.6.1
+xgboost==3.0.2
+
+# Optimization
+optuna>=4.0
+optuna-integration[xgboost]>=3.0
+
+# Visualization
+matplotlib==3.10.3
+seaborn==0.13.2
+
+# Utilities
+requests==2.32.3
+schedule==1.2.2
+joblib==1.4.2
+ipython==8.27.0
+python-dotenv==1.1.0
+
+# Web Framework (Optional for multibot - can be minimal)
+fastapi==0.115.12
+uvicorn==0.34.2
+
+# Type hints and validation
+pydantic==2.11.5
+typing-extensions==4.13.2
+
+# System utilities
+click==8.1.8
+rich==14.0.0
+PyYAML==6.0.2
+
+# Sentiment analysis dependencies
+aiohttp>=3.8.0
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+nltk>=3.8.1
+beautifulsoup4>=4.12.0
+tweepy>=4.14.0
+praw>=7.7.0

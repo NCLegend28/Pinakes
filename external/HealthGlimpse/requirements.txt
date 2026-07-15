@@ -1,0 +1,196 @@
+# HealthGlimpse+ Requirements
+# Complete list of Python dependencies for the offline health assistant
+
+# Core Web Framework
+Flask==2.3.3
+Werkzeug==2.3.7
+Jinja2==3.1.2
+MarkupSafe==2.1.3
+itsdangerous==2.1.2
+click==8.1.7
+
+# Data Processing and Analysis
+numpy==1.24.3
+pandas==1.5.3
+
+# HTTP and API
+requests==2.31.0
+urllib3==2.0.4
+
+# Image Processing (for symptom photos)
+Pillow==10.0.1
+opencv-python==4.8.1.78
+
+# Audio Processing (for distress monitoring)
+# Note: These may require additional system dependencies
+sounddevice
+speechrecognition==3.10.0
+pydub==0.25.1
+
+# Scientific Computing
+scipy==1.10.1
+
+# Natural Language Processing (optional, for enhanced text analysis)
+nltk==3.8.1
+
+# Geospatial and Location Services
+folium==0.14.0
+geopy==2.4.0
+
+# Configuration and Environment
+python-dotenv==1.0.0
+
+# Date and Time Utilities
+python-dateutil==2.8.2
+pytz==2023.3
+
+# File and Data Formats
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Cryptography (for secure local storage)
+cryptography==41.0.4
+
+# Utilities
+six==1.16.0
+certifi==2023.7.22
+charset-normalizer==3.2.0
+idna==3.4
+
+# Development and Testing Dependencies
+pytest==7.4.3
+pytest-flask==1.2.0
+pytest-cov==4.1.0
+
+# Code Quality and Formatting
+black==23.9.1
+flake8==6.1.0
+isort==5.12.0
+
+# Documentation
+Sphinx==7.1.2
+sphinx-rtd-theme==1.3.0
+
+# Production Server (optional)
+gunicorn==21.2.0
+supervisor==4.2.5
+
+# Memory and Performance Monitoring
+psutil==5.9.5
+
+# JSON Schema Validation
+jsonschema==4.19.0
+
+# Logging Enhancements
+colorlog==6.7.0
+
+# Progress Bars and CLI Enhancements
+tqdm==4.66.1
+
+# Mathematical Operations
+sympy==1.12
+
+# System Information
+platforminfo==1.0.0
+
+# Audio Format Support
+mutagen==1.47.0
+
+# Network and Connectivity Testing
+ping3==4.0.4
+
+# File System Monitoring
+watchdog==3.0.0
+
+# Configuration File Parsing
+configparser==6.0.0
+PyYAML==6.0.1
+
+# Statistical Analysis
+statistics==1.0.3.5
+
+# Regular Expressions (enhanced)
+regex==2023.8.8
+
+# Caching
+cachetools==5.3.1
+
+# Data Validation
+marshmallow==3.20.1
+
+# Backup and Compression
+zipfile36==0.1.3
+
+# System Compatibility
+typing-extensions==4.7.1
+
+# AI Model Dependencies
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.25.0
+tokenizers>=0.15.0
+sentencepiece>=0.1.99
+
+timm
+# Optional: GPU support
+# torch-audio  # for audio processing
+# torch-vision # for image processing
+
+# Windows-specific dependencies (install only on Windows)
+# pywin32==306; sys_platform == "win32"
+# winsound==1.0; sys_platform == "win32"
+
+# macOS-specific dependencies
+# pyobjc-core==9.2; sys_platform == "darwin"
+# pyobjc-framework-AVFoundation==9.2; sys_platform == "darwin"
+
+# Linux-specific dependencies
+# alsa-utils; sys_platform == "linux"
+# pulseaudio-utils; sys_platform == "linux"
+
+# Optional: Machine Learning (for future AI model integration)
+# tensorflow==2.13.0
+# torch==2.0.1
+# transformers==4.33.2
+# huggingface-hub==0.16.4
+
+# Optional: Database Support (for production)
+# SQLAlchemy==2.0.20
+# sqlite3  # Built into Python
+
+# Optional: Advanced Audio Processing
+# librosa==0.10.1
+# soundfile==0.12.1
+
+# Optional: Advanced Image Processing
+# scikit-image==0.21.0
+# matplotlib==3.7.2
+
+# Optional: Web Scraping (for location data updates)
+# beautifulsoup4==4.12.2
+# selenium==4.11.2
+
+# Note: Some packages may require additional system dependencies:
+# 
+# For pyaudio on Ubuntu/Debian:
+# sudo apt-get install portaudio19-dev python3-pyaudio
+#
+# For pyaudio on CentOS/RHEL:
+# sudo yum install portaudio-devel
+#
+# For pyaudio on macOS:
+# brew install portaudio
+#
+# For opencv-python:
+# May require additional system libraries for full functionality
+#
+# For audio processing on Linux:
+# sudo apt-get install alsa-utils pulseaudio-utils
+#
+# Minimal Installation (Core functionality only):
+# Flask==2.3.3
+# numpy==1.24.3
+# pandas==1.5.3
+# requests==2.31.0
+# Pillow==10.0.1
+# python-dotenv==1.0.0

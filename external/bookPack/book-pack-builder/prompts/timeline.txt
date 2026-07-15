@@ -1,0 +1,13 @@
+Extract chronological events that can be anchored to time.
+
+Return ONLY a JSON array (not an object wrapper, just the raw array):
+[
+  {
+    "date": "YYYY-MM-DD or descriptive time",
+    "event": "Brief description of event",
+    "chapter_id": "Chapter reference if available",
+    "participants": ["Person 1", "Person 2"]
+  }
+]
+
+Keep it minimal and faithful. Output ONLY the JSON array, nothing else.

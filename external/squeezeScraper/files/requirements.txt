@@ -1,0 +1,21 @@
+# Squeeze Hunter System - Python Dependencies
+
+# Reddit API
+praw>=7.7.1
+
+# Alpaca Trading API
+alpaca-py>=0.20.0
+
+# Discord Bot
+discord.py>=2.3.2
+
+# Date/Time handling
+pytz>=2023.3
+
+# Async support (usually included with Python 3.7+)
+asyncio
+
+# Optional but recommended
+python-dotenv>=1.0.0  # For environment variables
+requests>=2.31.0      # HTTP requests
+pandas>=2.1.0         # Data analysis (for future enhancements)

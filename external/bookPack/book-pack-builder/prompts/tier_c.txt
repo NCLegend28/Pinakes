@@ -1,0 +1,10 @@
+You are writing a BOOK-LEVEL summary for NON-FICTION.
+
+Return ONLY this exact JSON structure (no extra wrapper objects):
+{
+  "summary_spoiler_safe": "Brief overview without spoiling key insights (2-3 sentences)",
+  "summary_full": "Complete comprehensive summary (3-5 paragraphs)",
+  "theme_map": ["theme 1", "theme 2", "theme 3", "theme 4", "theme 5"]
+}
+
+Avoid long quotes. Output ONLY the JSON object above, nothing else.

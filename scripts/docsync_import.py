@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Import affirmatively public project documents into Pinakes.
+"""Import owner-permitted project documents into Pinakes.
 
 This script walks /Volumes/samsungT7/projects, classifies text documents with a
-fail-safe policy, copies only public-facing documents into external/, and writes
-MANIFEST.json + INDEX.md. Internal/ambiguous documents are written only to the
-ignored local REVIEW.private.md queue so private path/content does not get pushed
-to the public Pinakes repo.
+safety-first policy, copies permitted documents into external/, and writes
+MANIFEST.json + INDEX.md. Documents with secrets, credentials, or personal/private
+signals such as Elijah are written only to the ignored local REVIEW.private.md queue
+so they do not get pushed to the public Pinakes repo.
 """
 from __future__ import annotations
 
@@ -35,7 +35,7 @@ SKIP_DIRS = {
     'dist', 'build', '.next', 'DerivedData', '.dart_tool', '.gradle', 'Pods',
     '__pycache__', '.pytest_cache', '.mypy_cache', '.ruff_cache',
     'target', 'vendor', 'vendors', 'third_party', 'third-party', 'external',
-    'vcpkg', 'site-packages', '.cache', '.tox', 'coverage', '.coverage',
+    'vcpkg', 'vcpkg_installed', 'site-packages', '.cache', 'cache', 'fastembed_cache', '.tox', 'coverage', '.coverage',
     'uploads', 'tmp', 'temp', 'logs', '.obsidian',
 }
 PUBLIC_PATH_SEGMENTS = {'public'}
@@ -56,10 +56,28 @@ INTERNAL_NAME_HINTS = (
 )
 SECRET_PATTERNS = [
     re.compile(r'-----BEGIN [A-Z0-9 ]*PRIVATE KEY-----'),
-    re.compile(r'(?i)\b(api[_-]?key|secret|password|passwd|token|bearer|private[_-]?key)\b\s*[:=]'),
-    re.compile(r'(?i)\b[A-Z0-9_]*(TOKEN|SECRET|PASSWORD|API_KEY)\b'),
+    re.compile(r'(?i)\bBearer\s+[A-Za-z0-9._~+/=-]{20,}'),
+    re.compile(r'(?i)\b(seed phrase|recovery phrase|mnemonic)\b'),
     re.compile(r'ghp_[A-Za-z0-9_]{20,}'),
     re.compile(r'sk-[A-Za-z0-9]{20,}'),
+    re.compile(r'sb_secret_[A-Za-z0-9_-]{20,}'),
+]
+CREDENTIAL_ASSIGNMENT_RE = re.compile(
+    r'''(?ix)
+    ^\s*(?:export\s+)?
+    [A-Z0-9_]*(?:API[_-]?KEY|SECRET|PASSWORD|PASSWD|TOKEN|PRIVATE[_-]?KEY)
+    \s*[:=]\s*["']?(?P<value>[^"'\s#,`]+)
+    '''
+)
+PERSONAL_PATH_HINTS = (
+    'elijah', 'people', 'person', 'personal', 'private', 'family', 'journal',
+    'diary', 'therapy', 'medical', 'health', 'self', 'contacts', 'contact',
+    'me', 'cv', 'resume', 'résumé', 'interview-prep', 'story-bank',
+    'conversations', 'conversation', 'daily',
+)
+PERSONAL_PATTERNS = [
+    re.compile(r'(?i)\bElijah\b'),
+    re.compile(r'(?i)^\s*(ssn|social security|date of birth|dob|home address)\s*[:=]', re.M),
 ]
 FRONTMATTER_RE = re.compile(r'\A---\s*\n(.*?)\n---\s*\n', re.S)
 VISIBILITY_RE = re.compile(r'^\s*visibility\s*:\s*(internal|external)\s*$', re.I | re.M)
@@ -158,8 +176,37 @@ def frontmatter_visibility(text: str) -> str | None:
 
 
 def has_secret_signal(text: str) -> bool:
+    if any(p.search(text) for p in SECRET_PATTERNS):
+        return True
+    placeholder_prefixes = ('change-me', 'changeme', 'example', 'your_', 'your-', '<', '$', 'redacted', 'credentials.', 'process.env')
+    for line in text.splitlines():
+        m = CREDENTIAL_ASSIGNMENT_RE.search(line)
+        if not m:
+            continue
+        value = m.group('value').strip().strip('"\'')
+        lower = value.lower()
+        if not value or lower in {'none', 'null', 'true', 'false'}:
+            continue
+        if lower.startswith(placeholder_prefixes):
+            continue
+        if re.fullmatch(r'[A-Za-z_][A-Za-z0-9_]*(\.[A-Za-z_][A-Za-z0-9_]*)+', value):
+            # Code variable/property reference, not an embedded secret value.
+            continue
+        if len(value) >= 12:
+            return True
+    return False
+
+
+def has_personal_signal(path: Path, text: str) -> bool:
+    rel_parts = [part.lower() for part in path.relative_to(PROJECTS_ROOT).parts]
+    rel_joined = '/'.join(rel_parts)
+    if 'elijah' in rel_joined:
+        return True
+    stems = {Path(part).stem.lower() for part in rel_parts}
+    if any(part in PERSONAL_PATH_HINTS for part in rel_parts) or any(stem in PERSONAL_PATH_HINTS for stem in stems):
+        return True
     sample = text[:8000]
-    return any(p.search(sample) for p in SECRET_PATTERNS)
+    return any(p.search(sample) for p in PERSONAL_PATTERNS)
 
 
 def is_public_path(path: Path, project_root: Path) -> bool:
@@ -200,30 +247,18 @@ def iter_documents() -> Iterable[Path]:
 
 
 def classify(path: Path) -> tuple[str, str, str]:
-    project_root = path.relative_to(PROJECTS_ROOT).parts[0]
-    top = PROJECTS_ROOT / project_root
     try:
         text = path.read_text(encoding='utf-8', errors='replace')
     except Exception as e:
         return 'internal', 'low', f'unreadable: {e}'
 
-    vis = frontmatter_visibility(text)
-    if vis:
-        if vis == 'external' and has_secret_signal(text):
-            return 'internal', 'low', 'frontmatter external overridden by secret signal'
-        return vis, 'high', f'frontmatter visibility: {vis}'
-
     if has_secret_signal(text):
         return 'internal', 'high', 'secret/credential signal'
 
-    if is_public_path(path, top) and not internal_name_hint(path):
-        return 'external', 'high', 'public path segment'
+    if has_personal_signal(path, text):
+        return 'internal', 'high', 'personal/private signal'
 
-    git_root = discover_git_root(path)
-    if git_repo_is_public(git_root) and public_name_hint(path) and not internal_name_hint(path):
-        return 'external', 'high', 'public GitHub repo + public-facing document name'
-
-    return 'internal', 'low', 'not affirmatively public-facing'
+    return 'external', 'high', 'owner-permitted: no secret/personal signal'
 
 
 def safe_dest(path: Path) -> Path:
@@ -271,7 +306,7 @@ def main() -> int:
     data = {
         'generated_utc': datetime.now(timezone.utc).isoformat(timespec='seconds'),
         'projects_root': str(PROJECTS_ROOT),
-        'policy': 'fail-safe: copy only documents affirmatively classified external; private review queue is gitignored',
+        'policy': 'owner-permitted: copy all scanned documents except those with secret/credential or personal/private signals; private review queue is gitignored',
         'total_candidates': total,
         'imported_count': len(manifest),
         'review_count': len(review),
@@ -285,10 +320,10 @@ def main() -> int:
         f'Generated: `{data["generated_utc"]}`',
         '',
         f'- Candidate documents scanned: **{total}**',
-        f'- Public documents imported: **{len(manifest)}**',
-        f'- Internal/ambiguous documents held for private review: **{len(review)}**',
+        f'- Owner-permitted documents imported: **{len(manifest)}**',
+        f'- Secret/personal documents held for private review: **{len(review)}**',
         '',
-        'Only affirmatively public-facing documents are copied into this public repo. Internal and ambiguous files are not included.',
+        'Documents are copied unless they contain secret/credential or personal/private signals. Held files are not included in this public repo.',
         '',
         '## Imported documents',
         '',
@@ -308,7 +343,7 @@ def main() -> int:
         '# Pinakes Private Review Queue',
         '',
         'This file is intentionally gitignored because source paths may reveal private project details.',
-        'Review entries here manually; add `visibility: external` frontmatter to any source document that is safe to publish, then rerun `scripts/docsync_import.py`.',
+        'Review entries here manually. Files here matched secret/credential or personal/private safety filters and are not safe to publish until cleaned.',
         '',
         f'Generated: `{data["generated_utc"]}`',
         f'Total held: **{len(review)}**',

@@ -1,0 +1,11 @@
+You are compressing NON-FICTION prose at CHUNK level.
+
+Return ONLY this exact JSON structure (no extra wrapper objects):
+{
+  "bullets": ["point 1", "point 2", "point 3"],
+  "salient": ["key phrase 1 (max 90 chars)", "key phrase 2"],
+  "entities": ["Person Name", "Organization", "Technical Term"],
+  "quotes": [{"text": "quote text here (max 20 words)", "loc": "page 42"}]
+}
+
+Be faithful and specific; avoid interpretation. Output ONLY the JSON object above.

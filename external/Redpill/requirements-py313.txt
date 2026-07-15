@@ -1,0 +1,37 @@
+# Requirements compatible with Python 3.13
+# Install these for Python 3.13 compatibility
+
+# Core trading dependencies
+ccxt>=4.2.0
+pandas>=2.0.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+
+# TA-Lib - may need special installation for Python 3.13
+# Install manually: pip install --no-binary :all: TA-Lib
+
+# Web framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.25.0
+pydantic>=2.5.0
+
+# HTTP and async
+aiohttp>=3.9.0
+requests>=2.31.0
+websockets>=12.0
+
+# Configuration and utilities
+python-dotenv>=1.0.0
+python-dateutil>=2.8.2
+
+# Optional caching
+redis>=5.0.0
+
+# Development tools (optional)
+pytest>=7.0.0
+black>=23.0.0
+
+# Data visualization (optional)
+matplotlib>=3.8.0
+plotly>=5.17.0
