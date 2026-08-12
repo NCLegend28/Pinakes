@@ -1,12 +1,13 @@
-# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2)
+# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2 + 3)
 
 Canonical state record. Updated only for real, verified, non-broken change (Pinakes covenant).
 
 - Repo: `NCLegend28/Financio-V2` (`main`)
-- Verified at commit: `25e07d3f` (pushed to `origin/main`)
+- Verified at commit: `ee3abf21` (pushed to `origin/main`)
 - Capital model: **one strategy per broker account** (Trend / ML / ML+Trend), each with its own Alpaca paper account and dedicated credentials. No shared/global fallback for scoped or aggregated views.
-- Verification: targeted suite `126 passed, 5 warnings` across
+- Verification: targeted suite `146 passed, 5 warnings` across
   `tests/test_portfolio_aggregator.py`, `tests/test_aggregate_equity_curve.py`,
+  `tests/test_reconciliation.py`, `tests/test_verify_dashboard_vs_alpaca.py`,
   `tests/test_dashboard_truth_metrics.py`, `tests/test_strategy_deployments.py`,
   `tests/test_strategy_routing.py`, `tests/test_config_dotenv_loading.py`.
   Each subtask cleared spec + code-quality + integration review before landing.
@@ -38,9 +39,19 @@ Server-side fan-out across every active deployment's own broker. `scope=all` is 
   - Equity curve: combined + per-strategy overlays; union timeline with carry-forward only after each account's first point (no synthetic pre-history); timestamps normalized to epoch-ms UTC; latest-point-anchored range filtering; `source: "aggregated_alpaca_portfolio_history"`.
 - Rows tagged with `strategy_id`, `strategy_name`, `deployment_id`, `account_id`, `account_display_name`. A fourth strategy is picked up automatically from config — no hardcoded strategy list.
 
+## Phase 3 — Reconciliation (Alpaca is the validation) (DONE, verified)
+
+Guarantee: the dashboard's numbers are checkable against fresh broker truth on demand. An account that can't be verified is a FAILED validation, never a silent skip.
+
+- `GET /api/reconciliation`: for each active deployment, a FRESH cache-bypassed strict-path broker read (equity, cash, positions_count, open_orders_count) is compared to a simultaneously-built aggregate snapshot (`PortfolioAggregator(cache_ttl_s=0, include_open_orders=True)`) at **$0.01 tolerance**. One shared `as_of` across both sides.
+- Response: `as_of`, `tolerance_usd`, `accounts[{deployment_id, account_id, alpaca, dashboard, delta_equity, matches, error?}]`, `sum_check{dashboard_total_equity, alpaca_sum_equity, matches}`, `all_match`.
+- Fresh reads run concurrently, each bounded by a per-account timeout (`FINANCIO_AGGREGATE_PER_ACCOUNT_TIMEOUT_S`, default 8s); a stalled broker becomes a `broker_snapshot_timeout` failure rather than hanging the request.
+- Errored / timed-out / aggregate-excluded accounts carry a safe error code (`credentials_unavailable`, `broker_snapshot_unavailable`, `broker_snapshot_timeout`), `matches: false`, forcing `all_match: false`. No raw exception/secret text. Strict-JSON safe. Never touches the global/legacy broker.
+- The aggregator change is a backward-compatible opt-in (`include_open_orders` off by default); exact-sum invariant, JSON safety, and TTL cache untouched.
+- `scripts/verify_dashboard_vs_alpaca.py`: dependency-light stdlib-urllib CLI hitting `{--base-url}/api/reconciliation` (default `http://localhost:8000`, `--timeout`, `--json`). Prints a per-account table + sum-check + overall PASS/FAIL. **Exit 0 only when `all_match` is true**; any fetch failure (non-200, malformed/non-dict JSON, connection error, missing `all_match`) is a FAILED verification -> exit 1 with a clean one-line error (no traceback). Runnable on the VPS next to the backend container.
+
 ## Not yet done
 
-- Phase 3 — Reconciliation (`/api/reconciliation` + `scripts/verify_dashboard_vs_alpaca.py`, fresh cache-bypassed Alpaca reads diffed vs the aggregate snapshot at $0.01 tolerance).
 - Phase 4 — `/api/active-bots` real per-account values.
 - Phase 5 — Frontend (deployment-driven selector, allocation panel, combined curve overlays, 424/excluded states).
 - Phase 6 — Deploy + live verification.
