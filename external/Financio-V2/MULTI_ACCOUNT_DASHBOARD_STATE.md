@@ -1,11 +1,11 @@
-# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2 + 3)
+# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2 + 3 + 4)
 
 Canonical state record. Updated only for real, verified, non-broken change (Pinakes covenant).
 
 - Repo: `NCLegend28/Financio-V2` (`main`)
-- Verified at commit: `ee3abf21` (pushed to `origin/main`)
+- Verified at commit: `84fd94e1` (pushed to `origin/main`)
 - Capital model: **one strategy per broker account** (Trend / ML / ML+Trend), each with its own Alpaca paper account and dedicated credentials. No shared/global fallback for scoped or aggregated views.
-- Verification: targeted suite `146 passed, 5 warnings` across
+- Verification: targeted suite `152 passed, 5 warnings` across
   `tests/test_portfolio_aggregator.py`, `tests/test_aggregate_equity_curve.py`,
   `tests/test_reconciliation.py`, `tests/test_verify_dashboard_vs_alpaca.py`,
   `tests/test_dashboard_truth_metrics.py`, `tests/test_strategy_deployments.py`,
@@ -50,8 +50,24 @@ Guarantee: the dashboard's numbers are checkable against fresh broker truth on d
 - The aggregator change is a backward-compatible opt-in (`include_open_orders` off by default); exact-sum invariant, JSON safety, and TTL cache untouched.
 - `scripts/verify_dashboard_vs_alpaca.py`: dependency-light stdlib-urllib CLI hitting `{--base-url}/api/reconciliation` (default `http://localhost:8000`, `--timeout`, `--json`). Prints a per-account table + sum-check + overall PASS/FAIL. **Exit 0 only when `all_match` is true**; any fetch failure (non-200, malformed/non-dict JSON, connection error, missing `all_match`) is a FAILED verification -> exit 1 with a clean one-line error (no traceback). Runnable on the VPS next to the backend container.
 
+## Phase 4 — Active bots real per-account values (DONE, verified)
+
+Guarantee: `/api/active-bots` no longer fabricates bot money metrics from local trade notionals when active deployments exist. The dashboard bot cards now reflect each deployment account's broker-backed aggregate row, or show honest nulls when the account is unavailable.
+
+- `/api/active-bots` and `/active-bots` remain aliases; the endpoint is async and uses `PortfolioAggregator` with normal TTL cache behavior (not reconciliation's `cache_ttl_s=0`).
+- Active deployments use the strict `_broker_for_deployment(deployment)` path only; no global/legacy broker fallback.
+- Successful account rows emit numeric-or-null dashboard fields sourced from the aggregate account row:
+  - `profit` = `day_pnl`
+  - `profitPercent` = `day_pnl_pct`
+  - `totalReturn` / `totalReturnPct`
+  - `equity`
+  - `dataSource: "deployment_broker"`
+- Failed/excluded deployments still appear in the bot list with `profit`, `profitPercent`, `totalReturn`, `totalReturnPct`, and `equity` all `null`, plus `dataSource: "unavailable"`. No dropped strategies, no fake zeroes, no fake strings.
+- `trades` remains the local scoped trade count and is explicitly labeled `trades_source: "local_records"`; identity fields (`id`, `name`, `accountId`, `deploymentId`, `strategy`, `strategyId`, status/isRunning/lastTradeTime) are preserved.
+- Strict JSON safety is guarded: malformed, non-finite, and oversized finite numeric values (for example `"1e309"`) become `null`, never `NaN`/`Infinity`.
+- Zero active deployments keep the legacy SQL grouped-by-strategy branch and do not touch the aggregator.
+
 ## Not yet done
 
-- Phase 4 — `/api/active-bots` real per-account values.
 - Phase 5 — Frontend (deployment-driven selector, allocation panel, combined curve overlays, 424/excluded states).
 - Phase 6 — Deploy + live verification.
