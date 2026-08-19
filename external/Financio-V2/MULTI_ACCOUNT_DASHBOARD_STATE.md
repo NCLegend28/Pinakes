@@ -1,15 +1,16 @@
-# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2 + 3 + 4)
+# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2 + 3 + 4 + 5)
 
 Canonical state record. Updated only for real, verified, non-broken change (Pinakes covenant).
 
 - Repo: `NCLegend28/Financio-V2` (`main`)
-- Verified at commit: `84fd94e1` (pushed to `origin/main`)
+- Verified at commit: `788849b9` (pushed to `origin/main`)
 - Capital model: **one strategy per broker account** (Trend / ML / ML+Trend), each with its own Alpaca paper account and dedicated credentials. No shared/global fallback for scoped or aggregated views.
-- Verification: targeted suite `152 passed, 5 warnings` across
-  `tests/test_portfolio_aggregator.py`, `tests/test_aggregate_equity_curve.py`,
-  `tests/test_reconciliation.py`, `tests/test_verify_dashboard_vs_alpaca.py`,
-  `tests/test_dashboard_truth_metrics.py`, `tests/test_strategy_deployments.py`,
-  `tests/test_strategy_routing.py`, `tests/test_config_dotenv_loading.py`.
+- Verification: targeted suite `164 passed, 5 warnings` across
+  `tests/test_strategy_deployments.py`, `tests/test_portfolio_aggregator.py`,
+  `tests/test_aggregate_equity_curve.py`, `tests/test_reconciliation.py`,
+  `tests/test_verify_dashboard_vs_alpaca.py`, `tests/test_dashboard_truth_metrics.py`,
+  `tests/test_frontend_production_dashboard.py`, `tests/test_config_dotenv_loading.py`,
+  `tests/test_strategy_routing.py`; Python compile passed; same-origin Vite production build passed.
   Each subtask cleared spec + code-quality + integration review before landing.
 
 ## Phase 1 — Strict credential scoping (DONE, verified)
@@ -67,7 +68,25 @@ Guarantee: `/api/active-bots` no longer fabricates bot money metrics from local 
 - Strict JSON safety is guarded: malformed, non-finite, and oversized finite numeric values (for example `"1e309"`) become `null`, never `NaN`/`Infinity`.
 - Zero active deployments keep the legacy SQL grouped-by-strategy branch and do not touch the aggregator.
 
+## Phase 5 — Frontend aggregate strategy dashboard (DONE, verified)
+
+Guarantee: the React dashboard's `All strategies` view now requests the real multi-account aggregate backend (`scope=all`) and presents partial-data states honestly. The frontend no longer carries the dormant Supabase tier.
+
+- `dashboard/src/services/financioApiService.ts` supports `scope?: "all"` and serializes `scope=all` for `/api/dashboard-data`, `/api/equity-curve`, `/api/portfolio-positions`, and `/api/order-history`, while preserving `deployment_id` / `account_id` scoped params. It also exposes `getReconciliation()` and aggregate response interfaces for the dashboard.
+- `AITradingDashboard.tsx` maps selector `botId === "all"` to `{scope: "all"}` — never legacy unscoped. Strategy-specific selections remain deployment/account scoped; HTTP 424 surfaces as `Credentials for this strategy's account are not configured` instead of showing another account's cached numbers.
+- Selector copy is `Strategy` / `All strategies`; options come from `/active-bots` deployment-shaped rows, displaying strategy and account names. There is no hardcoded Trend/ML/Hybrid selector array; a fourth deployment gets the next palette color automatically.
+- All view KPIs use aggregate `totals` fields: equity/current value, cash, day P&L, total return, unrealized P&L, positions, and account count. Partial sums are labeled when accounts are excluded.
+- New `StrategyAllocationPanel` renders equity share, signed day-P&L contribution, and return-% by strategy account from aggregate account rows (`equity_share_pct`, `pnl_contribution_pct`, `total_return_pct`, `equity`, `day_pnl`).
+- Aggregate equity chart renders the combined line by default, with a per-strategy overlay toggle. It uses `timestampMs` with Recharts numeric time axis (`type="number"`, `scale="time"`) so range changes are visually meaningful.
+- Trades and orders show strategy badges in All view using backend row tags. `OrderHistoryTab` receives the active API scope (`scope=all`, `deployment_id`, or `account_id`) and no longer silently calls unscoped order history.
+- Aggregate optional panels use `.catch()` fallbacks so a failable side panel cannot blank the core dashboard.
+- Dormant Supabase frontend/env tier removed:
+  - `dashboard/src/integrations/supabase/` and `dashboard/src/services/supabaseClient.ts` deleted.
+  - `@supabase/supabase-js` removed from `dashboard/package.json` and lockfile.
+  - `VITE_SUPABASE_*` compose build args and `SUPABASE_*` / `VITE_SUPABASE_*` template blocks removed.
+  - Source tests assert no Supabase references remain in `dashboard/src`, compose files, env template, and dashboard package files. Durable local store remains SQLite until production-time re-evaluation.
+- Same-origin Vite production build verified with explicit blank overrides: `VITE_API_BASE_URL= VITE_WS_URL= npm run build`.
+
 ## Not yet done
 
-- Phase 5 — Frontend (deployment-driven selector, allocation panel, combined curve overlays, 424/excluded states).
 - Phase 6 — Deploy + live verification.
