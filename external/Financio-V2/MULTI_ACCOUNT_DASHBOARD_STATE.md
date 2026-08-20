@@ -1,17 +1,18 @@
-# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2 + 3 + 4 + 5)
+# Financio V2 — Multi-Account Strategy Dashboard (Phase 1 + 2 + 3 + 4 + 5 + 6)
 
 Canonical state record. Updated only for real, verified, non-broken change (Pinakes covenant).
 
 - Repo: `NCLegend28/Financio-V2` (`main`)
-- Verified at commit: `788849b9` (pushed to `origin/main`)
+- Verified at commit: `788849b9` (pushed to `origin/main`; deployed on VPS `/opt/financio-v2`)
 - Capital model: **one strategy per broker account** (Trend / ML / ML+Trend), each with its own Alpaca paper account and dedicated credentials. No shared/global fallback for scoped or aggregated views.
-- Verification: targeted suite `164 passed, 5 warnings` across
+- Code verification: targeted suite `164 passed, 5 warnings` across
   `tests/test_strategy_deployments.py`, `tests/test_portfolio_aggregator.py`,
   `tests/test_aggregate_equity_curve.py`, `tests/test_reconciliation.py`,
   `tests/test_verify_dashboard_vs_alpaca.py`, `tests/test_dashboard_truth_metrics.py`,
   `tests/test_frontend_production_dashboard.py`, `tests/test_config_dotenv_loading.py`,
   `tests/test_strategy_routing.py`; Python compile passed; same-origin Vite production build passed.
   Each subtask cleared spec + code-quality + integration review before landing.
+- Deployment verification: VPS backend/frontend rebuilt and recreated from `788849b9`; live `/api/reconciliation` verifier returned `overall: PASS`; public IP/domain `/health` and `scope=all` aggregate checks returned healthy three-account data.
 
 ## Phase 1 — Strict credential scoping (DONE, verified)
 
@@ -87,6 +88,31 @@ Guarantee: the React dashboard's `All strategies` view now requests the real mul
   - Source tests assert no Supabase references remain in `dashboard/src`, compose files, env template, and dashboard package files. Durable local store remains SQLite until production-time re-evaluation.
 - Same-origin Vite production build verified with explicit blank overrides: `VITE_API_BASE_URL= VITE_WS_URL= npm run build`.
 
-## Not yet done
+## Phase 6 — VPS deploy + live verification (DONE, verified)
 
-- Phase 6 — Deploy + live verification.
+Guarantee: the pushed Phase 5 dashboard build is running on the VPS against real Alpaca paper account reads, and the aggregate dashboard total matches fresh broker truth.
+
+- VPS checkout `/opt/financio-v2` fast-forwarded to `788849b9`; `backend` and `frontend` rebuilt/recreated with `docker compose -p financio-clean -f docker-compose.production.yml up -d --build backend frontend`.
+- Runtime config was completed without exposing secrets:
+  - dedicated credential names present for `PAPER_ALPACA_API_KEY_TREND` / `PAPER_ALPACA_SECRET_KEY_TREND`, `PAPER_ALPACA_API_KEY_ML` / `PAPER_ALPACA_SECRET_KEY_ML`, and `PAPER_ALPACA_API_KEY_HYBRID` / `PAPER_ALPACA_SECRET_KEY_HYBRID`;
+  - `FINANCIO_STRATEGY_DEPLOYMENTS` added on the VPS to map `trend-paper`, `ml-paper`, and `hybrid-paper` to the dedicated env-var names;
+  - `ALLOWED_HOSTS` updated for `116.203.16.160`, `financio.blaqdata.us`, and `www.financio.blaqdata.us` so public nginx/API routing passes host validation.
+- Container health after deploy:
+  - `financio-backend` healthy on `0.0.0.0:8000`;
+  - `financio-frontend` healthy on `0.0.0.0:3000`;
+  - nginx/redis/multi-bot remained running.
+- Live API verification after config fix:
+  - `/api/active-bots` returned 3 bots (`Trend`, `ML`, `ML + Trend`) with `dataSource: "deployment_broker"` and broker equity `10000.0` each.
+  - `/api/dashboard-data?scope=all` returned `scope=all`, `capital_model=one_strategy_per_account`, `accounts=3`, `excluded=0`, `totals.equity="30000.00"`, `totals.cash="30000.00"`, positions `0`.
+  - `/api/equity-curve?scope=all&range=30d` returned combined aggregate history plus 3 per-strategy overlays.
+  - `/api/portfolio-positions?scope=all` returned `positions=0`, `excluded=0`.
+  - `/api/order-history?scope=all&page=1&page_size=5&flatten=true` returned `orders=0`, `excluded=0`, `truncated=false`.
+  - Scoped `dashboard-data`, `equity-curve`, and `order-history` checks passed for `trend-paper`, `ml-paper`, and `hybrid-paper`, all through `deployment_broker`.
+- Live reconciliation CLI: `python3 scripts/verify_dashboard_vs_alpaca.py --base-url http://localhost:8000` returned `overall: PASS`; all three accounts matched broker equity (`10000.00` each), positions `0/0`, orders `0/0`, and sum-check dashboard total `30000.00` equaled Alpaca sum `30000.00` with delta `0.00`.
+- Public route verification: `116.203.16.160`, `financio.blaqdata.us`, and `www.financio.blaqdata.us` all returned healthy `/health` and `scope=all` aggregate data (`3` accounts, `0` excluded, equity `30000.00`).
+- Browser smoke: public dashboard loaded title `🐴 Financio Trading Dashboard`; selector shows `Strategy` / `All strategies`; visible Overview renders `$30,000` cumulative equity, `$30,000` cash, strategy allocation with three 33.33% slices, and aggregate equity chart. Served frontend bundle contains no stale `financio.blaqdata.us` hardcoded API base and no Supabase references.
+
+## Follow-ups / known non-blocking runtime notes
+
+- Backend logs still show `AlpacaStreamer: Alpaca API credentials not configured`; dashboard broker reads and reconciliation pass through dedicated per-deployment credentials, but the market-data websocket path still appears to expect generic credentials or needs equivalent dedicated-config support.
+- Backend logs show `Error reading trading data: no such table: trades`; this affects local trade-record display noise only. Broker-backed account totals, positions, orders, and reconciliation all passed with empty trade/order state.
