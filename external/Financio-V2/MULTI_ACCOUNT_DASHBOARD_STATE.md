@@ -3,7 +3,7 @@
 Canonical state record. Updated only for real, verified, non-broken change (Pinakes covenant).
 
 - Repo: `NCLegend28/Financio-V2` (`main`)
-- Latest verified pushed commit: `04dbb7c2` (modernist frontend redesign, pushed to `origin/main`; not yet VPS-deployed)
+- Latest verified pushed commit: `b60b3917` (reverts the rejected modernist frontend redesign; tree matches last working frontend content from `788849b9`)
 - Current VPS deployed commit: `788849b9` (Phase 6 live deployment in `/opt/financio-v2`)
 - Capital model: **one strategy per broker account** (Trend / ML / ML+Trend), each with its own Alpaca paper account and dedicated credentials. No shared/global fallback for scoped or aggregated views.
 - Code verification: targeted suite `164 passed, 5 warnings` across
@@ -113,25 +113,17 @@ Guarantee: the pushed Phase 5 dashboard build is running on the VPS against real
 - Public route verification: `116.203.16.160`, `financio.blaqdata.us`, and `www.financio.blaqdata.us` all returned healthy `/health` and `scope=all` aggregate data (`3` accounts, `0` excluded, equity `30000.00`).
 - Browser smoke: public dashboard loaded title `🐴 Financio Trading Dashboard`; selector shows `Strategy` / `All strategies`; visible Overview renders `$30,000` cumulative equity, `$30,000` cash, strategy allocation with three 33.33% slices, and aggregate equity chart. Served frontend bundle contains no stale `financio.blaqdata.us` hardcoded API base and no Supabase references.
 
-## Modernist dashboard visual redesign (DONE in code, pushed; not yet deployed)
+## Rejected modernist dashboard redesign (REVERTED)
 
-Guarantee: the frontend shell now uses the visual direction from `Dashboard redesign V2/` while preserving the Phase 5/6 broker-backed data flow and backend API contracts.
-
-- Financio commit `04dbb7c2` (`feat: apply modernist dashboard redesign`) is pushed to `origin/main`; VPS production is still intentionally on `788849b9` until a separate deployment go-ahead.
-- Frontend-only implementation touched `AITradingDashboard.tsx`, `StrategyAllocationPanel.tsx`, `index.css`, and frontend source-inspection tests. No backend files, credential loaders, API adapters, or deployment config were changed.
-- Visual shell now matches the provided modernist trading-journal direction: light paper background, black editorial grid lines, oversized `Financio` masthead, red LIVE/accent state, uppercase label typography, square selectors/buttons, tab underline navigation, and bordered KPI/allocation panels.
-- Existing backend/API behavior remains wired:
-  - `All strategies` still maps to `scope=all`.
-  - Strategy options still come from `/active-bots` deployment rows.
-  - Dashboard, equity curve, positions, orders, active-bots, and trades requests are unchanged and still use scoped/aggregate backend endpoints.
-  - No mock reference values from the design artifact are copied into production code.
-- Verification before push:
-  - RED source-inspection test failed before the redesign because `financio-modernist-shell` was absent.
+- Financio commit `04dbb7c2` (`feat: apply modernist dashboard redesign`) was rejected by the user as the wrong frontend.
+- Financio commit `b60b3917` (`Revert "feat: apply modernist dashboard redesign"`) is pushed to `origin/main` and restores the last working frontend content.
+- Verification after revert:
+  - `git diff --name-status 788849b9..HEAD` returned no file differences, confirming the current tree matches the last working frontend content.
   - `tests/test_frontend_production_dashboard.py tests/test_dashboard_truth_metrics.py -q` passed: `82 passed, 5 warnings`.
   - `VITE_API_BASE_URL= VITE_WS_URL= npm run build` passed.
   - `python3 -m py_compile tests/test_frontend_production_dashboard.py` passed.
-  - `git diff --check` passed.
-  - Local browser smoke through the Vite same-origin proxy to the live backend rendered the redesigned UI with real backend data: `$30,000` aggregate equity, 3 strategy accounts, `scope=all` dashboard/equity/positions calls, and the modernist masthead/allocation layout.
+  - `git diff --check HEAD~1 HEAD` passed.
+- VPS production remains on the same known-good deployed commit `788849b9`; no new VPS deployment was performed for the rejected redesign or its revert.
 
 ## Follow-ups / known non-blocking runtime notes
 
