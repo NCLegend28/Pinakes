@@ -1,355 +1,150 @@
 # Financio-V2 Environment Configuration Guide
 
-## Overview
-This guide explains the unified environment variable configuration for Docker deployment of Financio-V2.
+> **Revision: 2026-08-21 — Account-Scoped Credential Scheme.**
+> This document SUPERSEDES the 2026-01-05 "unified .env" guide. The credential
+> model changed in Financio-V2-clean: generic Alpaca keys with fallback chains
+> are gone. If any doc, script, or troubleshooting note tells you to "set
+> `ALPACA_API_KEY`" for paper trading, it is describing the old repo — do not
+> follow it. Source of truth for the current scheme: `financio_src/config.py`,
+> `financio_src/strategy_deployments.py`, and `.env.template` in
+> `Financio-V2-clean`.
 
-## Environment Files
+## The Credential Model (current)
 
-### 1. `.env` (Production)
-- **Purpose**: Active production environment variables
-- **Location**: `/Users/mosley/projects/Financio-V2/.env`
-- **Lines**: 295
-- **Status**: ✅ Complete with all required variables
+### Principles
 
-### 2. `.env.production.template` (Template)
-- **Purpose**: Template for new deployments
-- **Location**: `/Users/mosley/projects/Financio-V2/.env.production.template`
-- **Lines**: 316
-- **Status**: ✅ Updated with deployment checklist
+1. **Mode-specific keys only.** `TRADING_MODE` must be explicitly `paper` or
+   `live` (no default — config.py refuses to guess for a trading system).
+   - `paper` → resolves `PAPER_ALPACA_*` (falls back to generic `ALPACA_*` only
+     if set — see below for why it shouldn't be).
+   - `live` → resolves `LIVE_ALPACA_API_KEY` / `LIVE_ALPACA_SECRET_KEY`
+     (generic `ALPACA_*` fallback permitted for live).
+   - There is **no cross-mode fallback**: a live deployment can never silently
+     pick up paper credentials, or vice versa.
 
-### 3. `.env.unified` (Reference)
-- **Purpose**: Backup/reference with actual values
-- **Location**: `/Users/mosley/projects/Financio-V2/.env.unified`
-- **Lines**: 295
-- **Status**: ✅ Complete mirror of .env
+2. **One broker account per strategy, dedicated credentials per account.**
+   Each strategy runs against its own Alpaca paper account with its own key
+   pair, named by convention:
+   ```bash
+   PAPER_ALPACA_API_KEY_ML        PAPER_ALPACA_SECRET_KEY_ML
+   PAPER_ALPACA_API_KEY_TREND     PAPER_ALPACA_SECRET_KEY_TREND
+   PAPER_ALPACA_API_KEY_HYBRID    PAPER_ALPACA_SECRET_KEY_HYBRID
+   ```
+   Generic `PAPER_ALPACA_API_KEY` / `PAPER_ALPACA_SECRET_KEY` are
+   **deliberately left unset** in this scheme.
 
-## Variable Categories
+3. **`FINANCIO_STRATEGY_DEPLOYMENTS` is REQUIRED.** A JSON array in `.env`
+   that maps each deployment to its account and credential env *names*:
+   ```bash
+   FINANCIO_STRATEGY_DEPLOYMENTS=[
+     {"deployment_id":"trend-paper","account_id":"alpaca-paper-trend","strategy":"trend","status":"active","paper":true,"api_key_env":"PAPER_ALPACA_API_KEY_TREND","secret_key_env":"PAPER_ALPACA_SECRET_KEY_TREND"},
+     {"deployment_id":"ml-paper","account_id":"alpaca-paper-ml","strategy":"ml","status":"active","paper":true,"api_key_env":"PAPER_ALPACA_API_KEY_ML","secret_key_env":"PAPER_ALPACA_SECRET_KEY_ML"},
+     {"deployment_id":"hybrid-paper","account_id":"alpaca-paper-hybrid","strategy":"hybrid","status":"active","paper":true,"api_key_env":"PAPER_ALPACA_API_KEY_HYBRID","secret_key_env":"PAPER_ALPACA_SECRET_KEY_HYBRID"}
+   ]
+   ```
+   (One line in the actual `.env`; shown wrapped here for readability.)
+   `config.py` accepts dedicated keys **only through this map** — it checks
+   that at least one *active* deployment's `api_key_env`/`secret_key_env`
+   resolve to non-empty values.
 
-### ✅ ACTIVE Variables (Used in Production)
+4. **Validation invariants** (enforced at load, `strategy_deployments.py`):
+   - One active strategy per broker account.
+   - Active deployments must declare `api_key_env` and `secret_key_env`.
+   - Credential env names must be **dedicated and distinct** — reserved/generic
+     names (`ALPACA_API_KEY`, `PAPER_ALPACA_API_KEY`, …) are rejected inside
+     the deployments map, and two active deployments may not share a name.
+   - Strategy ids canonicalize through the registry: `trend`, `ml`, `hybrid`
+     (aliases like "ML + Trend", "ensemble" resolve to these).
 
-#### System Configuration
+5. **Runtime pause/activate** (added 2026-08-21): the dashboard's bot toggle
+   persists `deployment_status_overrides.json` (repo root; override path via
+   `FINANCIO_DEPLOYMENT_STATUS_OVERRIDES_FILE`). The shared loader applies it
+   on every load, so the API reflects toggles immediately; the trading engine
+   (`run_multi_bot_production.py`) loads deployments at startup and picks up
+   changes on its next restart/reload.
+
+### The failure signature to recognize
+
+```
+ValueError: ❌ Missing Alpaca credential environment variables: ALPACA_API_KEY,
+ALPACA_SECRET_KEY, PAPER_ALPACA_API_KEY, PAPER_ALPACA_SECRET_KEY
+```
+
+This happens **even when the dedicated per-strategy keys ARE set** if
+`FINANCIO_STRATEGY_DEPLOYMENTS` is missing or empty — no map means no
+deployments, so config.py falls back to demanding generic keys.
+
+**Fix:** add/repair `FINANCIO_STRATEGY_DEPLOYMENTS` so every active entry's
+`api_key_env`/`secret_key_env` name an env var that exists and is non-empty.
+**Never** "fix" this by adding generic `ALPACA_API_KEY` / `PAPER_ALPACA_*`
+keys — that reintroduces exactly the ambiguity this scheme removed.
+(This exact incident occurred 2026-08-21.)
+
+## Env Files & Loading Order
+
+`financio_src/config.py` loads, in order (readable files only; never fails on
+root-owned files — the Doppler/`virgil` VPS case):
+
+1. `<repo root>/.env` — main config.
+2. `financio_src/.env` — optional extras, does **not** override the root file.
+
+Path overrides: `FINANCIO_DB_PATH` (trades SQLite), `FINANCIO_CONFIG_PATH`
+(location of `config.py` for the risk-parameter writer; auto-resolves for both
+`/app` container and local layouts).
+
+## Other Active Variable Groups (unchanged in spirit from the unified era)
+
+- **Backend/API**: backend on **:8001** (dev, `uvicorn main:app --port 8001`);
+  `CORS_ALLOWED_ORIGINS` (unset → dev localhost list incl. :5173),
+  `ALLOWED_HOSTS` (SET IN PRODUCTION), prod domain `financio.blaqdata.us`,
+  frontend served on :8080 / same-origin behind nginx.
+- **Dashboard (redesign, `dashboard/`)**: `VITE_API_BASE`
+  (default `http://localhost:8001`; empty string = same-origin in prod),
+  `VITE_API_TIMEOUT_MS` (default 20000). The old `VITE_SUPABASE_*` /
+  `VITE_API_BASE_URL` build args belong to the legacy dashboard
+  (`dashboard-legacy/`).
+- **Profile (dashboard Profile tab)**: `FINANCIO_PROFILE_NAME`, `_TITLE`,
+  `_LOCATION`, `_ABOUT`, `_AVATAR_URL` (optional; memberSince derives from the
+  first recorded trade).
+- **Risk management (active)**: `ENABLE_ENHANCED_RISK_MGMT`,
+  `SL_ATR_MULTIPLIER` (3.5), `TP_ATR_MULTIPLIER` (4.5),
+  `MIN_PROFIT_THRESHOLD` (0.015), `CONFIDENCE_THRESHOLD` (0.75). Editable at
+  runtime via `POST /api/risk-parameters` (rewrites `config.py`).
+- **Streaming/watchlist**: `current_tickers.txt` at repo root is REQUIRED
+  (startup refuses to guess a watchlist); `SIMULATED_STREAM=true` serves
+  random prices — dev only, never where customers can see it.
+- **Trading engine**: `ROTATION_TICKERS`, `ACTIVE_BROKER`
+  (`alpaca` default | `webull` + `WEBULL_*` vars), market-data keys
+  (`ALPHA_VANTAGE_API_KEY`, `NEWSAPI_KEY`, optional `POLYGON_API_KEY`,
+  Reddit/Twitter for sentiment).
+- **Infra (Docker/VPS)**: `POSTGRES_*`/`DATABASE_URL`, `SUPABASE_*`,
+  `REDIS_URL`/`REDIS_HOST`/`REDIS_PORT`, `TZ=America/Chicago`.
+
+## Legacy / Historical (kept for context, not trading logic)
+
+Still true from the 2026-01 audit: `INITIAL_BALANCE`, `RISK_TOLERANCE`,
+`MAX_POSITION_SIZE`, `MAX_PORTFOLIO_RISK`, `MAX_DAILY_LOSS` are
+analytics/visualization only — position sizing uses confidence buckets
+(1–6 shares), not balance percentage. Implement balance-based sizing or drop
+them from future templates.
+
+## Security Practices (unchanged)
+
+- `.env`, `.env.*` gitignored (templates excepted). Never commit real values.
+- Rotate: Alpaca keys ~90 days; JWT ~6 months; DB passwords ~12 months.
+- Distinct keys per environment (dev/staging/prod) and per strategy account.
+
+## Verification Checklist
+
 ```bash
-ENVIRONMENT=production
-NODE_ENV=production
-LOG_LEVEL=INFO
-TZ=America/Chicago  # Your timezone
+# 1) Map exists and parses
+python3 -c "import json,re; t=open('.env').read(); \
+print(json.loads(re.search(r'^FINANCIO_STRATEGY_DEPLOYMENTS=(.*)$',t,re.M).group(1)))"
+
+# 2) Config imports (loads .env, validates deployments + credentials)
+.venv/bin/python -c "from financio_src.config import ALPACA_API_KEY; print('✅ config OK')"
+
+# 3) Backend up
+cd backend && python -m uvicorn main:app --reload --port 8001
+curl -s localhost:8001/api/deployments | python3 -m json.tool | head
 ```
-
-#### Database (PostgreSQL + Supabase)
-```bash
-# PostgreSQL Direct
-POSTGRES_DB=financio
-POSTGRES_USER=admin
-POSTGRES_PASSWORD=<your-password>
-DATABASE_URL=postgresql://admin:<password>@postgres:5432/financio
-
-# Supabase (Cloud)
-SUPABASE_URL=https://wveuwbjevfcgkhcvvtgm.supabase.co
-SUPABASE_ANON_KEY=<your-key>
-SUPABASE_SERVICE_KEY=<your-key>
-```
-
-#### Redis
-```bash
-REDIS_URL=redis://redis:6379
-REDIS_HOST=redis
-REDIS_PORT=6379
-```
-
-#### Frontend (VITE_* variables)
-```bash
-VITE_SUPABASE_URL=https://wveuwbjevfcgkhcvvtgm.supabase.co
-VITE_SUPABASE_ANON_KEY=<your-key>
-VITE_API_URL=http://localhost:8001
-VITE_API_BASE_URL=http://financio.blaqdata.us/api
-```
-
-#### Trading (Alpaca)
-```bash
-# The bot pulls actual balance from Alpaca API
-ALPACA_API_KEY=<your-key>
-ALPACA_SECRET_KEY=<your-secret>
-TRADING_MODE=live  # or 'paper' for testing
-```
-
-#### Market Data APIs
-```bash
-ALPHA_VANTAGE_API_KEY=<your-key>
-NEWSAPI_KEY=<your-key>
-```
-
-#### Risk Management (ACTIVE)
-```bash
-ENABLE_ENHANCED_RISK_MGMT=true
-MIN_PROFIT_THRESHOLD=0.015  # 1.5% minimum profit
-SL_ATR_MULTIPLIER=3.5       # Stop loss: 3.5x ATR
-TP_ATR_MULTIPLIER=4.5       # Take profit: 4.5x ATR
-CONFIDENCE_THRESHOLD=0.75   # Minimum confidence to trade
-```
-
-#### Bot Configuration (ACTIVE)
-```bash
-BOT_INSTANCE_ID=production-bot-001
-FINANCIO_MODE=multi-bot
-BOT_STRATEGY=hybrid
-ROTATION_TICKERS=AAPL,MSFT,GOOG,AMZN,TSLA,NVDA,META,NFLX,QUBT,RGTI,IONQ,QBTS,PLTR,AVGO,MDAI,ORCL
-```
-
-### ⚠️ LEGACY Variables (Not Used in Trading)
-
-**IMPORTANT**: These variables are stored for analytics/visualization but NOT used in live trading logic:
-
-```bash
-INITIAL_BALANCE=100000      # LEGACY - Analytics only
-RISK_TOLERANCE=0.02         # LEGACY - Not implemented
-MAX_POSITION_SIZE=1000      # LEGACY - Bot uses 1-6 share sizing
-MAX_PORTFOLIO_RISK=0.02     # LEGACY - Not implemented
-MAX_DAILY_LOSS=0.05         # LEGACY - Not implemented
-```
-
-**Why they're legacy:**
-- The bot uses `get_size_from_confidence()` which returns 1-6 shares based on confidence buckets
-- Position sizing is **NOT** based on account balance percentage
-- The bot should call `alpaca.get_account().equity` but currently doesn't
-- These values are only used in:
-  - `financio_src/analytics/equity_curve.py` (visualizations)
-  - `backend/equity_data_extractor.py` (metrics display)
-  - `financio_src/config_manager.py` (stored but not referenced)
-
-### 🔧 Optional Variables (Disabled by Default)
-
-#### Social Media APIs (for Morgans Bot)
-```bash
-REDDIT_CLIENT_ID=
-REDDIT_CLIENT_SECRET=
-TWITTER_BEARER_TOKEN=
-POLYGON_API_KEY=
-```
-
-#### Email Notifications
-```bash
-EMAIL_ENABLED=false
-EMAIL_ADDRESS=
-EMAIL_PASSWORD=
-SMTP_SERVER=smtp.gmail.com
-```
-
-#### Telegram Notifications
-```bash
-TELEGRAM_BOT_TOKEN=
-TELEGRAM_CHAT_ID=
-```
-
-#### Payments
-```bash
-STRIPE_PUBLISHABLE_KEY=
-STRIPE_SECRET_KEY=
-```
-
-## How the Bot Actually Works
-
-### Position Sizing Logic
-```python
-# Line 444 in live_trading.py
-qty = blended_position_size(confidence, volatility, macro_trend)
-
-# Which calls get_size_from_confidence()
-# Returns: 1-6 shares based on confidence bucket
-# Does NOT use account balance!
-```
-
-### What SHOULD Happen (Future Improvement)
-```python
-# Get actual account balance
-account = alpaca_client.get_account()
-portfolio_value = float(account.equity)
-
-# Calculate position size as % of portfolio
-risk_per_trade = portfolio_value * RISK_TOLERANCE  # e.g., 2%
-position_size = risk_per_trade / (entry_price * stop_loss_distance)
-```
-
-## Docker Deployment
-
-### Using the .env file
-```bash
-# Docker Compose automatically reads .env
-docker-compose -f docker-compose.production.yml up -d
-
-# Verify variables are loaded
-docker-compose config | grep SUPABASE_URL
-```
-
-### Frontend Build
-The frontend Docker build uses `--build-arg` for VITE_* variables:
-
-```dockerfile
-# From docker/Dockerfile.frontend
-ARG VITE_SUPABASE_URL
-ARG VITE_SUPABASE_ANON_KEY
-ARG VITE_API_BASE_URL
-```
-
-These are passed from the .env file during build.
-
-### Backend Services
-Backend services receive environment variables directly:
-
-```yaml
-# From docker-compose.production.yml
-environment:
-  - DATABASE_URL=${DATABASE_URL}
-  - REDIS_URL=${REDIS_URL}
-  - ALPACA_API_KEY=${ALPACA_API_KEY}
-```
-
-## Variable Usage by Component
-
-### Frontend (dashboard/)
-**Required:**
-- `VITE_SUPABASE_URL`
-- `VITE_SUPABASE_ANON_KEY`
-- `VITE_API_URL` or `VITE_API_BASE_URL`
-- `NODE_ENV`
-
-**Optional:**
-- `VITE_STRIPE_PUBLISHABLE_KEY`
-- `VITE_ALPHA_VANTAGE_API_KEY`
-
-### Backend (backend/)
-**Required:**
-- `SUPABASE_URL`
-- `SUPABASE_SERVICE_KEY`
-- `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`
-
-### Trading Engine (financio_src/)
-**Required:**
-- `ALPACA_API_KEY`, `ALPACA_SECRET_KEY`
-- `ALPHA_VANTAGE_API_KEY`
-- `NEWSAPI_KEY`
-- `ENABLE_ENHANCED_RISK_MGMT`
-- `MIN_PROFIT_THRESHOLD`
-- `SL_ATR_MULTIPLIER`, `TP_ATR_MULTIPLIER`
-- `CONFIDENCE_THRESHOLD`
-
-**Optional:**
-- Social media APIs (for enhanced sentiment)
-- Email/Telegram (for notifications)
-
-## Security Best Practices
-
-### 1. Never Commit Real Values
-```bash
-# Already in .gitignore
-.env
-.env.*
-!.env.template
-!.env.*.template
-```
-
-### 2. Use Strong Secrets
-Generate secure random strings:
-```bash
-# For JWT_SECRET, API_SECRET_KEY, DATA_ENCRYPTION_KEY
-openssl rand -base64 64 | tr -d '\n'
-```
-
-### 3. Rotate Keys Regularly
-- Alpaca API keys: Every 90 days
-- JWT secrets: Every 6 months
-- Database passwords: Every 12 months
-
-### 4. Use Different Keys Per Environment
-- Development: Different keys
-- Staging: Different keys
-- Production: Unique keys
-
-## Troubleshooting
-
-### Frontend Build Fails
-**Error:** `VITE_SUPABASE_URL is undefined`
-
-**Fix:** Ensure VITE_* variables are in .env and passed as build args:
-```yaml
-build:
-  args:
-    - VITE_SUPABASE_URL=${VITE_SUPABASE_URL}
-```
-
-### Backend Can't Connect to Database
-**Error:** `Connection refused to postgres:5432`
-
-**Fix:** Check DATABASE_URL and individual POSTGRES_* variables match:
-```bash
-POSTGRES_HOST=postgres  # Must match service name in docker-compose
-DATABASE_URL=postgresql://admin:password@postgres:5432/financio
-```
-
-### Bot Can't Access Alpaca
-**Error:** `Missing Alpaca API keys`
-
-**Fix:** The bot tries multiple variable names:
-```python
-# From config.py
-ALPACA_API_KEY = os.getenv("ALPACA_API_KEY") or \
-                 os.getenv("LIVE_ALPACA_API_KEY") or \
-                 os.getenv("PAPER_ALPACA_API_KEY")
-```
-
-Ensure at least one is set.
-
-### Redis Connection Fails
-**Error:** `Error connecting to Redis`
-
-**Fix:** Redis doesn't require password by default:
-```bash
-REDIS_URL=redis://redis:6379  # No password
-REDIS_PASSWORD=  # Empty
-```
-
-## Migration from Old .env
-
-If you had an old .env file:
-```bash
-# 1. Backup was created automatically
-ls -la .env.backup.*
-
-# 2. Your old file had ~71 lines
-# 3. New file has ~295 lines
-
-# 4. All your existing values were preserved
-# 5. 60+ new variables were added
-
-# 6. To see what changed:
-diff .env.backup.YYYYMMDD_HHMMSS .env
-```
-
-## Summary
-
-### Total Variables: 100+
-- **Active in Trading**: 40-50 variables
-- **Frontend Build**: 10 variables
-- **Legacy/Analytics**: 5 variables
-- **Optional**: 30-40 variables
-- **System Config**: 15-20 variables
-
-### Files Updated
-- ✅ `.env` - Production ready
-- ✅ `.env.production.template` - Template ready
-- ✅ `.env.unified` - Reference ready
-- ✅ All legacy variables marked
-- ✅ All comments added
-
-### Next Steps
-1. Review optional services (email, social media APIs)
-2. Test Docker build with new .env
-3. Verify frontend receives VITE_* variables
-4. Consider implementing proper account-balance-based position sizing
-
-## References
-
-- Main Config: `financio_src/config.py`
-- Config Manager: `financio_src/config_manager.py`
-- Trading Logic: `financio_src/trading/live_trading.py`
-- Position Sizing: `financio_src/trading/sizing.py`
-- Backend Config: `backend/supabase_config.py`
