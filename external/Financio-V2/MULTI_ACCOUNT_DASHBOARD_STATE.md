@@ -3,17 +3,17 @@
 Canonical state record. Updated only for real, verified, non-broken change (Pinakes covenant).
 
 - Repo: `NCLegend28/Financio-V2` (`main`)
-- Latest verified pushed commit: `b60b3917` (reverts the rejected modernist frontend redesign; tree matches last working frontend content from `788849b9`)
-- Current VPS deployed commit: `788849b9` (Phase 6 live deployment in `/opt/financio-v2`)
+- Latest verified pushed commit: `a2471825` (production network hardening + backend Morgans sentiment packaging/mount)
+- Current VPS deployed commit: `a2471825` in `/opt/financio-v2`
 - Capital model: **one strategy per broker account** (Trend / ML / ML+Trend), each with its own Alpaca paper account and dedicated credentials. No shared/global fallback for scoped or aggregated views.
-- Code verification: targeted suite `164 passed, 5 warnings` across
-  `tests/test_strategy_deployments.py`, `tests/test_portfolio_aggregator.py`,
-  `tests/test_aggregate_equity_curve.py`, `tests/test_reconciliation.py`,
-  `tests/test_verify_dashboard_vs_alpaca.py`, `tests/test_dashboard_truth_metrics.py`,
-  `tests/test_frontend_production_dashboard.py`, `tests/test_config_dotenv_loading.py`,
-  `tests/test_strategy_routing.py`; Python compile passed; same-origin Vite production build passed.
-  Each subtask cleared spec + code-quality + integration review before landing.
-- Deployment verification: VPS backend/frontend rebuilt and recreated from `788849b9`; live `/api/reconciliation` verifier returned `overall: PASS`; public IP/domain `/health` and `scope=all` aggregate checks returned healthy three-account data.
+- Code verification: latest hardening slice `120 passed, 5 warnings` across
+  `tests/test_dashboard_truth_metrics.py`,
+  `tests/test_frontend_production_dashboard.py`,
+  `tests/test_strategy_deployments.py`, `tests/test_strategy_routing.py`,
+  `tests/test_production_account_execution.py`,
+  `tests/test_production_compose_hardening.py`, and
+  `tests/test_docker_backend_packaging.py`; same-origin Vite production build passed.
+- Deployment verification: VPS backend/frontend/redis/nginx rebuilt or recreated, multi-bot rebuilt/recreated, and all services healthy. Public host exposure is nginx-only (`80`/mapped `443`; backend/frontend/Redis internal-only). Public IP `/health`, `scope=all`, and `/api/trades` checks returned healthy broker/trade data.
 
 ## Phase 1 — Strict credential scoping (DONE, verified)
 
@@ -123,9 +123,33 @@ Guarantee: the pushed Phase 5 dashboard build is running on the VPS against real
   - `VITE_API_BASE_URL= VITE_WS_URL= npm run build` passed.
   - `python3 -m py_compile tests/test_frontend_production_dashboard.py` passed.
   - `git diff --check HEAD~1 HEAD` passed.
-- VPS production remains on the same known-good deployed commit `788849b9`; no new VPS deployment was performed for the rejected redesign or its revert.
+- At that time, VPS production remained on the same known-good deployed commit `788849b9`; no VPS deployment was performed for the rejected redesign or its revert.
+
+## Phase 7 — Production network + DB/sentiment hardening (DONE, verified)
+
+Guarantee: nginx is the only intended public entrypoint; Redis/backend/frontend do not publish direct host ports, and backend reads the same durable trade DB and Morgans sentiment data as the runtime.
+
+- Financio commits:
+  - `2ce73341` — remove public Redis/backend/frontend port mappings; keep backend/frontend internal via `expose`; point backend `/app/financio_src/logs` at the shared `financio_data` volume; package the Morgans-backed sentiment bridge into the backend image.
+  - `a2471825` — mount `/opt/shared_data:/shared_data:ro` into backend and set `MORGANS_DATA_DIR=/shared_data/stocks`, so packaged backend sentiment can read Morgans data instead of failing on a missing directory.
+- Regression tests added:
+  - `tests/test_production_compose_hardening.py` asserts nginx-only public ports, shared backend/multi-bot DB volume, and backend Morgans read-only mount/env.
+  - `tests/test_docker_backend_packaging.py` asserts the backend image copies `financio_src/paths.py` plus `enhanced_sentiment_service.py` and `morgans_sentiment_bridge.py`.
+- Verification before deploy:
+  - Compose/package tests: `5 passed`.
+  - Dashboard/core/hardening subset: `120 passed, 5 warnings`.
+  - `VITE_API_BASE= VITE_API_BASE_URL= npm run build` passed.
+  - `docker compose -f docker-compose.production.yml config --quiet` and `git diff --check` passed.
+- VPS verification at deployed commit `a2471825`:
+  - Compose `ps`: backend, frontend, Redis, multi-bot healthy; nginx running.
+  - Host `ss` shows only ports `80` and mapped `443`; no host listeners for `3000`, `8000`, or `6379`.
+  - External probes: `80` open; `3000`, `8000`, and `6379` closed/filtered; raw `443` still refuses until origin TLS is configured.
+  - Backend mount check: `financio-clean_financio_data` at `/app/financio_src/logs`; `/opt/shared_data` mounted read-only at `/shared_data`.
+  - Backend DB check: `/api/trades` returned `count=203`; direct SQLite check showed `trades=203`, `position_state=3`.
+  - Backend sentiment check: imports `financio_src.sentiment.enhanced_sentiment_service` successfully, `MORGANS_DATA_DIR=/shared_data/stocks`, and that directory exists in the container.
+  - Backend stream logs show Alpaca IEX websocket connected/subscribed to the 18-ticker watchlist; no recent `connection limit exceeded` line in the deploy verification window.
 
 ## Follow-ups / known non-blocking runtime notes
 
-- Backend logs still show `AlpacaStreamer: Alpaca API credentials not configured`; dashboard broker reads and reconciliation pass through dedicated per-deployment credentials, but the market-data websocket path still appears to expect generic credentials or needs equivalent dedicated-config support.
-- Backend logs show `Error reading trading data: no such table: trades`; this affects local trade-record display noise only. Broker-backed account totals, positions, orders, and reconciliation all passed with empty trade/order state.
+- Cloudflare/domain TLS remains unresolved: raw IP HTTP works; origin `443` is mapped but no active nginx SSL listener/cert is configured, so raw `443` refuses until Cloudflare Origin Cert + nginx `listen 443 ssl` (or temporary Flexible mode) is set.
+- Right after backend restart, `/api/streaming/status` can report `prices_cached=0` even while the Alpaca IEX websocket is connected/subscribed; this is expected until fresh stream ticks arrive.
